@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>台語句子重組挑戰賽 ── 國小本土語練習遊戲</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Google Fonts Inter and Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Outfit:wght@400;600;800&family=Noto+Sans+TC:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="app">
+    
+    <!-- 1. START SCREEN -->
+    <div id="start-screen" class="screen active">
+      <header class="logo-area">
+        <div class="logo-badge">Tâi-gí</div>
+        <h1>台語句子重組挑戰賽</h1>
+        <p class="subtitle">國小一至六年級台語官方教材互動練習網</p>
+      </header>
+
+      <main class="setup-container">
+        <!-- Step 1: Mode Select -->
+        <section class="setup-card">
+          <h2>1. 選擇遊戲模式</h2>
+          <div class="mode-grid">
+            <button class="mode-btn active" data-mode="single">
+              <span class="icon">👤</span>
+              <span class="title">單人自主練習</span>
+              <span class="desc">聽語音重組句子，無壓力學習</span>
+            </button>
+            <button class="mode-btn" data-mode="computer">
+              <span class="icon">🤖</span>
+              <span class="title">挑戰電腦 AI</span>
+              <span class="desc">在電腦拼完前，搶先重組正確</span>
+            </button>
+            <button class="mode-btn" data-mode="double">
+              <span class="icon">👥</span>
+              <span class="title">雙人同屏對戰</span>
+              <span class="desc">左/右半屏，同台設備速度大對決</span>
+            </button>
+          </div>
+        </section>
+
+        <!-- Step 2: Grade Select -->
+        <section class="setup-card">
+          <h2>2. 選擇年級關卡</h2>
+          <div class="grade-grid">
+            <button class="grade-btn active" data-grade="1">
+              <span class="level">一年級</span>
+              <span class="difficulty">極簡啟蒙</span>
+            </button>
+            <button class="grade-btn" data-grade="2">
+              <span class="level">二年級</span>
+              <span class="difficulty">初階成長</span>
+            </button>
+            <button class="grade-btn" data-grade="3">
+              <span class="level">三年級</span>
+              <span class="difficulty">中階進步</span>
+            </button>
+            <button class="grade-btn" data-grade="4">
+              <span class="level">四年級</span>
+              <span class="difficulty">中階奠基</span>
+            </button>
+            <button class="grade-btn" data-grade="5">
+              <span class="level">五年級</span>
+              <span class="difficulty">高階應用</span>
+            </button>
+            <button class="grade-btn" data-grade="6">
+              <span class="level">六年級</span>
+              <span class="difficulty">高階挑戰</span>
+            </button>
+          </div>
+        </section>
+
+        <!-- Step 3: Puzzle Type -->
+        <section class="setup-card">
+          <h2>3. 選擇題目類型</h2>
+          <div class="type-selector">
+            <button class="type-btn active" data-type="hanzi">漢字句子重組</button>
+            <button class="type-btn" data-type="tailo">台羅拼音重組</button>
+          </div>
+        </section>
+
+        <!-- Start Button -->
+        <button id="start-game-btn" class="primary-action-btn">
+          進入挑戰 ➔
+        </button>
+      </main>
+      
+      <footer class="footer-info">
+        本遊戲基於教育部《咱來學臺灣台語─讀語句上簡單》與「推薦用字700字」資料庫設計。
+      </footer>
+    </div>
+
+    <!-- 2. GAME SCREEN (SINGLE PLAYER / VS COMPUTER) -->
+    <div id="game-screen" class="screen">
+      <!-- Top header bar -->
+      <header class="game-header">
+        <button class="back-home-btn">🏠 返回首頁</button>
+        <div class="game-info-badge">
+          <span id="display-mode">單人練習</span> | <span id="display-grade">一年級</span>
+        </div>
+        <div class="game-progress-container">
+          第 <span id="current-question-idx">1</span> / <span id="total-questions-idx">10</span> 題
+        </div>
+      </header>
+
+      <!-- Combat display area for VS Computer -->
+      <div id="vs-arena" class="vs-arena-panel">
+        <div class="arena-player">
+          <div class="character-avatar">🧒</div>
+          <div class="bar-container">
+            <div class="bar-label">你的進度</div>
+            <div class="progress-track">
+              <div id="player-progress-bar" class="progress-fill player"></div>
+            </div>
+          </div>
+        </div>
+        <div class="arena-vs-badge">VS</div>
+        <div class="arena-computer">
+          <div class="character-avatar">🤖</div>
+          <div class="bar-container">
+            <div class="bar-label">電腦 AI 進度</div>
+            <div class="progress-track">
+              <div id="computer-progress-bar" class="progress-fill computer"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Main playground -->
+      <main class="playground">
+        <!-- Question display board -->
+        <div class="question-board">
+          <div class="prompt-row">
+            <span class="label-tag mandarin-tag">華語意譯</span>
+            <p id="mandarin-prompt" class="mandarin-text">讀入中...</p>
+          </div>
+          
+          <div class="audio-row">
+            <button id="play-audio-btn" class="audio-btn">
+              <span class="audio-icon">🔊</span> 播放台語語音
+            </button>
+            <span class="audio-tip">點擊播放發音，聽聽看怎麼說！</span>
+          </div>
+        </div>
+
+        <!-- Answer assembly slots -->
+        <div class="assembly-area">
+          <div class="label-row">
+            <span class="label-tag taigi-tag">重組區域</span>
+            <span class="guide-text">請在下方選擇卡片，拼出正確的句子：</span>
+          </div>
+          <div id="answer-slots" class="slots-container">
+            <!-- Selected tiles will drop here -->
+          </div>
+        </div>
+
+        <!-- Scrambled word tiles source -->
+        <div class="tiles-area">
+          <div id="source-tiles" class="tiles-container">
+            <!-- Scrambled tiles will render here -->
+          </div>
+        </div>
+
+        <!-- Game controllers -->
+        <div class="control-row">
+          <button id="clear-btn" class="secondary-btn">🧹 重填</button>
+          <button id="submit-btn" class="success-btn">驗證解答 ➔</button>
+        </div>
+      </main>
+    </div>
+
+    <!-- 3. DOUBLE PLAYER SCREEN (SPLIT同屏對戰) -->
+    <div id="double-screen" class="screen">
+      <!-- Player 1 Arena (Top / Left) -->
+      <div id="p1-area" class="player-half p1-color">
+        <header class="player-half-header">
+          <span class="badge-p1">紅方 (玩家 1)</span>
+          <div class="p1-score-display">得分：<span id="p1-score">0</span></div>
+          <button class="back-home-btn split-back-btn">🏠 結束對戰</button>
+        </header>
+        <div class="split-playground">
+          <div class="prompt-bar">
+            <span class="split-play-audio-btn" data-player="p1">🔊 播放音檔</span>
+            <span id="p1-mandarin-prompt" class="split-prompt-text">載入中...</span>
+          </div>
+          <!-- Answer area -->
+          <div id="p1-answer-slots" class="split-slots-container"></div>
+          <!-- Source tiles -->
+          <div id="p1-source-tiles" class="split-tiles-container"></div>
+          <div class="split-controls">
+            <button class="split-clear-btn" data-player="p1">🧹 重填</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Divider / Visual bar -->
+      <div class="split-divider">
+        <div class="divider-status" id="round-winner-banner">準備開始下一局</div>
+      </div>
+
+      <!-- Player 2 Arena (Bottom / Right) -->
+      <div id="p2-area" class="player-half p2-color">
+        <header class="player-half-header">
+          <span class="badge-p2">藍方 (玩家 2)</span>
+          <div class="p2-score-display">得分：<span id="p2-score">0</span></div>
+        </header>
+        <div class="split-playground">
+          <div class="prompt-bar">
+            <span class="split-play-audio-btn" data-player="p2">🔊 播放音檔</span>
+            <span id="p2-mandarin-prompt" class="split-prompt-text">載入中...</span>
+          </div>
+          <!-- Answer area -->
+          <div id="p2-answer-slots" class="split-slots-container"></div>
+          <!-- Source tiles -->
+          <div id="p2-source-tiles" class="split-tiles-container"></div>
+          <div class="split-controls">
+            <button class="split-clear-btn" data-player="p2">🧹 重填</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 4. END SCREEN / REPORT CARD -->
+    <div id="end-screen" class="screen">
+      <div class="report-card">
+        <div class="trophy">🏆</div>
+        <h2 id="report-title">關卡挑戰成功！</h2>
+        <p id="report-mode-grade" class="report-subtitle">單人練習 ─ 一年級</p>
+        
+        <div class="stats-row">
+          <div class="stat-box">
+            <span class="label">答對題數</span>
+            <span class="value" id="stat-correct">8/10</span>
+          </div>
+          <div class="stat-box">
+            <span class="label">獲得積分</span>
+            <span class="value" id="stat-score">80 分</span>
+          </div>
+          <div class="stat-box">
+            <span class="label">獲得評級</span>
+            <span class="value" id="stat-rank">優秀 ★★★</span>
+          </div>
+        </div>
+
+        <div class="stars-display" id="report-stars">
+          ★★★★★
+        </div>
+
+        <div class="action-buttons">
+          <button id="next-level-btn" class="primary-action-btn">下一關卡 ➔</button>
+          <button id="retry-btn" class="secondary-btn">再試一次 ⟳</button>
+          <button id="end-home-btn" class="tertiary-btn">🏠 返回主選單</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Global audio element helper -->
+  <audio id="global-audio" style="display: none;"></audio>
+
+  <script src="app.js"></script>
+</body>
+</html>

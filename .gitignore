@@ -1,0 +1,7 @@
+# Ignore heavy raw datasets
+data/raw/
+
+# Ignore local dependency folders
+node_modules/
+.DS_Store
+*.log

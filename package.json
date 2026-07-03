@@ -1,0 +1,19 @@
+{
+  "name": "taigi-class-game",
+  "version": "1.0.0",
+  "description": "Taiwanese Hokkien sentence practice game website for Grades 1 to 6",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx http-server -p 3000 -c-1",
+    "start": "npx http-server -p 3000 -c-1"
+  },
+  "keywords": [
+    "taigi",
+    "taiwanese",
+    "learning",
+    "game",
+    "education"
+  ],
+  "author": "Antigravity",
+  "license": "MIT"
+}
