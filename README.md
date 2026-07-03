@@ -45,3 +45,6 @@ taigi-class/
 ## 🛠️ 開發與使用指引
 
 *(隨著專案初始化與功能實作，此處將補充具體的安裝與執行指令。)*
+
+<!-- Trigger deployment rerun -->
+
