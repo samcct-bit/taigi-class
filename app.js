@@ -117,10 +117,10 @@ function getGradeForSentence(s) {
   return 6;
 }
 
-// Split Hanzi string into character array (ignoring punctuation/spaces)
+// Split Hanzi string into character array (preserving surrogate pairs for extensions like 𠢕)
 function getHanziTiles(hanziStr) {
-  const clean = hanziStr.replace(/[^\u4e00-\u9fff]/g, '');
-  return clean.split('');
+  const clean = hanziStr.replace(/[。！？，、：；「」()（）.,!?;:\"”' \s]/g, '');
+  return [...clean];
 }
 
 // Split Tailo string into syllable array (lowercased, ignoring punctuation/spaces)

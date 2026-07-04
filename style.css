@@ -636,7 +636,8 @@ body {
 
 /* 3. DOUBLE PLAYER SCREEN */
 #double-screen {
-  flex-direction: column;
+  display: flex;
+  flex-direction: row; /* Left/Right split */
   height: 100vh;
   max-width: 100% !important;
   margin: 0 !important;
@@ -660,7 +661,6 @@ body {
 
 .p1-color {
   background: var(--p1-bg);
-  border-bottom: 2px solid rgba(244, 63, 94, 0.2);
 }
 
 .p2-color {
@@ -790,7 +790,8 @@ body {
 
 /* Divider status banner */
 .split-divider {
-  height: 40px;
+  width: 12px;
+  height: 100%;
   background: #0f172a;
   display: flex;
   align-items: center;
@@ -800,6 +801,10 @@ body {
 }
 
 .divider-status {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   background: var(--warning);
   color: #1e293b;
   font-weight: 800;
@@ -808,12 +813,13 @@ body {
   font-size: 0.9rem;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
   animation: pulse 1.5s infinite;
+  white-space: nowrap;
 }
 
 @keyframes pulse {
-  0% { transform: scale(1); }
-  50% { transform: scale(1.05); }
-  100% { transform: scale(1); }
+  0% { transform: translate(-50%, -50%) scale(1); }
+  50% { transform: translate(-50%, -50%) scale(1.05); }
+  100% { transform: translate(-50%, -50%) scale(1); }
 }
 
 /* 4. END SCREEN / REPORT CARD */
