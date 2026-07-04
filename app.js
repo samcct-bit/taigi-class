@@ -105,16 +105,32 @@ function playSound(type) {
   }
 }
 
-// Map sentence object to grade (1 to 6) based on Hanzi length
+// Map sentence object to grade (1 to 6) based on 108 Curriculum Guidelines
 function getGradeForSentence(s) {
-  const cleanHanzi = s.hanzi.replace(/[^\u4e00-\u9fff]/g, '');
-  const len = cleanHanzi.length;
-  if (len <= 5) return 1;
-  if (len <= 7) return 2;
-  if (len <= 9) return 3;
-  if (len <= 11) return 4;
-  if (len <= 13) return 5;
-  return 6;
+  const cleanHanzi = s.hanzi.replace(/[。！？，、：；「」()（）.,!?;:\"”' \s]/g, '');
+  const len = [...cleanHanzi].length;
+  const book = s.book; // "0301" or "0302"
+  const cat = s.category_id;
+  
+  if (book === "0301") {
+    // Book 1 (Grades 1, 2, 3)
+    if ((cat === 1 || cat === 3 || cat === 5 || cat === 13) && len <= 7) {
+      return 1; // Grade 1: Short sentences in basic topics (Interpersonal, Food, Home, Animals)
+    } else if ((cat === 1 || cat === 3 || cat === 4 || cat === 5 || cat === 7 || cat === 12 || cat === 13) && len <= 9) {
+      return 2; // Grade 2: Lifestyle expanded (Daily goods, Actions, directions)
+    } else {
+      return 3; // Grade 3: Book 1 remaining (School, community, health, weather)
+    }
+  } else {
+    // Book 2 (Grades 4, 5, 6)
+    if (len <= 8) {
+      return 4; // Grade 4: Book 2 short sentences
+    } else if (len <= 11) {
+      return 5; // Grade 5: Book 2 medium sentences
+    } else {
+      return 6; // Grade 6: Book 2 long/complex sentences
+    }
+  }
 }
 
 // Split Hanzi string into character array (preserving surrogate pairs for extensions like 𠢕)
