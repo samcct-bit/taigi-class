@@ -160,12 +160,51 @@ function shuffleArray(array) {
   return arr;
 }
 
+// Learning Progress Played History Helpers
+function getPlayedSentenceIds() {
+  try {
+    const stored = localStorage.getItem('taigi_played_sentence_ids');
+    return stored ? JSON.parse(stored) : [];
+  } catch (e) {
+    return [];
+  }
+}
+
+function savePlayedSentenceIds(ids) {
+  try {
+    localStorage.setItem('taigi_played_sentence_ids', JSON.stringify(ids));
+  } catch (e) {}
+}
+
+function markSentencesAsPlayed(sentenceObjects) {
+  const played = getPlayedSentenceIds();
+  const playedSet = new Set(played);
+  sentenceObjects.forEach(s => {
+    const key = `${s.book}_${s.category_id}_${s.sentence_id}`;
+    playedSet.add(key);
+  });
+  savePlayedSentenceIds(Array.from(playedSet));
+}
+
+function updateProgressUI() {
+  const played = getPlayedSentenceIds();
+  const total = 840;
+  const count = Math.min(played.length, total);
+  const percent = Math.round((count / total) * 100);
+  
+  const progressText = document.getElementById('global-learning-progress');
+  if (progressText) {
+    progressText.textContent = `${percent}% (${count} / ${total})`;
+  }
+}
+
 // Fetch database
 async function loadDatabase() {
   try {
     const response = await fetch('./data/processed/taigi_sentences.json');
     sentences = await response.json();
     console.log(`Database loaded: ${sentences.length} sentences.`);
+    updateProgressUI();
   } catch (error) {
     console.error('Failed to load database:', error);
   }
@@ -174,6 +213,16 @@ async function loadDatabase() {
 // Setup Event Listeners
 document.addEventListener('DOMContentLoaded', async () => {
   await loadDatabase();
+
+  // Reset Progress Button Hook
+  document.getElementById('reset-progress-btn').addEventListener('click', () => {
+    playSound('click');
+    if (confirm('確定要重置所有學習記錄與進度嗎？')) {
+      localStorage.removeItem('taigi_played_sentence_ids');
+      updateProgressUI();
+      alert('學習記錄已重置！');
+    }
+  });
   
   // Start Screen selectors
   const modeBtns = document.querySelectorAll('.mode-btn');
@@ -278,15 +327,41 @@ function showScreen(screenId) {
 // Start Game Entry
 function startChallenge() {
   // Filter sentences by grade
-  filteredSentences = sentences.filter(s => getGradeForSentence(s) === grade);
+  let gradeSentences = sentences.filter(s => getGradeForSentence(s) === grade);
   
-  if (filteredSentences.length === 0) {
+  if (gradeSentences.length === 0) {
     alert('此年級目前無可用語句！');
     return;
   }
   
-  // Shuffle questions and select up to 10
-  filteredSentences = shuffleArray(filteredSentences).slice(0, 10);
+  const playedIds = getPlayedSentenceIds();
+  const playedSet = new Set(playedIds);
+  
+  // Separate into unplayed and played for this grade
+  let unplayed = gradeSentences.filter(s => !playedSet.has(`${s.book}_${s.category_id}_${s.sentence_id}`));
+  let played = gradeSentences.filter(s => playedSet.has(`${s.book}_${s.category_id}_${s.sentence_id}`));
+  
+  let selected = [];
+  if (unplayed.length >= 10) {
+    // Enough unplayed sentences, select 10 from them
+    selected = shuffleArray(unplayed).slice(0, 10);
+  } else {
+    // Consume remaining unplayed, and fill rest from played
+    selected = [...unplayed];
+    const needed = 10 - selected.length;
+    const shuffledPlayed = shuffleArray(played);
+    selected = selected.concat(shuffledPlayed.slice(0, needed));
+    
+    if (selected.length < 10) {
+      selected = shuffleArray(gradeSentences).slice(0, 10);
+    }
+  }
+  
+  // Save selected sentences to played history
+  markSentencesAsPlayed(selected);
+  updateProgressUI();
+  
+  filteredSentences = selected;
   
   currentQuestionIdx = 0;
   correctCount = 0;

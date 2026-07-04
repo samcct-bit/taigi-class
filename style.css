@@ -944,3 +944,38 @@ body {
   background: var(--bg-color);
   color: var(--text-primary);
 }
+
+/* Learning Progress Tracker Styling */
+.progress-panel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 680px;
+  background: white;
+  padding: 0.75rem 1.25rem;
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-sm);
+  border: 1px solid #e2e8f0;
+  font-size: 0.9rem;
+  color: var(--text-primary);
+  margin-bottom: 1.5rem;
+}
+
+.reset-link-btn {
+  background: transparent;
+  border: none;
+  color: var(--p1-color);
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 0.85rem;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  transition: var(--transition);
+}
+
+.reset-link-btn:hover {
+  text-decoration: underline;
+  opacity: 0.8;
+}
