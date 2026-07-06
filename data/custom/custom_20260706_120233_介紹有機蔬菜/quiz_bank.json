@@ -1,0 +1,59 @@
+{
+  "title": "情境會話：介紹 有機蔬菜",
+  "grade": "國小三年級",
+  "duration_minutes": 45,
+  "generated_at": "2026-07-06T12:06:21",
+  "question_count": 3,
+  "official_extension_count": 0,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "question": "本單元主題是哪一項？",
+      "options": [
+        "有機菜蔬",
+        "身體五官",
+        "交通工具",
+        "天氣變化"
+      ],
+      "answer_index": 0,
+      "answer": "有機菜蔬",
+      "explanation": "本單元以有機菜蔬為主題。",
+      "graded": true,
+      "source": "generated_lesson"
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "question": "「菜蔬」的華語意思是什麼？",
+      "options": [
+        "蔬菜",
+        "水果",
+        "點心",
+        "飲料"
+      ],
+      "answer_index": 0,
+      "answer": "蔬菜",
+      "explanation": "「菜蔬」就是蔬菜。",
+      "graded": true,
+      "source": "generated_lesson"
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "question": "哪一個詞和農田觀察最相關？",
+      "options": [
+        "田園",
+        "喙",
+        "手",
+        "讀冊"
+      ],
+      "answer_index": 0,
+      "answer": "田園",
+      "explanation": "田園可作為觀察有機菜蔬種植情境的詞彙。",
+      "graded": true,
+      "source": "generated_lesson"
+    }
+  ],
+  "official_extension_questions": []
+}

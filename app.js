@@ -20,6 +20,7 @@ let p2Score = 0;
 // Combat / AI state
 let computerProgress = 0;
 let aiInterval = null;
+let aiSafetyTimeout = null;
 let computerFinished = false;
 let doubleRoundFinished = false;
 
@@ -275,7 +276,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   document.querySelectorAll('.back-home-btn').forEach(btn => {
     btn.addEventListener('click', () => {
       playSound('click');
-      clearInterval(aiInterval);
+      clearAiTimers();
       showScreen('start-screen');
     });
   });
@@ -511,7 +512,7 @@ function startChallenge() {
 
 // SETUP QUESTION ROUND: SINGLE / VS COMPUTER
 function setupQuestionRound() {
-  clearInterval(aiInterval);
+  clearAiTimers();
   const q = filteredSentences[currentQuestionIdx];
   
   document.getElementById('current-question-idx').textContent = (currentQuestionIdx + 1).toString();
@@ -568,23 +569,44 @@ function setupQuestionRound() {
     document.getElementById('player-progress-bar').style.width = '0%';
     document.getElementById('computer-progress-bar').style.width = '0%';
     
-    // AI speed settings: Grade 1 (slowest) to Grade 6 (fastest)
-    const speeds = [12000, 10000, 8000, 6000, 4500, 3000];
+    // AI completion speeds after audio ends: G1 (20s) to G6 (5s)
+    const speeds = [20000, 16000, 12000, 9000, 7000, 5000];
     const totalAiTime = speeds[grade - 1];
     const stepsCount = targetArray.length;
     const intervalTime = totalAiTime / stepsCount;
     
     let currentStep = 0;
-    aiInterval = setInterval(() => {
-      currentStep++;
-      computerProgress = (currentStep / stepsCount) * 100;
-      document.getElementById('computer-progress-bar').style.width = `${computerProgress}%`;
-      
-      if (currentStep >= stepsCount) {
-        clearInterval(aiInterval);
-        computerFinished = true;
+    let aiStarted = false;
+    
+    function startAiProgress() {
+      if (aiStarted) return;
+      aiStarted = true;
+      if (aiSafetyTimeout) {
+        clearTimeout(aiSafetyTimeout);
+        aiSafetyTimeout = null;
       }
-    }, intervalTime);
+      
+      aiInterval = setInterval(() => {
+        currentStep++;
+        computerProgress = (currentStep / stepsCount) * 100;
+        document.getElementById('computer-progress-bar').style.width = `${computerProgress}%`;
+        
+        if (currentStep >= stepsCount) {
+          clearAiTimers();
+          computerFinished = true;
+        }
+      }, intervalTime);
+    }
+    
+    // Start AI when audio ends
+    audio.onended = () => {
+      startAiProgress();
+    };
+    
+    // Safety backup: start AI after 4.5 seconds regardless (e.g. if audio fails or autoplay is blocked)
+    aiSafetyTimeout = setTimeout(() => {
+      startAiProgress();
+    }, 4500);
   }
 }
 
@@ -687,7 +709,7 @@ function playCurrentAudio() {
 
 // VALIDATE SINGLE / VS COMPUTER ANSWER
 function verifyAnswerAndProceed() {
-  clearInterval(aiInterval);
+  clearAiTimers();
   const q = filteredSentences[currentQuestionIdx];
   const targetArray = puzzleType === 'hanzi' ? getHanziTiles(q.hanzi) : getTailoTiles(q.tailo);
   
@@ -1021,5 +1043,16 @@ async function loadCustomLesson(folderName) {
   document.querySelectorAll('.grade-btn').forEach(b => b.classList.remove('active'));
   
   return data;
+}
+
+function clearAiTimers() {
+  if (aiInterval) {
+    clearInterval(aiInterval);
+    aiInterval = null;
+  }
+  if (aiSafetyTimeout) {
+    clearTimeout(aiSafetyTimeout);
+    aiSafetyTimeout = null;
+  }
 }
 

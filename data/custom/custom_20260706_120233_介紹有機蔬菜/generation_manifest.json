@@ -1,0 +1,775 @@
+{
+  "request": {
+    "request": "介紹國小三年級有機蔬菜",
+    "topic": "介紹 有機蔬菜",
+    "grade": "國小三年級",
+    "duration_minutes": 45,
+    "outputs": [
+      "worksheet",
+      "slides",
+      "interactive",
+      "quiz"
+    ]
+  },
+  "generation_options": {
+    "skip_media": false,
+    "include_video": false
+  },
+  "outline_path": "d:\\antigravity\\taigi-class\\data\\custom\\custom_20260706_120233_介紹有機蔬菜\\outline.json",
+  "output_dir": "d:\\antigravity\\taigi-class\\data\\custom\\custom_20260706_120233_介紹有機蔬菜",
+  "official_material_recommendations": {
+    "worksheet": [
+      {
+        "title": "台語 《收成ê彼一工》完整版EP29｜台南佳里ê有機菜蔬",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第五學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-004653/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "video",
+        "media_types": [
+          "影音數位",
+          "電視節目",
+          "Youtube"
+        ],
+        "provider": "台語兒少",
+        "related_links": [
+          {
+            "label": "YouTube embed",
+            "url": "https://www.youtube.com/embed/jUGs-LLB-DM",
+            "domain": "www.youtube.com"
+          }
+        ],
+        "snippet": "台語 《收成ê彼一工》完整版EP29｜台南佳里ê有機菜蔬；第五學習階段；學習資源；video；影音數位、電視節目、Youtube；台語兒少；1.可配合課程綱要◎Aa-V-1羅馬拼音、◎Aa-V-2漢字書寫、◎Ab-V-1語詞運用、◎Bg-V-1口語表達。 2.本教材來源為〈收成ê彼一工〉臺灣台語外景節目，主題介紹臺南佳里的有機蔬菜。 3.影片內容不僅自然、有趣、輕鬆且富含臺灣台語知識點，值得觀賞。教師可以整理重要的語詞讓學生進行漢字書寫與語詞造句之練習活動。 4.語詞範例：佳里Ka-lí、菜蔬tshià-se、刀仔to-á、湯匙仔菜thng-sî-á-tshài。 5.影片長度23分50秒。；YouTube embed (www.youtube.com)",
+        "score": 24
+      },
+      {
+        "title": "大甲媽祖、白沙屯媽祖進香的民俗文化介紹",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第五學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-003507/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "website_tool",
+        "media_types": [
+          "網站"
+        ],
+        "provider": "米粉老師的台語教室",
+        "related_links": [
+          {
+            "label": "大甲媽祖、白沙屯媽祖進香的民俗文化介紹",
+            "url": "https://www.facebook.com/share/p/1A2SBA4LKX/",
+            "domain": "www.facebook.com"
+          }
+        ],
+        "snippet": "大甲媽祖、白沙屯媽祖進香的民俗文化介紹；第五學習階段；學習資源；website_tool；網站；米粉老師的台語教室；1.可配合課程綱要：◎Aa-V-1羅馬拼音、◎Aa-V-2漢字書寫、◎Bg-V-口語表達。 2.本教材為臉書粉絲專頁的貼文，主題為大甲媽祖、白沙屯媽祖進香的民俗文化介紹。 3.教師可以透過電子海報解說繞境、進香、割火的差異，同時介紹兩項國家重要民俗慶典的歷史、特色、由來。 4.教師可以結合十二年國教課綱議題手冊之環境議題，與學生探討傳統信仰如何與環境保護取得平衡，透過閩南語文進行思辯、積累閩南語文的對話能力。；大甲媽祖、白沙屯媽祖進香的民俗文化介紹 (www.facebook.com)",
+        "score": 14
+      },
+      {
+        "title": "自我介紹九宮格",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第五學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-004213/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "website_tool",
+        "media_types": [
+          "文章",
+          "教學工具",
+          "工具檢索"
+        ],
+        "provider": "【米粉老師的台語教室】",
+        "related_links": [
+          {
+            "label": "自我介紹九宮格",
+            "url": "https://www.facebook.com/share/p/16UX41iEmj/",
+            "domain": "www.facebook.com"
+          }
+        ],
+        "snippet": "自我介紹九宮格；第五學習階段；學習資源；website_tool；文章、教學工具、工具檢索；【米粉老師的台語教室】；1.可配合課綱內容：◎Aa-V-2漢字書寫、◎Ab-V-1語詞運用、◎Be-V-1數位科技、◎Bg-V-1口語表達。 2.本教材為一名高中台語老師創立的臉書粉絲專頁，介紹諸多台語文知識。可以於新學年的第一至第二週使用，讓學生透過九宮格進行自我介紹。 3.教師引導學生了解每一格需要填寫的資料，能夠透過台語辭典查詢資料練習書寫。亦可指引學生完成以後找三個同學用台語自我介紹，並請同學簽名認證。；自我介紹九宮格 (www.facebook.com)",
+        "score": 14
+      }
+    ],
+    "slides": [
+      {
+        "title": "台語 《收成ê彼一工》完整版EP29｜台南佳里ê有機菜蔬",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第五學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-004653/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "video",
+        "media_types": [
+          "影音數位",
+          "電視節目",
+          "Youtube"
+        ],
+        "provider": "台語兒少",
+        "related_links": [
+          {
+            "label": "YouTube embed",
+            "url": "https://www.youtube.com/embed/jUGs-LLB-DM",
+            "domain": "www.youtube.com"
+          }
+        ],
+        "snippet": "台語 《收成ê彼一工》完整版EP29｜台南佳里ê有機菜蔬；第五學習階段；學習資源；video；影音數位、電視節目、Youtube；台語兒少；1.可配合課程綱要◎Aa-V-1羅馬拼音、◎Aa-V-2漢字書寫、◎Ab-V-1語詞運用、◎Bg-V-1口語表達。 2.本教材來源為〈收成ê彼一工〉臺灣台語外景節目，主題介紹臺南佳里的有機蔬菜。 3.影片內容不僅自然、有趣、輕鬆且富含臺灣台語知識點，值得觀賞。教師可以整理重要的語詞讓學生進行漢字書寫與語詞造句之練習活動。 4.語詞範例：佳里Ka-lí、菜蔬tshià-se、刀仔to-á、湯匙仔菜thng-sî-á-tshài。 5.影片長度23分50秒。；YouTube embed (www.youtube.com)",
+        "score": 24
+      },
+      {
+        "title": "《公視兒少》弄獅採青上歡喜( 第44集)",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第三學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-001208/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "video",
+        "media_types": [
+          "Youtube"
+        ],
+        "provider": "《公視兒少》",
+        "related_links": [
+          {
+            "label": "YouTube embed",
+            "url": "https://www.youtube.com/embed/nUjyMCzmdjA",
+            "domain": "www.youtube.com"
+          }
+        ],
+        "snippet": "《公視兒少》弄獅採青上歡喜( 第44集)；第三學習階段；學習資源；video；Youtube；《公視兒少》；1.對應語文領域-本土語文(閩南語文)學習內容Aa-III-1、Bf-III-2、Bh-III-2。 2.本系列影片使用閩南語向學生介紹各領域專家達人，讓學生可以了解各個職業的特色以及辛苦之處。 3.本教材介紹與台灣文化相關的弄獅陣頭，讓學生可以看到不同樣貌特色的陣頭文化，顛覆對台灣陣頭的刻板印象。 4.影片時間：24分10秒，介紹弄獅的表演以及練習的情況，啟發學生對於台灣文化認識的學習動機。；YouTube embed (www.youtube.com)",
+        "score": 13
+      },
+      {
+        "title": "《收成ê彼一工》EP29－台南佳里ê有機菜蔬",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第三學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-002422/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "video",
+        "media_types": [
+          "電視節目"
+        ],
+        "provider": "公視台語兒少",
+        "related_links": [
+          {
+            "label": "《收成ê彼一工》EP29－台南佳里ê有機菜蔬",
+            "url": "https://youtu.be/jUGs-LLB-DM?list=PLwm5dUv4hQIn_duTAIJ9gTPA9OG4mquTB",
+            "domain": "youtu.be"
+          }
+        ],
+        "snippet": "《收成ê彼一工》EP29－台南佳里ê有機菜蔬；第三學習階段；學習資源；video；電視節目；公視台語兒少；1.本教材對應語文領域：本土語文(閩南語文)學習內容「◎ Ab-Ⅲ-1語詞運用、◎ Bd-Ⅲ-1環境保護 。」 2.此教材內容使兄妹兩人到秧仔種苗場協助阿公、阿媽孕育種苗，並種植有機蔬菜的過程，搭配主持的引導訪問，發現這對兄妹趣味互動的相處過程。 3.影片時間23分50秒，帶領學生發現日常生活中，臺灣閩南語生活用語的活用方式以及簡單的對答技巧。 4.本教材內容可搭配自然領域相關課程，進行跨領域教學。；《收成ê彼一工》EP29－台南佳里ê有機菜蔬 (youtu.be)",
+        "score": 13
+      }
+    ],
+    "interactive": [
+      {
+        "title": "【自我介紹九宮格】",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第四學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-004328/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "interactive",
+        "media_types": [
+          "圖文/聲音檔",
+          "工具檢索",
+          "網站"
+        ],
+        "provider": "米粉老師的台語教室",
+        "related_links": [
+          {
+            "label": "【自我介紹九宮格】",
+            "url": "https://www.facebook.com/share/p/1G7kaDdd4q/",
+            "domain": "www.facebook.com"
+          }
+        ],
+        "snippet": "【自我介紹九宮格】；第四學習階段；學習資源；interactive；圖文/聲音檔、工具檢索、網站；米粉老師的台語教室；1.可配合課程綱要學習內容：◎Ab-Ⅳ-1語詞運用、Ba-Ⅳ-2性格特質、◎Bg-IV-1口語表達。 2.本篇圖文由米粉老師製作，以「自我介紹九宮格」為主題，題目採臺羅拼音呈現，學生可填寫如「kò-sìng（個性）」、「hìng-tshù（興趣）」、「ím-liāu（飲料）」等個人資訊。 3.活動可作為開學破冰遊戲或期中練習，填寫後投入「自我介紹箱」，由老師抽取內容唸出，請同學猜猜是誰的作品，增進課堂互動與口語練習。 4.教師可直接印製此學習單，應用於課堂練習。；【自我介紹九宮格】 (www.facebook.com)",
+        "score": 14
+      },
+      {
+        "title": "台語 《收成ê彼一工》完整版EP29｜台南佳里ê有機菜蔬",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第五學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-004653/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "video",
+        "media_types": [
+          "影音數位",
+          "電視節目",
+          "Youtube"
+        ],
+        "provider": "台語兒少",
+        "related_links": [
+          {
+            "label": "YouTube embed",
+            "url": "https://www.youtube.com/embed/jUGs-LLB-DM",
+            "domain": "www.youtube.com"
+          }
+        ],
+        "snippet": "台語 《收成ê彼一工》完整版EP29｜台南佳里ê有機菜蔬；第五學習階段；學習資源；video；影音數位、電視節目、Youtube；台語兒少；1.可配合課程綱要◎Aa-V-1羅馬拼音、◎Aa-V-2漢字書寫、◎Ab-V-1語詞運用、◎Bg-V-1口語表達。 2.本教材來源為〈收成ê彼一工〉臺灣台語外景節目，主題介紹臺南佳里的有機蔬菜。 3.影片內容不僅自然、有趣、輕鬆且富含臺灣台語知識點，值得觀賞。教師可以整理重要的語詞讓學生進行漢字書寫與語詞造句之練習活動。 4.語詞範例：佳里Ka-lí、菜蔬tshià-se、刀仔to-á、湯匙仔菜thng-sî-á-tshài。 5.影片長度23分50秒。；YouTube embed (www.youtube.com)",
+        "score": 24
+      },
+      {
+        "title": "大甲媽祖、白沙屯媽祖進香的民俗文化介紹",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第五學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-003507/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "website_tool",
+        "media_types": [
+          "網站"
+        ],
+        "provider": "米粉老師的台語教室",
+        "related_links": [
+          {
+            "label": "大甲媽祖、白沙屯媽祖進香的民俗文化介紹",
+            "url": "https://www.facebook.com/share/p/1A2SBA4LKX/",
+            "domain": "www.facebook.com"
+          }
+        ],
+        "snippet": "大甲媽祖、白沙屯媽祖進香的民俗文化介紹；第五學習階段；學習資源；website_tool；網站；米粉老師的台語教室；1.可配合課程綱要：◎Aa-V-1羅馬拼音、◎Aa-V-2漢字書寫、◎Bg-V-口語表達。 2.本教材為臉書粉絲專頁的貼文，主題為大甲媽祖、白沙屯媽祖進香的民俗文化介紹。 3.教師可以透過電子海報解說繞境、進香、割火的差異，同時介紹兩項國家重要民俗慶典的歷史、特色、由來。 4.教師可以結合十二年國教課綱議題手冊之環境議題，與學生探討傳統信仰如何與環境保護取得平衡，透過閩南語文進行思辯、積累閩南語文的對話能力。；大甲媽祖、白沙屯媽祖進香的民俗文化介紹 (www.facebook.com)",
+        "score": 14
+      }
+    ],
+    "quiz": [
+      {
+        "title": "【自我介紹九宮格】",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第四學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-004328/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "interactive",
+        "media_types": [
+          "圖文/聲音檔",
+          "工具檢索",
+          "網站"
+        ],
+        "provider": "米粉老師的台語教室",
+        "related_links": [
+          {
+            "label": "【自我介紹九宮格】",
+            "url": "https://www.facebook.com/share/p/1G7kaDdd4q/",
+            "domain": "www.facebook.com"
+          }
+        ],
+        "snippet": "【自我介紹九宮格】；第四學習階段；學習資源；interactive；圖文/聲音檔、工具檢索、網站；米粉老師的台語教室；1.可配合課程綱要學習內容：◎Ab-Ⅳ-1語詞運用、Ba-Ⅳ-2性格特質、◎Bg-IV-1口語表達。 2.本篇圖文由米粉老師製作，以「自我介紹九宮格」為主題，題目採臺羅拼音呈現，學生可填寫如「kò-sìng（個性）」、「hìng-tshù（興趣）」、「ím-liāu（飲料）」等個人資訊。 3.活動可作為開學破冰遊戲或期中練習，填寫後投入「自我介紹箱」，由老師抽取內容唸出，請同學猜猜是誰的作品，增進課堂互動與口語練習。 4.教師可直接印製此學習單，應用於課堂練習。；【自我介紹九宮格】 (www.facebook.com)",
+        "score": 14
+      },
+      {
+        "title": "台語 《收成ê彼一工》完整版EP29｜台南佳里ê有機菜蔬",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第五學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-004653/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "video",
+        "media_types": [
+          "影音數位",
+          "電視節目",
+          "Youtube"
+        ],
+        "provider": "台語兒少",
+        "related_links": [
+          {
+            "label": "YouTube embed",
+            "url": "https://www.youtube.com/embed/jUGs-LLB-DM",
+            "domain": "www.youtube.com"
+          }
+        ],
+        "snippet": "台語 《收成ê彼一工》完整版EP29｜台南佳里ê有機菜蔬；第五學習階段；學習資源；video；影音數位、電視節目、Youtube；台語兒少；1.可配合課程綱要◎Aa-V-1羅馬拼音、◎Aa-V-2漢字書寫、◎Ab-V-1語詞運用、◎Bg-V-1口語表達。 2.本教材來源為〈收成ê彼一工〉臺灣台語外景節目，主題介紹臺南佳里的有機蔬菜。 3.影片內容不僅自然、有趣、輕鬆且富含臺灣台語知識點，值得觀賞。教師可以整理重要的語詞讓學生進行漢字書寫與語詞造句之練習活動。 4.語詞範例：佳里Ka-lí、菜蔬tshià-se、刀仔to-á、湯匙仔菜thng-sî-á-tshài。 5.影片長度23分50秒。；YouTube embed (www.youtube.com)",
+        "score": 24
+      },
+      {
+        "title": "大甲媽祖、白沙屯媽祖進香的民俗文化介紹",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第五學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-003507/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "website_tool",
+        "media_types": [
+          "網站"
+        ],
+        "provider": "米粉老師的台語教室",
+        "related_links": [
+          {
+            "label": "大甲媽祖、白沙屯媽祖進香的民俗文化介紹",
+            "url": "https://www.facebook.com/share/p/1A2SBA4LKX/",
+            "domain": "www.facebook.com"
+          }
+        ],
+        "snippet": "大甲媽祖、白沙屯媽祖進香的民俗文化介紹；第五學習階段；學習資源；website_tool；網站；米粉老師的台語教室；1.可配合課程綱要：◎Aa-V-1羅馬拼音、◎Aa-V-2漢字書寫、◎Bg-V-口語表達。 2.本教材為臉書粉絲專頁的貼文，主題為大甲媽祖、白沙屯媽祖進香的民俗文化介紹。 3.教師可以透過電子海報解說繞境、進香、割火的差異，同時介紹兩項國家重要民俗慶典的歷史、特色、由來。 4.教師可以結合十二年國教課綱議題手冊之環境議題，與學生探討傳統信仰如何與環境保護取得平衡，透過閩南語文進行思辯、積累閩南語文的對話能力。；大甲媽祖、白沙屯媽祖進香的民俗文化介紹 (www.facebook.com)",
+        "score": 14
+      }
+    ]
+  },
+  "official_generation_assets": {
+    "worksheet": [
+      {
+        "asset_id": "b5116a15a407",
+        "asset_type": "slide_seed",
+        "source_bank_id": "cirn-local-language-methods-2023-fd4d75163326",
+        "title": "12年國民基本教育本土語文教材教法",
+        "heading": "遊戲互動：12年國民基本教育本土語文教材教法",
+        "learning_stage": "國民中小學",
+        "topics": [
+          "遊戲互動",
+          "課綱與評量"
+        ],
+        "material_kinds": [
+          "assessment",
+          "sentence_pattern",
+          "media_activity"
+        ],
+        "bullets": [
+          "171 第七章 本土語文主題式 教學 第四節 行Ă客家十二節慶 1. 引起動機： 介紹阿知牯聊天機器人 2. 發展活動： ⑴\u0001教師教學生使用阿知牯聊天機器人華轉客功能，並練 習客語每日一句。",
+          "⑵將介紹客家節慶盒的華語轉為客語文字內容。",
+          "3. 評量活動： ⑴使用客語介紹客家節慶盒。",
+          "⑶上傳 facebook 行Ă貓裏社團。",
+          "一、口語評量： 1. Ă將客家節慶盒的 資料華轉客，並 練習使用客語表 達。"
+        ],
+        "source_url": "https://cirn.k12ea.gov.tw/web1107/List.aspx?fid=5551",
+        "local_path": "data\\official_materials\\raw\\cirn\\local-language\\12年國民基本教育本土語文教材教法_電子檔.pdf",
+        "output_tags": [
+          "exam",
+          "worksheet",
+          "video",
+          "interactive",
+          "quiz",
+          "slides"
+        ],
+        "resource_kind": "generation_asset",
+        "score": 20
+      },
+      {
+        "asset_id": "c27d5a012bd3",
+        "asset_type": "slide_seed",
+        "source_bank_id": "cirn-local-language-methods-2026-v2-c15a4358d995",
+        "title": "12年國民基本教育本土語文教材教法（第二版）",
+        "heading": "遊戲互動：12年國民基本教育本土語文教材教法（第二版）",
+        "learning_stage": "國民中小學",
+        "topics": [
+          "遊戲互動",
+          "課綱與評量"
+        ],
+        "material_kinds": [
+          "assessment",
+          "sentence_pattern",
+          "media_activity"
+        ],
+        "bullets": [
+          "171 第七章\u0007本土語文主題式 教學 第四節 行Ă客家十二節慶 1. 引起動機： 介紹阿知牯聊天機器人 2. 發展活動： ⑴\u0001教師教學生使用阿知牯聊天機器人華轉客功能，並練 習客語每日一句。",
+          "⑵將介紹客家節慶盒的華語轉為客語文字內容。",
+          "3. 評量活動： ⑴使用客語介紹客家節慶盒。",
+          "⑶上傳 facebook 行Ă貓裏社團。",
+          "一、口語評量： 1. Ă將客家節慶盒的 資料華轉客，並 練習使用客語表 達。"
+        ],
+        "source_url": "https://cirn.k12ea.gov.tw/web1107/List.aspx?fid=5551",
+        "local_path": "data\\official_materials\\raw\\cirn\\local-language\\12年國民基本教育本土語文教材教法_第二版.pdf",
+        "output_tags": [
+          "exam",
+          "worksheet",
+          "video",
+          "interactive",
+          "quiz",
+          "slides"
+        ],
+        "resource_kind": "generation_asset",
+        "score": 20
+      },
+      {
+        "asset_id": "75425228239e",
+        "asset_type": "slide_seed",
+        "source_bank_id": "tsuguan-web-04a-20ffc6788548",
+        "title": "《讀文章蓋趣味 01》",
+        "heading": "身體五官：《讀文章蓋趣味 01》",
+        "learning_stage": "不分學習階段",
+        "topics": [
+          "身體五官",
+          "食物與市場",
+          "聽說朗讀"
+        ],
+        "material_kinds": [
+          "vocabulary",
+          "sentence_pattern",
+          "culture",
+          "media_activity"
+        ],
+        "bullets": [
+          "咱來學 臺灣 台語 咱來學 臺灣 台語 讀 文 章 蓋 趣 味 讀 文 章 蓋 趣 味 讀文章 蓋趣味 讀文章 蓋趣味 趣味 本土語文系列／0401.01 1. 臺灣好𨑨迌：介紹臺灣各地景點或相關民俗祭典觀光活動。",
+          "2. 臺灣好食物(tsiah-mih)：介紹臺灣各地特色食物或名產。",
+          "3. 臺灣人情味：以抒情文為主，內容多為作者懷想過去，抒發 自身情感。",
+          "4. 臺灣文史古：介紹臺灣地方人文故事風情。",
+          "5. 臺灣心適代：介紹臺灣新奇有趣的議題。"
+        ],
+        "source_url": "https://language.moe.gov.tw/files/people_files/tsuguan-book.pdf",
+        "local_path": "data\\official_materials\\raw\\moe-language\\tsuguan\\web_04a_讀文章蓋趣味01.pdf",
+        "output_tags": [
+          "worksheet",
+          "slides",
+          "video",
+          "interactive",
+          "quiz"
+        ],
+        "resource_kind": "generation_asset",
+        "score": 20
+      }
+    ],
+    "slides": [
+      {
+        "asset_id": "b5116a15a407",
+        "asset_type": "slide_seed",
+        "source_bank_id": "cirn-local-language-methods-2023-fd4d75163326",
+        "title": "12年國民基本教育本土語文教材教法",
+        "heading": "遊戲互動：12年國民基本教育本土語文教材教法",
+        "learning_stage": "國民中小學",
+        "topics": [
+          "遊戲互動",
+          "課綱與評量"
+        ],
+        "material_kinds": [
+          "assessment",
+          "sentence_pattern",
+          "media_activity"
+        ],
+        "bullets": [
+          "171 第七章 本土語文主題式 教學 第四節 行Ă客家十二節慶 1. 引起動機： 介紹阿知牯聊天機器人 2. 發展活動： ⑴\u0001教師教學生使用阿知牯聊天機器人華轉客功能，並練 習客語每日一句。",
+          "⑵將介紹客家節慶盒的華語轉為客語文字內容。",
+          "3. 評量活動： ⑴使用客語介紹客家節慶盒。",
+          "⑶上傳 facebook 行Ă貓裏社團。",
+          "一、口語評量： 1. Ă將客家節慶盒的 資料華轉客，並 練習使用客語表 達。"
+        ],
+        "source_url": "https://cirn.k12ea.gov.tw/web1107/List.aspx?fid=5551",
+        "local_path": "data\\official_materials\\raw\\cirn\\local-language\\12年國民基本教育本土語文教材教法_電子檔.pdf",
+        "output_tags": [
+          "exam",
+          "worksheet",
+          "video",
+          "interactive",
+          "quiz",
+          "slides"
+        ],
+        "resource_kind": "generation_asset",
+        "score": 20
+      },
+      {
+        "asset_id": "c27d5a012bd3",
+        "asset_type": "slide_seed",
+        "source_bank_id": "cirn-local-language-methods-2026-v2-c15a4358d995",
+        "title": "12年國民基本教育本土語文教材教法（第二版）",
+        "heading": "遊戲互動：12年國民基本教育本土語文教材教法（第二版）",
+        "learning_stage": "國民中小學",
+        "topics": [
+          "遊戲互動",
+          "課綱與評量"
+        ],
+        "material_kinds": [
+          "assessment",
+          "sentence_pattern",
+          "media_activity"
+        ],
+        "bullets": [
+          "171 第七章\u0007本土語文主題式 教學 第四節 行Ă客家十二節慶 1. 引起動機： 介紹阿知牯聊天機器人 2. 發展活動： ⑴\u0001教師教學生使用阿知牯聊天機器人華轉客功能，並練 習客語每日一句。",
+          "⑵將介紹客家節慶盒的華語轉為客語文字內容。",
+          "3. 評量活動： ⑴使用客語介紹客家節慶盒。",
+          "⑶上傳 facebook 行Ă貓裏社團。",
+          "一、口語評量： 1. Ă將客家節慶盒的 資料華轉客，並 練習使用客語表 達。"
+        ],
+        "source_url": "https://cirn.k12ea.gov.tw/web1107/List.aspx?fid=5551",
+        "local_path": "data\\official_materials\\raw\\cirn\\local-language\\12年國民基本教育本土語文教材教法_第二版.pdf",
+        "output_tags": [
+          "exam",
+          "worksheet",
+          "video",
+          "interactive",
+          "quiz",
+          "slides"
+        ],
+        "resource_kind": "generation_asset",
+        "score": 20
+      },
+      {
+        "asset_id": "75425228239e",
+        "asset_type": "slide_seed",
+        "source_bank_id": "tsuguan-web-04a-20ffc6788548",
+        "title": "《讀文章蓋趣味 01》",
+        "heading": "身體五官：《讀文章蓋趣味 01》",
+        "learning_stage": "不分學習階段",
+        "topics": [
+          "身體五官",
+          "食物與市場",
+          "聽說朗讀"
+        ],
+        "material_kinds": [
+          "vocabulary",
+          "sentence_pattern",
+          "culture",
+          "media_activity"
+        ],
+        "bullets": [
+          "咱來學 臺灣 台語 咱來學 臺灣 台語 讀 文 章 蓋 趣 味 讀 文 章 蓋 趣 味 讀文章 蓋趣味 讀文章 蓋趣味 趣味 本土語文系列／0401.01 1. 臺灣好𨑨迌：介紹臺灣各地景點或相關民俗祭典觀光活動。",
+          "2. 臺灣好食物(tsiah-mih)：介紹臺灣各地特色食物或名產。",
+          "3. 臺灣人情味：以抒情文為主，內容多為作者懷想過去，抒發 自身情感。",
+          "4. 臺灣文史古：介紹臺灣地方人文故事風情。",
+          "5. 臺灣心適代：介紹臺灣新奇有趣的議題。"
+        ],
+        "source_url": "https://language.moe.gov.tw/files/people_files/tsuguan-book.pdf",
+        "local_path": "data\\official_materials\\raw\\moe-language\\tsuguan\\web_04a_讀文章蓋趣味01.pdf",
+        "output_tags": [
+          "worksheet",
+          "slides",
+          "video",
+          "interactive",
+          "quiz"
+        ],
+        "resource_kind": "generation_asset",
+        "score": 20
+      }
+    ],
+    "interactive": [
+      {
+        "asset_id": "b5116a15a407",
+        "asset_type": "slide_seed",
+        "source_bank_id": "cirn-local-language-methods-2023-fd4d75163326",
+        "title": "12年國民基本教育本土語文教材教法",
+        "heading": "遊戲互動：12年國民基本教育本土語文教材教法",
+        "learning_stage": "國民中小學",
+        "topics": [
+          "遊戲互動",
+          "課綱與評量"
+        ],
+        "material_kinds": [
+          "assessment",
+          "sentence_pattern",
+          "media_activity"
+        ],
+        "bullets": [
+          "171 第七章 本土語文主題式 教學 第四節 行Ă客家十二節慶 1. 引起動機： 介紹阿知牯聊天機器人 2. 發展活動： ⑴\u0001教師教學生使用阿知牯聊天機器人華轉客功能，並練 習客語每日一句。",
+          "⑵將介紹客家節慶盒的華語轉為客語文字內容。",
+          "3. 評量活動： ⑴使用客語介紹客家節慶盒。",
+          "⑶上傳 facebook 行Ă貓裏社團。",
+          "一、口語評量： 1. Ă將客家節慶盒的 資料華轉客，並 練習使用客語表 達。"
+        ],
+        "source_url": "https://cirn.k12ea.gov.tw/web1107/List.aspx?fid=5551",
+        "local_path": "data\\official_materials\\raw\\cirn\\local-language\\12年國民基本教育本土語文教材教法_電子檔.pdf",
+        "output_tags": [
+          "exam",
+          "worksheet",
+          "video",
+          "interactive",
+          "quiz",
+          "slides"
+        ],
+        "resource_kind": "generation_asset",
+        "score": 20
+      },
+      {
+        "asset_id": "c27d5a012bd3",
+        "asset_type": "slide_seed",
+        "source_bank_id": "cirn-local-language-methods-2026-v2-c15a4358d995",
+        "title": "12年國民基本教育本土語文教材教法（第二版）",
+        "heading": "遊戲互動：12年國民基本教育本土語文教材教法（第二版）",
+        "learning_stage": "國民中小學",
+        "topics": [
+          "遊戲互動",
+          "課綱與評量"
+        ],
+        "material_kinds": [
+          "assessment",
+          "sentence_pattern",
+          "media_activity"
+        ],
+        "bullets": [
+          "171 第七章\u0007本土語文主題式 教學 第四節 行Ă客家十二節慶 1. 引起動機： 介紹阿知牯聊天機器人 2. 發展活動： ⑴\u0001教師教學生使用阿知牯聊天機器人華轉客功能，並練 習客語每日一句。",
+          "⑵將介紹客家節慶盒的華語轉為客語文字內容。",
+          "3. 評量活動： ⑴使用客語介紹客家節慶盒。",
+          "⑶上傳 facebook 行Ă貓裏社團。",
+          "一、口語評量： 1. Ă將客家節慶盒的 資料華轉客，並 練習使用客語表 達。"
+        ],
+        "source_url": "https://cirn.k12ea.gov.tw/web1107/List.aspx?fid=5551",
+        "local_path": "data\\official_materials\\raw\\cirn\\local-language\\12年國民基本教育本土語文教材教法_第二版.pdf",
+        "output_tags": [
+          "exam",
+          "worksheet",
+          "video",
+          "interactive",
+          "quiz",
+          "slides"
+        ],
+        "resource_kind": "generation_asset",
+        "score": 20
+      },
+      {
+        "asset_id": "75425228239e",
+        "asset_type": "slide_seed",
+        "source_bank_id": "tsuguan-web-04a-20ffc6788548",
+        "title": "《讀文章蓋趣味 01》",
+        "heading": "身體五官：《讀文章蓋趣味 01》",
+        "learning_stage": "不分學習階段",
+        "topics": [
+          "身體五官",
+          "食物與市場",
+          "聽說朗讀"
+        ],
+        "material_kinds": [
+          "vocabulary",
+          "sentence_pattern",
+          "culture",
+          "media_activity"
+        ],
+        "bullets": [
+          "咱來學 臺灣 台語 咱來學 臺灣 台語 讀 文 章 蓋 趣 味 讀 文 章 蓋 趣 味 讀文章 蓋趣味 讀文章 蓋趣味 趣味 本土語文系列／0401.01 1. 臺灣好𨑨迌：介紹臺灣各地景點或相關民俗祭典觀光活動。",
+          "2. 臺灣好食物(tsiah-mih)：介紹臺灣各地特色食物或名產。",
+          "3. 臺灣人情味：以抒情文為主，內容多為作者懷想過去，抒發 自身情感。",
+          "4. 臺灣文史古：介紹臺灣地方人文故事風情。",
+          "5. 臺灣心適代：介紹臺灣新奇有趣的議題。"
+        ],
+        "source_url": "https://language.moe.gov.tw/files/people_files/tsuguan-book.pdf",
+        "local_path": "data\\official_materials\\raw\\moe-language\\tsuguan\\web_04a_讀文章蓋趣味01.pdf",
+        "output_tags": [
+          "worksheet",
+          "slides",
+          "video",
+          "interactive",
+          "quiz"
+        ],
+        "resource_kind": "generation_asset",
+        "score": 20
+      }
+    ],
+    "quiz": [
+      {
+        "asset_id": "b5116a15a407",
+        "asset_type": "slide_seed",
+        "source_bank_id": "cirn-local-language-methods-2023-fd4d75163326",
+        "title": "12年國民基本教育本土語文教材教法",
+        "heading": "遊戲互動：12年國民基本教育本土語文教材教法",
+        "learning_stage": "國民中小學",
+        "topics": [
+          "遊戲互動",
+          "課綱與評量"
+        ],
+        "material_kinds": [
+          "assessment",
+          "sentence_pattern",
+          "media_activity"
+        ],
+        "bullets": [
+          "171 第七章 本土語文主題式 教學 第四節 行Ă客家十二節慶 1. 引起動機： 介紹阿知牯聊天機器人 2. 發展活動： ⑴\u0001教師教學生使用阿知牯聊天機器人華轉客功能，並練 習客語每日一句。",
+          "⑵將介紹客家節慶盒的華語轉為客語文字內容。",
+          "3. 評量活動： ⑴使用客語介紹客家節慶盒。",
+          "⑶上傳 facebook 行Ă貓裏社團。",
+          "一、口語評量： 1. Ă將客家節慶盒的 資料華轉客，並 練習使用客語表 達。"
+        ],
+        "source_url": "https://cirn.k12ea.gov.tw/web1107/List.aspx?fid=5551",
+        "local_path": "data\\official_materials\\raw\\cirn\\local-language\\12年國民基本教育本土語文教材教法_電子檔.pdf",
+        "output_tags": [
+          "exam",
+          "worksheet",
+          "video",
+          "interactive",
+          "quiz",
+          "slides"
+        ],
+        "resource_kind": "generation_asset",
+        "score": 20
+      },
+      {
+        "asset_id": "c27d5a012bd3",
+        "asset_type": "slide_seed",
+        "source_bank_id": "cirn-local-language-methods-2026-v2-c15a4358d995",
+        "title": "12年國民基本教育本土語文教材教法（第二版）",
+        "heading": "遊戲互動：12年國民基本教育本土語文教材教法（第二版）",
+        "learning_stage": "國民中小學",
+        "topics": [
+          "遊戲互動",
+          "課綱與評量"
+        ],
+        "material_kinds": [
+          "assessment",
+          "sentence_pattern",
+          "media_activity"
+        ],
+        "bullets": [
+          "171 第七章\u0007本土語文主題式 教學 第四節 行Ă客家十二節慶 1. 引起動機： 介紹阿知牯聊天機器人 2. 發展活動： ⑴\u0001教師教學生使用阿知牯聊天機器人華轉客功能，並練 習客語每日一句。",
+          "⑵將介紹客家節慶盒的華語轉為客語文字內容。",
+          "3. 評量活動： ⑴使用客語介紹客家節慶盒。",
+          "⑶上傳 facebook 行Ă貓裏社團。",
+          "一、口語評量： 1. Ă將客家節慶盒的 資料華轉客，並 練習使用客語表 達。"
+        ],
+        "source_url": "https://cirn.k12ea.gov.tw/web1107/List.aspx?fid=5551",
+        "local_path": "data\\official_materials\\raw\\cirn\\local-language\\12年國民基本教育本土語文教材教法_第二版.pdf",
+        "output_tags": [
+          "exam",
+          "worksheet",
+          "video",
+          "interactive",
+          "quiz",
+          "slides"
+        ],
+        "resource_kind": "generation_asset",
+        "score": 20
+      },
+      {
+        "asset_id": "75425228239e",
+        "asset_type": "slide_seed",
+        "source_bank_id": "tsuguan-web-04a-20ffc6788548",
+        "title": "《讀文章蓋趣味 01》",
+        "heading": "身體五官：《讀文章蓋趣味 01》",
+        "learning_stage": "不分學習階段",
+        "topics": [
+          "身體五官",
+          "食物與市場",
+          "聽說朗讀"
+        ],
+        "material_kinds": [
+          "vocabulary",
+          "sentence_pattern",
+          "culture",
+          "media_activity"
+        ],
+        "bullets": [
+          "咱來學 臺灣 台語 咱來學 臺灣 台語 讀 文 章 蓋 趣 味 讀 文 章 蓋 趣 味 讀文章 蓋趣味 讀文章 蓋趣味 趣味 本土語文系列／0401.01 1. 臺灣好𨑨迌：介紹臺灣各地景點或相關民俗祭典觀光活動。",
+          "2. 臺灣好食物(tsiah-mih)：介紹臺灣各地特色食物或名產。",
+          "3. 臺灣人情味：以抒情文為主，內容多為作者懷想過去，抒發 自身情感。",
+          "4. 臺灣文史古：介紹臺灣地方人文故事風情。",
+          "5. 臺灣心適代：介紹臺灣新奇有趣的議題。"
+        ],
+        "source_url": "https://language.moe.gov.tw/files/people_files/tsuguan-book.pdf",
+        "local_path": "data\\official_materials\\raw\\moe-language\\tsuguan\\web_04a_讀文章蓋趣味01.pdf",
+        "output_tags": [
+          "worksheet",
+          "slides",
+          "video",
+          "interactive",
+          "quiz"
+        ],
+        "resource_kind": "generation_asset",
+        "score": 20
+      }
+    ]
+  },
+  "video_generation": {
+    "requested_in_text": false,
+    "forced": false,
+    "attempted": false,
+    "success": false,
+    "path": null,
+    "skipped_reason": null
+  },
+  "outputs": {
+    "lesson_structure": "d:\\antigravity\\taigi-class\\data\\custom\\custom_20260706_120233_介紹有機蔬菜\\lesson_structure.json",
+    "student_worksheet": "d:\\antigravity\\taigi-class\\data\\custom\\custom_20260706_120233_介紹有機蔬菜\\student_worksheet.docx",
+    "teacher_guide": "d:\\antigravity\\taigi-class\\data\\custom\\custom_20260706_120233_介紹有機蔬菜\\teacher_guide.docx",
+    "exam_paper": "d:\\antigravity\\taigi-class\\data\\custom\\custom_20260706_120233_介紹有機蔬菜\\exam_paper.docx",
+    "exam_answer_key": "d:\\antigravity\\taigi-class\\data\\custom\\custom_20260706_120233_介紹有機蔬菜\\exam_answer_key.docx",
+    "quiz_bank": "d:\\antigravity\\taigi-class\\data\\custom\\custom_20260706_120233_介紹有機蔬菜\\quiz_bank.json",
+    "quiz_teacher_key": "d:\\antigravity\\taigi-class\\data\\custom\\custom_20260706_120233_介紹有機蔬菜\\quiz_teacher_key.md",
+    "slides": "d:\\antigravity\\taigi-class\\data\\custom\\custom_20260706_120233_介紹有機蔬菜\\teaching_slides.pptx",
+    "interactive_website": "d:\\antigravity\\taigi-class\\data\\custom\\custom_20260706_120233_介紹有機蔬菜\\interactive_website.html",
+    "teacher_review_report": "d:\\antigravity\\taigi-class\\data\\custom\\custom_20260706_120233_介紹有機蔬菜\\teacher_review_report.md",
+    "video": null
+  }
+}
