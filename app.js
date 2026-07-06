@@ -343,66 +343,83 @@ document.addEventListener('DOMContentLoaded', async () => {
     customStatusMsg.className = 'custom-status-text';
 
     try {
-      const response = await fetch(`./data/custom/${folderName}/lesson_structure.json`);
-      if (!response.ok) {
-        throw new Error('找不到指定的自訂教材資料夾或檔案，請確認名稱是否正確！');
-      }
-
-      const data = await response.json();
-      const parsedSentences = [];
-      
-      // 1. Process dialogues
-      if (data.dialogues && data.dialogues.length > 0) {
-        data.dialogues.forEach((d, idx) => {
-          parsedSentences.push({
-            book: "custom",
-            category_id: 1,
-            sentence_id: idx + 1,
-            hanzi: d.hanji,
-            tailo: d.tailo_diacritic,
-            mandarin: d.zh_tw,
-            audio_url: `./data/custom/${folderName}/${d.audio_file}`
-          });
-        });
-      }
-
-      // 2. Process vocabulary
-      if (data.vocabulary && data.vocabulary.length > 0) {
-        data.vocabulary.forEach((v, idx) => {
-          parsedSentences.push({
-            book: "custom_vocab",
-            category_id: 2,
-            sentence_id: idx + 1,
-            hanzi: v.hanji,
-            tailo: v.tailo_diacritic,
-            mandarin: v.zh_tw,
-            audio_url: `./data/custom/${folderName}/${v.audio_file}`
-          });
-        });
-      }
-
-      if (parsedSentences.length === 0) {
-        throw new Error('教材內容中無可用的句型或詞彙！');
-      }
-
-      customLessonData = {
-        title: data.title || '自訂台語教材',
-        sentences: parsedSentences
-      };
-      isCustomLesson = true;
-
-      // Unselect standard grade buttons to indicate custom mode
-      document.querySelectorAll('.grade-btn').forEach(b => b.classList.remove('active'));
-
+      const data = await loadCustomLesson(folderName);
       customStatusMsg.textContent = `✅ 載入成功：【${customLessonData.title}】共 ${data.dialogues?.length || 0} 句對話及 ${data.vocabulary?.length || 0} 個詞彙！`;
       customStatusMsg.className = 'custom-status-text success';
-
     } catch (err) {
       console.error(err);
       customStatusMsg.textContent = `❌ 載入失敗：${err.message}`;
       customStatusMsg.className = 'custom-status-text error';
       isCustomLesson = false;
       customLessonData = null;
+    }
+  });
+
+  // AI One-Click Gen Event Listener
+  const generateAiBtn = document.getElementById('generate-ai-btn');
+  const aiPromptInput = document.getElementById('ai-prompt-input');
+
+  generateAiBtn.addEventListener('click', async () => {
+    playSound('click');
+    const prompt = aiPromptInput.value.trim();
+    if (!prompt) {
+      customStatusMsg.textContent = '❌ 請輸入生成教材的主題或描述！';
+      customStatusMsg.className = 'custom-status-text error';
+      return;
+    }
+
+    customStatusMsg.textContent = '🪄 正在生成 AI 教材（此過程需要 20-30 秒，包含大綱分析與 TTS 合成，請耐心稍候...）';
+    customStatusMsg.className = 'custom-status-text';
+    
+    // Disable buttons during generation
+    generateAiBtn.disabled = true;
+    generateAiBtn.style.opacity = '0.6';
+    loadCustomBtn.disabled = true;
+
+    try {
+      const formData = new FormData();
+      formData.append('prompt', prompt);
+
+      // Call local backend FastAPI generator on port 8000
+      const response = await fetch('http://127.0.0.1:8000/api/generate', {
+        method: 'POST',
+        body: formData
+      });
+
+      if (!response.ok) {
+        throw new Error('伺服器生成失敗，請確認後端 server.py 與 Ollama 服務是否正常啟動。');
+      }
+
+      const result = await response.json();
+      if (result.status !== 'success') {
+        throw new Error(result.message || '生成失敗！');
+      }
+
+      // Load the newly generated lesson
+      const data = await loadCustomLesson(result.folderName);
+      
+      customStatusMsg.textContent = `🎉 生成並載入成功：【${customLessonData.title}】！遊戲自動開始...`;
+      customStatusMsg.className = 'custom-status-text success';
+      
+      // Auto fill folder name input
+      customFolderInput.value = result.folderName;
+
+      // Play fanfare and start game automatically
+      setTimeout(() => {
+        playSound('win');
+        startChallenge();
+      }, 1200);
+
+    } catch (err) {
+      console.error(err);
+      customStatusMsg.textContent = `❌ 生成失敗：${err.message}`;
+      customStatusMsg.className = 'custom-status-text error';
+      isCustomLesson = false;
+      customLessonData = null;
+    } finally {
+      generateAiBtn.disabled = false;
+      generateAiBtn.style.opacity = '1';
+      loadCustomBtn.disabled = false;
     }
   });
 });
@@ -950,3 +967,59 @@ function showEndScreen() {
     document.getElementById('report-stars').textContent = stars;
   }
 }
+
+async function loadCustomLesson(folderName) {
+  const response = await fetch(`./data/custom/${folderName}/lesson_structure.json`);
+  if (!response.ok) {
+    throw new Error('找不到指定的自訂教材資料夾或檔案，請確認名稱是否正確！');
+  }
+
+  const data = await response.json();
+  const parsedSentences = [];
+  
+  // 1. Process dialogues
+  if (data.dialogues && data.dialogues.length > 0) {
+    data.dialogues.forEach((d, idx) => {
+      parsedSentences.push({
+        book: "custom",
+        category_id: 1,
+        sentence_id: idx + 1,
+        hanzi: d.hanji,
+        tailo: d.tailo_diacritic,
+        mandarin: d.zh_tw,
+        audio_url: `./data/custom/${folderName}/${d.audio_file}`
+      });
+    });
+  }
+
+  // 2. Process vocabulary
+  if (data.vocabulary && data.vocabulary.length > 0) {
+    data.vocabulary.forEach((v, idx) => {
+      parsedSentences.push({
+        book: "custom_vocab",
+        category_id: 2,
+        sentence_id: idx + 1,
+        hanzi: v.hanji,
+        tailo: v.tailo_diacritic,
+        mandarin: v.zh_tw,
+        audio_url: `./data/custom/${folderName}/${v.audio_file}`
+      });
+    });
+  }
+
+  if (parsedSentences.length === 0) {
+    throw new Error('教材內容中無可用的句型或詞彙！');
+  }
+
+  customLessonData = {
+    title: data.title || '自訂台語教材',
+    sentences: parsedSentences
+  };
+  isCustomLesson = true;
+
+  // Unselect standard grade buttons to indicate custom mode
+  document.querySelectorAll('.grade-btn').forEach(b => b.classList.remove('active'));
+  
+  return data;
+}
+

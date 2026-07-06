@@ -89,14 +89,23 @@
           </div>
         </section>
 
-        <!-- Step 4: AI Custom Lesson -->
+        <!-- Step 4: AI 客製化關卡 (選用) -->
         <section class="setup-card">
           <h2>4. AI 客製化關卡 (選用)</h2>
           <div class="custom-lesson-selector">
             <div class="input-group">
-              <input type="text" id="custom-folder-input" placeholder="請輸入自訂教材資料夾名稱，例如：smoke_full_goal_all_outputs" class="folder-input">
-              <button id="load-custom-btn" class="secondary-action-btn">載入教材</button>
+              <input type="text" id="custom-folder-input" placeholder="請輸入已有的教材資料夾，例如：smoke_full_goal_all_outputs" class="folder-input">
+              <button id="load-custom-btn" class="secondary-action-btn">手動載入</button>
             </div>
+            
+            <div class="ai-generation-group" style="margin-top: 1rem; border-top: 1px solid #f1f5f9; padding-top: 1rem; display: flex; flex-direction: column; gap: 0.5rem; width: 100%;">
+              <h3 style="font-size: 0.95rem; font-weight: 700; margin-bottom: 0.25rem; color: var(--text-primary); text-align: left;">🪄 一鍵 AI 生成新教材關卡 (需啟動本地伺服器)</h3>
+              <div class="input-group">
+                <input type="text" id="ai-prompt-input" placeholder="請輸入主題，例如：介紹國小三年級有機菜蔬的課堂" class="folder-input">
+                <button id="generate-ai-btn" class="primary-action-btn" style="margin-top: 0; padding: 0.75rem 1.25rem; font-size: 0.95rem; font-weight: 700; white-space: nowrap;">一鍵生成</button>
+              </div>
+            </div>
+
             <div id="custom-status-msg" class="custom-status-text"></div>
           </div>
         </section>
