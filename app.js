@@ -603,10 +603,28 @@ function setupQuestionRound() {
       startAiProgress();
     };
     
-    // Safety backup: start AI after 4.5 seconds regardless (e.g. if audio fails or autoplay is blocked)
-    aiSafetyTimeout = setTimeout(() => {
-      startAiProgress();
-    }, 4500);
+    // Dynamic safety timeout adjustment based on audio duration
+    const setSafetyTimeout = (delayMs) => {
+      if (aiSafetyTimeout) clearTimeout(aiSafetyTimeout);
+      aiSafetyTimeout = setTimeout(() => {
+        startAiProgress();
+      }, delayMs);
+    };
+    
+    // 1. Set a safe default of 8 seconds
+    setSafetyTimeout(8000);
+    
+    // 2. If audio metadata is already loaded, use duration + 1.5s buffer
+    if (audio.duration && !isNaN(audio.duration)) {
+      setSafetyTimeout(audio.duration * 1000 + 1500);
+    }
+    
+    // 3. Listen to metadata load to dynamically update safety timeout
+    audio.onloadedmetadata = () => {
+      if (audio.duration && !isNaN(audio.duration)) {
+        setSafetyTimeout(audio.duration * 1000 + 1500);
+      }
+    };
   }
 }
 
