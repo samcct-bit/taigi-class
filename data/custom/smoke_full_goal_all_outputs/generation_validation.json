@@ -1,0 +1,106 @@
+{
+  "validated_at": "2026-07-06T10:24:37",
+  "output_dir": "output\\smoke_full_goal_all_outputs",
+  "ok": true,
+  "issues": [],
+  "details": {
+    "manifest": {
+      "topic": "有機菜蔬",
+      "grade": "國中七年級",
+      "outputs": [
+        "exam",
+        "slides",
+        "video",
+        "interactive",
+        "quiz"
+      ],
+      "skip_media": false,
+      "include_video": true
+    },
+    "lesson_structure": {
+      "path": "output\\smoke_full_goal_all_outputs\\lesson_structure.json",
+      "bytes": 77136,
+      "title": "情境會話：有機菜蔬",
+      "vocabulary_count": 4,
+      "dialogue_count": 3,
+      "question_count": 3,
+      "has_official_recommendations": true
+    },
+    "student_worksheet": {
+      "path": "output\\smoke_full_goal_all_outputs\\student_worksheet.docx",
+      "bytes": 144000,
+      "paragraph_count": 57,
+      "first_text": "臺語學習講義：情境會話：有機菜蔬"
+    },
+    "teacher_guide": {
+      "path": "output\\smoke_full_goal_all_outputs\\teacher_guide.docx",
+      "bytes": 37303,
+      "paragraph_count": 18,
+      "first_text": "臺語學習講義 (教師解答指導版)：情境會話：有機菜蔬"
+    },
+    "exam_paper": {
+      "path": "output\\smoke_full_goal_all_outputs\\exam_paper.docx",
+      "bytes": 38120,
+      "paragraph_count": 42,
+      "first_text": "臺語單元考卷：情境會話：有機菜蔬"
+    },
+    "exam_answer_key": {
+      "path": "output\\smoke_full_goal_all_outputs\\exam_answer_key.docx",
+      "bytes": 37387,
+      "paragraph_count": 21,
+      "first_text": "臺語單元考卷解答：情境會話：有機菜蔬"
+    },
+    "slides": {
+      "path": "output\\smoke_full_goal_all_outputs\\teaching_slides.pptx",
+      "bytes": 39973,
+      "slide_count": 8
+    },
+    "interactive_website": {
+      "path": "output\\smoke_full_goal_all_outputs\\interactive_website.html",
+      "bytes": 49193,
+      "has_official_materials": true
+    },
+    "teacher_review_report": {
+      "path": "output\\smoke_full_goal_all_outputs\\teacher_review_report.md",
+      "bytes": 8244
+    },
+    "topic_alignment": {
+      "topic": "有機菜蔬",
+      "terms": [
+        "有機菜蔬",
+        "有機",
+        "機菜",
+        "菜蔬"
+      ],
+      "matched_terms": [
+        "有機菜蔬",
+        "有機",
+        "機菜",
+        "菜蔬"
+      ],
+      "is_aligned": true
+    },
+    "quiz_bank": {
+      "path": "output\\smoke_full_goal_all_outputs\\quiz_bank.json",
+      "bytes": 4502,
+      "question_count": 3,
+      "official_extension_count": 3
+    },
+    "quiz_teacher_key": {
+      "path": "output\\smoke_full_goal_all_outputs\\quiz_teacher_key.md",
+      "bytes": 1230
+    },
+    "video_generation": {
+      "requested_in_text": true,
+      "forced": true,
+      "attempted": true,
+      "success": true,
+      "path": "output/smoke_full_goal_all_outputs\\lesson_video.mp4",
+      "skipped_reason": null
+    },
+    "video": {
+      "path": "output\\smoke_full_goal_all_outputs\\lesson_video.mp4",
+      "bytes": 4184568
+    }
+  }
+}

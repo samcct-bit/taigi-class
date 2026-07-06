@@ -23,6 +23,10 @@ let aiInterval = null;
 let computerFinished = false;
 let doubleRoundFinished = false;
 
+// Global Custom Lesson Variables
+let isCustomLesson = false;
+let customLessonData = null;
+
 // Audio Context for Sound Synthesis (Web Audio API)
 let audioCtx = null;
 
@@ -242,6 +246,12 @@ document.addEventListener('DOMContentLoaded', async () => {
       gradeBtns.forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
       grade = parseInt(btn.dataset.grade);
+      
+      // Clear custom lesson status when standard grade is selected
+      isCustomLesson = false;
+      customLessonData = null;
+      document.getElementById('custom-folder-input').value = '';
+      document.getElementById('custom-status-msg').textContent = '';
     });
   });
 
@@ -314,6 +324,87 @@ document.addEventListener('DOMContentLoaded', async () => {
     playSound('click');
     showScreen('start-screen');
   });
+
+  // Load Custom Lesson Event Listener
+  const loadCustomBtn = document.getElementById('load-custom-btn');
+  const customFolderInput = document.getElementById('custom-folder-input');
+  const customStatusMsg = document.getElementById('custom-status-msg');
+
+  loadCustomBtn.addEventListener('click', async () => {
+    playSound('click');
+    const folderName = customFolderInput.value.trim();
+    if (!folderName) {
+      customStatusMsg.textContent = '❌ 請輸入自訂資料夾名稱！';
+      customStatusMsg.className = 'custom-status-text error';
+      return;
+    }
+
+    customStatusMsg.textContent = '正在載入教材中...';
+    customStatusMsg.className = 'custom-status-text';
+
+    try {
+      const response = await fetch(`./data/custom/${folderName}/lesson_structure.json`);
+      if (!response.ok) {
+        throw new Error('找不到指定的自訂教材資料夾或檔案，請確認名稱是否正確！');
+      }
+
+      const data = await response.json();
+      const parsedSentences = [];
+      
+      // 1. Process dialogues
+      if (data.dialogues && data.dialogues.length > 0) {
+        data.dialogues.forEach((d, idx) => {
+          parsedSentences.push({
+            book: "custom",
+            category_id: 1,
+            sentence_id: idx + 1,
+            hanzi: d.hanji,
+            tailo: d.tailo_diacritic,
+            mandarin: d.zh_tw,
+            audio_url: `./data/custom/${folderName}/${d.audio_file}`
+          });
+        });
+      }
+
+      // 2. Process vocabulary
+      if (data.vocabulary && data.vocabulary.length > 0) {
+        data.vocabulary.forEach((v, idx) => {
+          parsedSentences.push({
+            book: "custom_vocab",
+            category_id: 2,
+            sentence_id: idx + 1,
+            hanzi: v.hanji,
+            tailo: v.tailo_diacritic,
+            mandarin: v.zh_tw,
+            audio_url: `./data/custom/${folderName}/${v.audio_file}`
+          });
+        });
+      }
+
+      if (parsedSentences.length === 0) {
+        throw new Error('教材內容中無可用的句型或詞彙！');
+      }
+
+      customLessonData = {
+        title: data.title || '自訂台語教材',
+        sentences: parsedSentences
+      };
+      isCustomLesson = true;
+
+      // Unselect standard grade buttons to indicate custom mode
+      document.querySelectorAll('.grade-btn').forEach(b => b.classList.remove('active'));
+
+      customStatusMsg.textContent = `✅ 載入成功：【${customLessonData.title}】共 ${data.dialogues?.length || 0} 句對話及 ${data.vocabulary?.length || 0} 個詞彙！`;
+      customStatusMsg.className = 'custom-status-text success';
+
+    } catch (err) {
+      console.error(err);
+      customStatusMsg.textContent = `❌ 載入失敗：${err.message}`;
+      customStatusMsg.className = 'custom-status-text error';
+      isCustomLesson = false;
+      customLessonData = null;
+    }
+  });
 });
 
 // View switcher
@@ -326,40 +417,44 @@ function showScreen(screenId) {
 
 // Start Game Entry
 function startChallenge() {
-  // Filter sentences by grade
-  let gradeSentences = sentences.filter(s => getGradeForSentence(s) === grade);
-  
-  if (gradeSentences.length === 0) {
-    alert('此年級目前無可用語句！');
-    return;
-  }
-  
-  const playedIds = getPlayedSentenceIds();
-  const playedSet = new Set(playedIds);
-  
-  // Separate into unplayed and played for this grade
-  let unplayed = gradeSentences.filter(s => !playedSet.has(`${s.book}_${s.category_id}_${s.sentence_id}`));
-  let played = gradeSentences.filter(s => playedSet.has(`${s.book}_${s.category_id}_${s.sentence_id}`));
-  
   let selected = [];
-  if (unplayed.length >= 10) {
-    // Enough unplayed sentences, select 10 from them
-    selected = shuffleArray(unplayed).slice(0, 10);
+
+  if (isCustomLesson && customLessonData) {
+    // For custom lessons, play all loaded sentences (dialogues + vocabulary)
+    selected = [...customLessonData.sentences];
   } else {
-    // Consume remaining unplayed, and fill rest from played
-    selected = [...unplayed];
-    const needed = 10 - selected.length;
-    const shuffledPlayed = shuffleArray(played);
-    selected = selected.concat(shuffledPlayed.slice(0, needed));
+    // Filter sentences by grade
+    let gradeSentences = sentences.filter(s => getGradeForSentence(s) === grade);
     
-    if (selected.length < 10) {
-      selected = shuffleArray(gradeSentences).slice(0, 10);
+    if (gradeSentences.length === 0) {
+      alert('此年級目前無可用語句！');
+      return;
     }
+    
+    const playedIds = getPlayedSentenceIds();
+    const playedSet = new Set(playedIds);
+    
+    // Separate into unplayed and played for this grade
+    let unplayed = gradeSentences.filter(s => !playedSet.has(`${s.book}_${s.category_id}_${s.sentence_id}`));
+    let played = gradeSentences.filter(s => playedSet.has(`${s.book}_${s.category_id}_${s.sentence_id}`));
+    
+    if (unplayed.length >= 10) {
+      selected = shuffleArray(unplayed).slice(0, 10);
+    } else {
+      selected = [...unplayed];
+      const needed = 10 - selected.length;
+      const shuffledPlayed = shuffleArray(played);
+      selected = selected.concat(shuffledPlayed.slice(0, needed));
+      
+      if (selected.length < 10) {
+        selected = shuffleArray(gradeSentences).slice(0, 10);
+      }
+    }
+    
+    // Save selected sentences to played history
+    markSentencesAsPlayed(selected);
+    updateProgressUI();
   }
-  
-  // Save selected sentences to played history
-  markSentencesAsPlayed(selected);
-  updateProgressUI();
   
   filteredSentences = selected;
   
@@ -375,7 +470,7 @@ function startChallenge() {
   
   // Update header text UI
   const modeText = gameMode === 'single' ? '單人練習' : (gameMode === 'computer' ? '挑戰電腦 AI' : '雙人對戰');
-  const gradeText = ['一年級', '二年級', '三年級', '四年級', '五年級', '六年級'][grade - 1];
+  const gradeText = isCustomLesson ? customLessonData.title : ['一年級', '二年級', '三年級', '四年級', '五年級', '六年級'][grade - 1];
   
   document.getElementById('display-mode').textContent = modeText;
   document.getElementById('display-grade').textContent = gradeText;

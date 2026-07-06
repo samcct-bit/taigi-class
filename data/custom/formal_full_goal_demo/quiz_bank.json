@@ -1,0 +1,117 @@
+{
+  "title": "情境會話：有機菜蔬",
+  "grade": "國中七年級",
+  "duration_minutes": 45,
+  "generated_at": "2026-07-06T10:22:54",
+  "question_count": 3,
+  "official_extension_count": 3,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "question": "本單元主題是哪一項？",
+      "options": [
+        "有機菜蔬",
+        "身體五官",
+        "交通工具",
+        "天氣變化"
+      ],
+      "answer_index": 0,
+      "answer": "有機菜蔬",
+      "explanation": "本單元以有機菜蔬為主題。",
+      "graded": true,
+      "source": "generated_lesson"
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "question": "「菜蔬」的華語意思是什麼？",
+      "options": [
+        "蔬菜",
+        "水果",
+        "點心",
+        "飲料"
+      ],
+      "answer_index": 0,
+      "answer": "蔬菜",
+      "explanation": "「菜蔬」就是蔬菜。",
+      "graded": true,
+      "source": "generated_lesson"
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "question": "哪一個詞和農田觀察最相關？",
+      "options": [
+        "田園",
+        "喙",
+        "手",
+        "讀冊"
+      ],
+      "answer_index": 0,
+      "answer": "田園",
+      "explanation": "田園可作為觀察有機菜蔬種植情境的詞彙。",
+      "graded": true,
+      "source": "generated_lesson"
+    }
+  ],
+  "official_extension_questions": [
+    {
+      "id": "4bca125a8a06",
+      "type": "multiple_choice",
+      "question": "關於節目內底講的有機農業，下底佗一个描述上正確？",
+      "options": [
+        "為著追求產量，大量使用化學肥料來刺激菜蔬生長。",
+        "倚靠現代機械來完全取代人工，達成上有效率的收成。",
+        "強調佮土地的友善連結，透過自然耕作的方式照顧農作物。",
+        "希望提升經濟價值佮國際的競爭力，未來會當出口到國外。"
+      ],
+      "answer_index": null,
+      "answer": null,
+      "explanation": "需教師依官方教材確認正確答案後使用。",
+      "graded": false,
+      "teacher_answer_required": true,
+      "source": "official_generation_asset",
+      "source_title": "【閩南語教案和學習單】臺南佳里ê有機菜蔬，報你知！",
+      "source_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-004740/?lang=/003/"
+    },
+    {
+      "id": "4cdec64c6355",
+      "type": "multiple_choice",
+      "question": "影片內底，序大人的互動呈現出啥物款的家庭教育意義？",
+      "options": [
+        "序大人認為囡仔干焦讀書就好，毋免參與種作的工課。",
+        "透過種作的工課，增進厝內人的感情佮傳承生活經驗。",
+        "嚴格要求囡仔愛學會曉所有的農業技術，若無愛處罰。",
+        "都市佮庄跤差傷濟，囡仔完全無法度適應農村的生活。"
+      ],
+      "answer_index": null,
+      "answer": null,
+      "explanation": "需教師依官方教材確認正確答案後使用。",
+      "graded": false,
+      "teacher_answer_required": true,
+      "source": "official_generation_asset",
+      "source_title": "【閩南語教案和學習單】臺南佳里ê有機菜蔬，報你知！",
+      "source_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-004740/?lang=/003/"
+    },
+    {
+      "id": "9ab0d518ea53",
+      "type": "multiple_choice",
+      "question": "下底佗一个標題上適合提來做這齣影片的推廣標題？",
+      "options": [
+        "農業技術說明書：按怎種有機的菜蔬。",
+        "上嚴格的種作：拒絕使用農藥的菜蔬。",
+        "土地的聲音：行入臺南佳里的有機菜園佮家庭親情。",
+        "傳統佮現代：為啥物逐家攏應該放棄都市搬去庄跤蹛。 臺南佳里ê有機菜蔬，報你知！"
+      ],
+      "answer_index": null,
+      "answer": null,
+      "explanation": "需教師依官方教材確認正確答案後使用。",
+      "graded": false,
+      "teacher_answer_required": true,
+      "source": "official_generation_asset",
+      "source_title": "【閩南語教案和學習單】臺南佳里ê有機菜蔬，報你知！",
+      "source_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-004740/?lang=/003/"
+    }
+  ]
+}

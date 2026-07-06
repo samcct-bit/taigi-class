@@ -1,0 +1,1192 @@
+{
+  "title": "情境會話：有機菜蔬",
+  "grade": "國中七年級",
+  "duration_minutes": 45,
+  "vocabulary": [
+    {
+      "hanji": "菜蔬",
+      "tailo_numeric": "tshai3-se1",
+      "zh_tw": "蔬菜",
+      "review_status": "draft"
+    },
+    {
+      "hanji": "有機",
+      "tailo_numeric": "u7-ki1",
+      "zh_tw": "有機",
+      "review_status": "draft"
+    },
+    {
+      "hanji": "田園",
+      "tailo_numeric": "tshan5-hng5",
+      "zh_tw": "田園",
+      "review_status": "draft"
+    },
+    {
+      "hanji": "種作",
+      "tailo_numeric": "tsing3-tsok4",
+      "zh_tw": "種植耕作",
+      "review_status": "draft"
+    }
+  ],
+  "dialogues": [
+    {
+      "role": "老師",
+      "hanji": "今仔日咱欲認捌有機菜蔬。",
+      "tailo_numeric": "kin1-a2-jit8 lan2 beh4 jin7-bat4 u7-ki1 tshai3-se1.",
+      "zh_tw": "今天我們要認識有機蔬菜。"
+    },
+    {
+      "role": "學生",
+      "hanji": "有機菜蔬是按怎種作的？",
+      "tailo_numeric": "u7-ki1 tshai3-se1 si7 an2-tsuann2 tsing3-tsok4 e5?",
+      "zh_tw": "有機蔬菜是怎麼種植的？"
+    },
+    {
+      "role": "老師",
+      "hanji": "咱會當觀察田園，閣學菜蔬的講法。",
+      "tailo_numeric": "lan2 e7-tang3 kuan1-tshat4 tshan5-hng5, koh4 oh8 tshai3-se1 e5 kong2-huat4.",
+      "zh_tw": "我們可以觀察田園，也學蔬菜的說法。"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "question": "本單元主題是哪一項？",
+      "options": [
+        "有機菜蔬",
+        "身體五官",
+        "交通工具",
+        "天氣變化"
+      ],
+      "answer_index": 0,
+      "explanation": "本單元以有機菜蔬為主題。"
+    },
+    {
+      "id": "q2",
+      "question": "「菜蔬」的華語意思是什麼？",
+      "options": [
+        "蔬菜",
+        "水果",
+        "點心",
+        "飲料"
+      ],
+      "answer_index": 0,
+      "explanation": "「菜蔬」就是蔬菜。"
+    },
+    {
+      "id": "q3",
+      "question": "哪一個詞和農田觀察最相關？",
+      "options": [
+        "田園",
+        "喙",
+        "手",
+        "讀冊"
+      ],
+      "answer_index": 0,
+      "explanation": "田園可作為觀察有機菜蔬種植情境的詞彙。"
+    }
+  ],
+  "official_materials": [
+    {
+      "bank_id": "TSMhiResource-004740-24daeeac49d6",
+      "snippet_id": "24daeeac49d6",
+      "title": "【閩南語教案和學習單】臺南佳里ê有機菜蔬，報你知！",
+      "attachment_label": "教案",
+      "learning_stage": "第五學習階段",
+      "material_type": "教案／學習單",
+      "material_kinds": [
+        "lesson_plan",
+        "worksheet",
+        "vocabulary",
+        "sentence_pattern",
+        "curriculum"
+      ],
+      "topics": [
+        "臺羅拼音",
+        "字音字形",
+        "課綱與評量"
+      ],
+      "curriculum_codes": [
+        "閩-U-A1",
+        "閩-U-A2",
+        "閩-U-B1"
+      ],
+      "tailo_tokens": [
+        "be-v",
+        "bg-v"
+      ],
+      "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-004740/?lang=/003/",
+      "attachment_url": "https://mhi.moe.edu.tw/export/sites/mhi/resource/.galleries/files/0615-4-e.pdf",
+      "local_path": "data\\official_materials\\raw\\mhi\\108-minnan\\TSMhiResource-004740\\01_教案_【閩南語教案和學習單】臺南佳里ê有機菜蔬，報你知！.pdf",
+      "text_path": "data\\official_materials\\processed\\pdf_text\\moe-mhi-108-minnan\\TSMhiResource-004740__教案__【閩南語教案和學習單】臺南佳里ê有機菜蔬，報你知！__1d9f0699.txt",
+      "resource_kind": "material_bank",
+      "snippet": "閩-U-A1 理解閩南語文的思考模式、特色與 地位，進而建立自信心，有效規劃 個人生涯。 閩-U-A2 具備運用閩南語文進行推理批判、 綜合歸納的能力，並反思語言與生 活的關係，以解決相關問題、適應 未來社會。 閩-U-B1 理解閩南語文結構、變化、及意 涵，具備運用閩南語文的思辨及創 作能力，並能於各項社會活動之中 表達及溝通。 學習內容 ◎Aa-V-1 羅馬拼音。 ◎Aa-V-2 漢字書寫。 ◎Ab-V-1 語詞運用。 ◎Ab-V-2 句型運用。 Be-V-1 數位科技。 ◎Bg-V-1 口語表達。 議題 融入 實質內涵 家庭教育",
+      "score": 94
+    },
+    {
+      "bank_id": "TSMhiResource-004740-f639b72d1405",
+      "snippet_id": "f639b72d1405",
+      "title": "【閩南語教案和學習單】臺南佳里ê有機菜蔬，報你知！",
+      "attachment_label": "教案",
+      "learning_stage": "第五學習階段",
+      "material_type": "教案／學習單",
+      "material_kinds": [
+        "lesson_plan",
+        "worksheet",
+        "curriculum",
+        "media_activity"
+      ],
+      "topics": [
+        "食物與市場",
+        "字音字形",
+        "自然與環境",
+        "文化與地方",
+        "遊戲互動",
+        "聽說朗讀",
+        "課綱與評量"
+      ],
+      "curriculum_codes": [],
+      "tailo_tokens": [],
+      "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-004740/?lang=/003/",
+      "attachment_url": "https://mhi.moe.edu.tw/export/sites/mhi/resource/.galleries/files/0615-4-e.pdf",
+      "local_path": "data\\official_materials\\raw\\mhi\\108-minnan\\TSMhiResource-004740\\01_教案_【閩南語教案和學習單】臺南佳里ê有機菜蔬，報你知！.pdf",
+      "text_path": "data\\official_materials\\processed\\pdf_text\\moe-mhi-108-minnan\\TSMhiResource-004740__教案__【閩南語教案和學習單】臺南佳里ê有機菜蔬，報你知！__1d9f0699.txt",
+      "resource_kind": "material_bank",
+      "snippet": "1 108 課綱本土語言數位教材專區 閩南語文-第五學習階段教案示例 領域/科目 語文領域-本土語文（閩南語文） 設計者 鄭凱元 老師 實施年級 高中一年級 總節數 1 節，共 50 分鐘 單元名稱 臺南佳里ê有機菜蔬，報你知！ 設計依據 學習 重點 學習表現 ⚫ 1-V-1 能聆聽並理解閩南語 在使用上的意義。 ⚫ 1-V-2 能聽辨閩南語的表 達，並正確分析話語中的訊 息。 ⚫ 2-V-1 能以流利的閩南語口 語精確表達、溝通互動。 ⚫ 4-V-1 能理解閩南語文的語 法，敘寫具體的看法。 ⚫ 4-V-5 能運用資訊科技進行 閩南語文書寫與傳播。 核心 素養",
+      "score": 90
+    },
+    {
+      "bank_id": "TSMhiResource-004740-745fd0ed6ce8",
+      "snippet_id": "745fd0ed6ce8",
+      "title": "【閩南語教案和學習單】臺南佳里ê有機菜蔬，報你知！",
+      "attachment_label": "教案",
+      "learning_stage": "第五學習階段",
+      "material_type": "教案／學習單",
+      "material_kinds": [
+        "lesson_plan",
+        "worksheet",
+        "media_activity"
+      ],
+      "topics": [
+        "食物與市場",
+        "自然與環境",
+        "文化與地方",
+        "遊戲互動"
+      ],
+      "curriculum_codes": [],
+      "tailo_tokens": [],
+      "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-004740/?lang=/003/",
+      "attachment_url": "https://mhi.moe.edu.tw/export/sites/mhi/resource/.galleries/files/0615-4-e.pdf",
+      "local_path": "data\\official_materials\\raw\\mhi\\108-minnan\\TSMhiResource-004740\\01_教案_【閩南語教案和學習單】臺南佳里ê有機菜蔬，報你知！.pdf",
+      "text_path": "data\\official_materials\\processed\\pdf_text\\moe-mhi-108-minnan\\TSMhiResource-004740__教案__【閩南語教案和學習單】臺南佳里ê有機菜蔬，報你知！__1d9f0699.txt",
+      "resource_kind": "material_bank",
+      "snippet": "所融入之 學習重點 家U7解析個人與家人的互動並能適切地調適。 家U8覺察與實踐少年在家庭中的角色責任。 教材來源 公視台語台〈收成ê彼一工〉EP29台南佳里ê有機菜蔬 教學設備/資源  電腦  電子白板  課程學習單",
+      "score": 90
+    }
+  ],
+  "natural_language_request": {
+    "request": "幫我做國中七年級有機菜蔬的考卷、簡報、互動網站、測驗和影片",
+    "topic": "有機菜蔬",
+    "grade": "國中七年級",
+    "duration_minutes": 45,
+    "outputs": [
+      "exam",
+      "slides",
+      "video",
+      "interactive",
+      "quiz"
+    ]
+  },
+  "generation_options": {
+    "skip_media": false
+  },
+  "official_material_recommendations": {
+    "exam": [
+      {
+        "title": "【閩南語教案和學習單】臺南佳里ê有機菜蔬，報你知！",
+        "attachment_label": "教案",
+        "learning_stage": "第五學習階段",
+        "material_type": "教案／學習單",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-004740/?lang=/003/",
+        "local_path": "data\\official_materials\\raw\\mhi\\108-minnan\\TSMhiResource-004740\\01_教案_【閩南語教案和學習單】臺南佳里ê有機菜蔬，報你知！.pdf",
+        "resource_kind": "learning_resource",
+        "media_types": [],
+        "provider": null,
+        "related_links": [
+          {
+            "label": "PDF",
+            "url": "https://mhi.moe.edu.tw/export/sites/mhi/resource/.galleries/files/0615-4-e.pdf",
+            "domain": "mhi.moe.edu.tw"
+          },
+          {
+            "label": "PDF",
+            "url": "https://mhi.moe.edu.tw/export/sites/mhi/resource/.galleries/files/0615-3-e.pdf",
+            "domain": "mhi.moe.edu.tw"
+          }
+        ],
+        "snippet": "語文領域-本土語文（閩南語文）  設計者  鄭凱元     老師  實施年級  高中一年級  總節數  1 節，共  50  分鐘  單元名稱  臺南佳里ê有機菜蔬，報你知！  設計依據  學習  重點  學習表現  ⚫  1-V-1 能聆聽並理解閩南語 在使用上的意義。  ⚫  1-V-2 能聽辨閩南語的表 達，並正確分析話語中的訊 息。  ⚫  2-V-1 能以流利的閩南語口 語精確表達、溝通互動。  ⚫  4-V-1 能理解閩南語文的語 法，敘寫具體的看法。  ⚫  4-V-5 能運用資訊科技進行 閩南語",
+        "score": 110
+      },
+      {
+        "title": "《收成ê彼一工》EP29－台南佳里ê有機菜蔬",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第三學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-002422/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "video",
+        "media_types": [
+          "電視節目"
+        ],
+        "provider": "公視台語兒少",
+        "related_links": [
+          {
+            "label": "《收成ê彼一工》EP29－台南佳里ê有機菜蔬",
+            "url": "https://youtu.be/jUGs-LLB-DM?list=PLwm5dUv4hQIn_duTAIJ9gTPA9OG4mquTB",
+            "domain": "youtu.be"
+          }
+        ],
+        "snippet": "《收成ê彼一工》EP29－台南佳里ê有機菜蔬；第三學習階段；學習資源；video；電視節目；公視台語兒少；1.本教材對應語文領域：本土語文(閩南語文)學習內容「◎ Ab-Ⅲ-1語詞運用、◎ Bd-Ⅲ-1環境保護 。」 2.此教材內容使兄妹兩人到秧仔種苗場協助阿公、阿媽孕育種苗，並種植有機蔬菜的過程，搭配主持的引導訪問，發現這對兄妹趣味互動的相處過程。 3.影片時間23分50秒，帶領學生發現日常生活中，臺灣閩南語生活用語的活用方式以及簡單的對答技巧。 4.本教材內容可搭配自然領域相關課程，進行跨領域教學。；《收成ê彼一工》EP29－台南佳里ê有機菜蔬 (youtu.be)",
+        "score": 100
+      },
+      {
+        "title": "台語 《收成ê彼一工》完整版EP29｜台南佳里ê有機菜蔬",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第五學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-004653/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "video",
+        "media_types": [
+          "影音數位",
+          "電視節目",
+          "Youtube"
+        ],
+        "provider": "台語兒少",
+        "related_links": [
+          {
+            "label": "YouTube embed",
+            "url": "https://www.youtube.com/embed/jUGs-LLB-DM",
+            "domain": "www.youtube.com"
+          }
+        ],
+        "snippet": "台語 《收成ê彼一工》完整版EP29｜台南佳里ê有機菜蔬；第五學習階段；學習資源；video；影音數位、電視節目、Youtube；台語兒少；1.可配合課程綱要◎Aa-V-1羅馬拼音、◎Aa-V-2漢字書寫、◎Ab-V-1語詞運用、◎Bg-V-1口語表達。 2.本教材來源為〈收成ê彼一工〉臺灣台語外景節目，主題介紹臺南佳里的有機蔬菜。 3.影片內容不僅自然、有趣、輕鬆且富含臺灣台語知識點，值得觀賞。教師可以整理重要的語詞讓學生進行漢字書寫與語詞造句之練習活動。 4.語詞範例：佳里Ka-lí、菜蔬tshià-se、刀仔to-á、湯匙仔菜thng-sî-á-tshài。 5.影片長度23分50秒。；YouTube embed (www.youtube.com)",
+        "score": 90
+      }
+    ],
+    "slides": [
+      {
+        "title": "【閩南語教案和學習單】臺南佳里ê有機菜蔬，報你知！",
+        "attachment_label": "教案",
+        "learning_stage": "第五學習階段",
+        "material_type": "教案／學習單",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-004740/?lang=/003/",
+        "local_path": "data\\official_materials\\raw\\mhi\\108-minnan\\TSMhiResource-004740\\01_教案_【閩南語教案和學習單】臺南佳里ê有機菜蔬，報你知！.pdf",
+        "resource_kind": "learning_resource",
+        "media_types": [],
+        "provider": null,
+        "related_links": [
+          {
+            "label": "PDF",
+            "url": "https://mhi.moe.edu.tw/export/sites/mhi/resource/.galleries/files/0615-4-e.pdf",
+            "domain": "mhi.moe.edu.tw"
+          },
+          {
+            "label": "PDF",
+            "url": "https://mhi.moe.edu.tw/export/sites/mhi/resource/.galleries/files/0615-3-e.pdf",
+            "domain": "mhi.moe.edu.tw"
+          }
+        ],
+        "snippet": "語文領域-本土語文（閩南語文）  設計者  鄭凱元     老師  實施年級  高中一年級  總節數  1 節，共  50  分鐘  單元名稱  臺南佳里ê有機菜蔬，報你知！  設計依據  學習  重點  學習表現  ⚫  1-V-1 能聆聽並理解閩南語 在使用上的意義。  ⚫  1-V-2 能聽辨閩南語的表 達，並正確分析話語中的訊 息。  ⚫  2-V-1 能以流利的閩南語口 語精確表達、溝通互動。  ⚫  4-V-1 能理解閩南語文的語 法，敘寫具體的看法。  ⚫  4-V-5 能運用資訊科技進行 閩南語",
+        "score": 110
+      },
+      {
+        "title": "《收成ê彼一工》EP29－台南佳里ê有機菜蔬",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第三學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-002422/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "video",
+        "media_types": [
+          "電視節目"
+        ],
+        "provider": "公視台語兒少",
+        "related_links": [
+          {
+            "label": "《收成ê彼一工》EP29－台南佳里ê有機菜蔬",
+            "url": "https://youtu.be/jUGs-LLB-DM?list=PLwm5dUv4hQIn_duTAIJ9gTPA9OG4mquTB",
+            "domain": "youtu.be"
+          }
+        ],
+        "snippet": "《收成ê彼一工》EP29－台南佳里ê有機菜蔬；第三學習階段；學習資源；video；電視節目；公視台語兒少；1.本教材對應語文領域：本土語文(閩南語文)學習內容「◎ Ab-Ⅲ-1語詞運用、◎ Bd-Ⅲ-1環境保護 。」 2.此教材內容使兄妹兩人到秧仔種苗場協助阿公、阿媽孕育種苗，並種植有機蔬菜的過程，搭配主持的引導訪問，發現這對兄妹趣味互動的相處過程。 3.影片時間23分50秒，帶領學生發現日常生活中，臺灣閩南語生活用語的活用方式以及簡單的對答技巧。 4.本教材內容可搭配自然領域相關課程，進行跨領域教學。；《收成ê彼一工》EP29－台南佳里ê有機菜蔬 (youtu.be)",
+        "score": 100
+      },
+      {
+        "title": "台語 《收成ê彼一工》完整版EP29｜台南佳里ê有機菜蔬",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第五學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-004653/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "video",
+        "media_types": [
+          "影音數位",
+          "電視節目",
+          "Youtube"
+        ],
+        "provider": "台語兒少",
+        "related_links": [
+          {
+            "label": "YouTube embed",
+            "url": "https://www.youtube.com/embed/jUGs-LLB-DM",
+            "domain": "www.youtube.com"
+          }
+        ],
+        "snippet": "台語 《收成ê彼一工》完整版EP29｜台南佳里ê有機菜蔬；第五學習階段；學習資源；video；影音數位、電視節目、Youtube；台語兒少；1.可配合課程綱要◎Aa-V-1羅馬拼音、◎Aa-V-2漢字書寫、◎Ab-V-1語詞運用、◎Bg-V-1口語表達。 2.本教材來源為〈收成ê彼一工〉臺灣台語外景節目，主題介紹臺南佳里的有機蔬菜。 3.影片內容不僅自然、有趣、輕鬆且富含臺灣台語知識點，值得觀賞。教師可以整理重要的語詞讓學生進行漢字書寫與語詞造句之練習活動。 4.語詞範例：佳里Ka-lí、菜蔬tshià-se、刀仔to-á、湯匙仔菜thng-sî-á-tshài。 5.影片長度23分50秒。；YouTube embed (www.youtube.com)",
+        "score": 90
+      }
+    ],
+    "video": [
+      {
+        "title": "《收成ê彼一工》EP29－台南佳里ê有機菜蔬",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第三學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-002422/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "video",
+        "media_types": [
+          "電視節目"
+        ],
+        "provider": "公視台語兒少",
+        "related_links": [
+          {
+            "label": "《收成ê彼一工》EP29－台南佳里ê有機菜蔬",
+            "url": "https://youtu.be/jUGs-LLB-DM?list=PLwm5dUv4hQIn_duTAIJ9gTPA9OG4mquTB",
+            "domain": "youtu.be"
+          }
+        ],
+        "snippet": "《收成ê彼一工》EP29－台南佳里ê有機菜蔬；第三學習階段；學習資源；video；電視節目；公視台語兒少；1.本教材對應語文領域：本土語文(閩南語文)學習內容「◎ Ab-Ⅲ-1語詞運用、◎ Bd-Ⅲ-1環境保護 。」 2.此教材內容使兄妹兩人到秧仔種苗場協助阿公、阿媽孕育種苗，並種植有機蔬菜的過程，搭配主持的引導訪問，發現這對兄妹趣味互動的相處過程。 3.影片時間23分50秒，帶領學生發現日常生活中，臺灣閩南語生活用語的活用方式以及簡單的對答技巧。 4.本教材內容可搭配自然領域相關課程，進行跨領域教學。；《收成ê彼一工》EP29－台南佳里ê有機菜蔬 (youtu.be)",
+        "score": 100
+      },
+      {
+        "title": "【閩南語教案和學習單】臺南佳里ê有機菜蔬，報你知！",
+        "attachment_label": "教案",
+        "learning_stage": "第五學習階段",
+        "material_type": "教案／學習單",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-004740/?lang=/003/",
+        "local_path": "data\\official_materials\\raw\\mhi\\108-minnan\\TSMhiResource-004740\\01_教案_【閩南語教案和學習單】臺南佳里ê有機菜蔬，報你知！.pdf",
+        "resource_kind": "learning_resource",
+        "media_types": [],
+        "provider": null,
+        "related_links": [
+          {
+            "label": "PDF",
+            "url": "https://mhi.moe.edu.tw/export/sites/mhi/resource/.galleries/files/0615-4-e.pdf",
+            "domain": "mhi.moe.edu.tw"
+          },
+          {
+            "label": "PDF",
+            "url": "https://mhi.moe.edu.tw/export/sites/mhi/resource/.galleries/files/0615-3-e.pdf",
+            "domain": "mhi.moe.edu.tw"
+          }
+        ],
+        "snippet": "語文領域-本土語文（閩南語文）  設計者  鄭凱元     老師  實施年級  高中一年級  總節數  1 節，共  50  分鐘  單元名稱  臺南佳里ê有機菜蔬，報你知！  設計依據  學習  重點  學習表現  ⚫  1-V-1 能聆聽並理解閩南語 在使用上的意義。  ⚫  1-V-2 能聽辨閩南語的表 達，並正確分析話語中的訊 息。  ⚫  2-V-1 能以流利的閩南語口 語精確表達、溝通互動。  ⚫  4-V-1 能理解閩南語文的語 法，敘寫具體的看法。  ⚫  4-V-5 能運用資訊科技進行 閩南語",
+        "score": 110
+      },
+      {
+        "title": "台語 《收成ê彼一工》完整版EP29｜台南佳里ê有機菜蔬",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第五學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-004653/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "video",
+        "media_types": [
+          "影音數位",
+          "電視節目",
+          "Youtube"
+        ],
+        "provider": "台語兒少",
+        "related_links": [
+          {
+            "label": "YouTube embed",
+            "url": "https://www.youtube.com/embed/jUGs-LLB-DM",
+            "domain": "www.youtube.com"
+          }
+        ],
+        "snippet": "台語 《收成ê彼一工》完整版EP29｜台南佳里ê有機菜蔬；第五學習階段；學習資源；video；影音數位、電視節目、Youtube；台語兒少；1.可配合課程綱要◎Aa-V-1羅馬拼音、◎Aa-V-2漢字書寫、◎Ab-V-1語詞運用、◎Bg-V-1口語表達。 2.本教材來源為〈收成ê彼一工〉臺灣台語外景節目，主題介紹臺南佳里的有機蔬菜。 3.影片內容不僅自然、有趣、輕鬆且富含臺灣台語知識點，值得觀賞。教師可以整理重要的語詞讓學生進行漢字書寫與語詞造句之練習活動。 4.語詞範例：佳里Ka-lí、菜蔬tshià-se、刀仔to-á、湯匙仔菜thng-sî-á-tshài。 5.影片長度23分50秒。；YouTube embed (www.youtube.com)",
+        "score": 90
+      }
+    ],
+    "interactive": [
+      {
+        "title": "【閩南語教案和學習單】臺南佳里ê有機菜蔬，報你知！",
+        "attachment_label": "教案",
+        "learning_stage": "第五學習階段",
+        "material_type": "教案／學習單",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-004740/?lang=/003/",
+        "local_path": "data\\official_materials\\raw\\mhi\\108-minnan\\TSMhiResource-004740\\01_教案_【閩南語教案和學習單】臺南佳里ê有機菜蔬，報你知！.pdf",
+        "resource_kind": "learning_resource",
+        "media_types": [],
+        "provider": null,
+        "related_links": [
+          {
+            "label": "PDF",
+            "url": "https://mhi.moe.edu.tw/export/sites/mhi/resource/.galleries/files/0615-4-e.pdf",
+            "domain": "mhi.moe.edu.tw"
+          },
+          {
+            "label": "PDF",
+            "url": "https://mhi.moe.edu.tw/export/sites/mhi/resource/.galleries/files/0615-3-e.pdf",
+            "domain": "mhi.moe.edu.tw"
+          }
+        ],
+        "snippet": "語文領域-本土語文（閩南語文）  設計者  鄭凱元     老師  實施年級  高中一年級  總節數  1 節，共  50  分鐘  單元名稱  臺南佳里ê有機菜蔬，報你知！  設計依據  學習  重點  學習表現  ⚫  1-V-1 能聆聽並理解閩南語 在使用上的意義。  ⚫  1-V-2 能聽辨閩南語的表 達，並正確分析話語中的訊 息。  ⚫  2-V-1 能以流利的閩南語口 語精確表達、溝通互動。  ⚫  4-V-1 能理解閩南語文的語 法，敘寫具體的看法。  ⚫  4-V-5 能運用資訊科技進行 閩南語",
+        "score": 110
+      },
+      {
+        "title": "《收成ê彼一工》EP29－台南佳里ê有機菜蔬",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第三學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-002422/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "video",
+        "media_types": [
+          "電視節目"
+        ],
+        "provider": "公視台語兒少",
+        "related_links": [
+          {
+            "label": "《收成ê彼一工》EP29－台南佳里ê有機菜蔬",
+            "url": "https://youtu.be/jUGs-LLB-DM?list=PLwm5dUv4hQIn_duTAIJ9gTPA9OG4mquTB",
+            "domain": "youtu.be"
+          }
+        ],
+        "snippet": "《收成ê彼一工》EP29－台南佳里ê有機菜蔬；第三學習階段；學習資源；video；電視節目；公視台語兒少；1.本教材對應語文領域：本土語文(閩南語文)學習內容「◎ Ab-Ⅲ-1語詞運用、◎ Bd-Ⅲ-1環境保護 。」 2.此教材內容使兄妹兩人到秧仔種苗場協助阿公、阿媽孕育種苗，並種植有機蔬菜的過程，搭配主持的引導訪問，發現這對兄妹趣味互動的相處過程。 3.影片時間23分50秒，帶領學生發現日常生活中，臺灣閩南語生活用語的活用方式以及簡單的對答技巧。 4.本教材內容可搭配自然領域相關課程，進行跨領域教學。；《收成ê彼一工》EP29－台南佳里ê有機菜蔬 (youtu.be)",
+        "score": 100
+      },
+      {
+        "title": "台語 《收成ê彼一工》完整版EP29｜台南佳里ê有機菜蔬",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第五學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-004653/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "video",
+        "media_types": [
+          "影音數位",
+          "電視節目",
+          "Youtube"
+        ],
+        "provider": "台語兒少",
+        "related_links": [
+          {
+            "label": "YouTube embed",
+            "url": "https://www.youtube.com/embed/jUGs-LLB-DM",
+            "domain": "www.youtube.com"
+          }
+        ],
+        "snippet": "台語 《收成ê彼一工》完整版EP29｜台南佳里ê有機菜蔬；第五學習階段；學習資源；video；影音數位、電視節目、Youtube；台語兒少；1.可配合課程綱要◎Aa-V-1羅馬拼音、◎Aa-V-2漢字書寫、◎Ab-V-1語詞運用、◎Bg-V-1口語表達。 2.本教材來源為〈收成ê彼一工〉臺灣台語外景節目，主題介紹臺南佳里的有機蔬菜。 3.影片內容不僅自然、有趣、輕鬆且富含臺灣台語知識點，值得觀賞。教師可以整理重要的語詞讓學生進行漢字書寫與語詞造句之練習活動。 4.語詞範例：佳里Ka-lí、菜蔬tshià-se、刀仔to-á、湯匙仔菜thng-sî-á-tshài。 5.影片長度23分50秒。；YouTube embed (www.youtube.com)",
+        "score": 90
+      }
+    ],
+    "quiz": [
+      {
+        "title": "【閩南語教案和學習單】臺南佳里ê有機菜蔬，報你知！",
+        "attachment_label": "教案",
+        "learning_stage": "第五學習階段",
+        "material_type": "教案／學習單",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-004740/?lang=/003/",
+        "local_path": "data\\official_materials\\raw\\mhi\\108-minnan\\TSMhiResource-004740\\01_教案_【閩南語教案和學習單】臺南佳里ê有機菜蔬，報你知！.pdf",
+        "resource_kind": "learning_resource",
+        "media_types": [],
+        "provider": null,
+        "related_links": [
+          {
+            "label": "PDF",
+            "url": "https://mhi.moe.edu.tw/export/sites/mhi/resource/.galleries/files/0615-4-e.pdf",
+            "domain": "mhi.moe.edu.tw"
+          },
+          {
+            "label": "PDF",
+            "url": "https://mhi.moe.edu.tw/export/sites/mhi/resource/.galleries/files/0615-3-e.pdf",
+            "domain": "mhi.moe.edu.tw"
+          }
+        ],
+        "snippet": "語文領域-本土語文（閩南語文）  設計者  鄭凱元     老師  實施年級  高中一年級  總節數  1 節，共  50  分鐘  單元名稱  臺南佳里ê有機菜蔬，報你知！  設計依據  學習  重點  學習表現  ⚫  1-V-1 能聆聽並理解閩南語 在使用上的意義。  ⚫  1-V-2 能聽辨閩南語的表 達，並正確分析話語中的訊 息。  ⚫  2-V-1 能以流利的閩南語口 語精確表達、溝通互動。  ⚫  4-V-1 能理解閩南語文的語 法，敘寫具體的看法。  ⚫  4-V-5 能運用資訊科技進行 閩南語",
+        "score": 110
+      },
+      {
+        "title": "《收成ê彼一工》EP29－台南佳里ê有機菜蔬",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第三學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-002422/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "video",
+        "media_types": [
+          "電視節目"
+        ],
+        "provider": "公視台語兒少",
+        "related_links": [
+          {
+            "label": "《收成ê彼一工》EP29－台南佳里ê有機菜蔬",
+            "url": "https://youtu.be/jUGs-LLB-DM?list=PLwm5dUv4hQIn_duTAIJ9gTPA9OG4mquTB",
+            "domain": "youtu.be"
+          }
+        ],
+        "snippet": "《收成ê彼一工》EP29－台南佳里ê有機菜蔬；第三學習階段；學習資源；video；電視節目；公視台語兒少；1.本教材對應語文領域：本土語文(閩南語文)學習內容「◎ Ab-Ⅲ-1語詞運用、◎ Bd-Ⅲ-1環境保護 。」 2.此教材內容使兄妹兩人到秧仔種苗場協助阿公、阿媽孕育種苗，並種植有機蔬菜的過程，搭配主持的引導訪問，發現這對兄妹趣味互動的相處過程。 3.影片時間23分50秒，帶領學生發現日常生活中，臺灣閩南語生活用語的活用方式以及簡單的對答技巧。 4.本教材內容可搭配自然領域相關課程，進行跨領域教學。；《收成ê彼一工》EP29－台南佳里ê有機菜蔬 (youtu.be)",
+        "score": 100
+      },
+      {
+        "title": "台語 《收成ê彼一工》完整版EP29｜台南佳里ê有機菜蔬",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第五學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-004653/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "video",
+        "media_types": [
+          "影音數位",
+          "電視節目",
+          "Youtube"
+        ],
+        "provider": "台語兒少",
+        "related_links": [
+          {
+            "label": "YouTube embed",
+            "url": "https://www.youtube.com/embed/jUGs-LLB-DM",
+            "domain": "www.youtube.com"
+          }
+        ],
+        "snippet": "台語 《收成ê彼一工》完整版EP29｜台南佳里ê有機菜蔬；第五學習階段；學習資源；video；影音數位、電視節目、Youtube；台語兒少；1.可配合課程綱要◎Aa-V-1羅馬拼音、◎Aa-V-2漢字書寫、◎Ab-V-1語詞運用、◎Bg-V-1口語表達。 2.本教材來源為〈收成ê彼一工〉臺灣台語外景節目，主題介紹臺南佳里的有機蔬菜。 3.影片內容不僅自然、有趣、輕鬆且富含臺灣台語知識點，值得觀賞。教師可以整理重要的語詞讓學生進行漢字書寫與語詞造句之練習活動。 4.語詞範例：佳里Ka-lí、菜蔬tshià-se、刀仔to-á、湯匙仔菜thng-sî-á-tshài。 5.影片長度23分50秒。；YouTube embed (www.youtube.com)",
+        "score": 90
+      }
+    ]
+  },
+  "official_generation_assets": {
+    "exam": [
+      {
+        "asset_id": "4bca125a8a06",
+        "asset_type": "multiple_choice",
+        "source_bank_id": "TSMhiResource-004740-15141ad47958",
+        "title": "【閩南語教案和學習單】臺南佳里ê有機菜蔬，報你知！",
+        "learning_stage": "第五學習階段",
+        "topics": [
+          "身體五官",
+          "食物與市場",
+          "自然與環境",
+          "文化與地方",
+          "遊戲互動"
+        ],
+        "material_kinds": [
+          "lesson_plan",
+          "worksheet",
+          "vocabulary",
+          "curriculum",
+          "media_activity"
+        ],
+        "question": "關於節目內底講的有機農業，下底佗一个描述上正確？",
+        "options": [
+          "為著追求產量，大量使用化學肥料來刺激菜蔬生長。",
+          "倚靠現代機械來完全取代人工，達成上有效率的收成。",
+          "強調佮土地的友善連結，透過自然耕作的方式照顧農作物。",
+          "希望提升經濟價值佮國際的競爭力，未來會當出口到國外。"
+        ],
+        "answer_index": null,
+        "teacher_answer_required": true,
+        "source_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-004740/?lang=/003/",
+        "local_path": "data\\official_materials\\raw\\mhi\\108-minnan\\TSMhiResource-004740\\02_學習單_【閩南語教案和學習單】臺南佳里ê有機菜蔬，報你知！.pdf",
+        "output_tags": [
+          "exam",
+          "worksheet",
+          "slides",
+          "video",
+          "interactive",
+          "quiz"
+        ],
+        "resource_kind": "generation_asset",
+        "score": 105
+      },
+      {
+        "asset_id": "4cdec64c6355",
+        "asset_type": "multiple_choice",
+        "source_bank_id": "TSMhiResource-004740-15141ad47958",
+        "title": "【閩南語教案和學習單】臺南佳里ê有機菜蔬，報你知！",
+        "learning_stage": "第五學習階段",
+        "topics": [
+          "身體五官",
+          "食物與市場",
+          "自然與環境",
+          "文化與地方",
+          "遊戲互動"
+        ],
+        "material_kinds": [
+          "lesson_plan",
+          "worksheet",
+          "vocabulary",
+          "curriculum",
+          "media_activity"
+        ],
+        "question": "影片內底，序大人的互動呈現出啥物款的家庭教育意義？",
+        "options": [
+          "序大人認為囡仔干焦讀書就好，毋免參與種作的工課。",
+          "透過種作的工課，增進厝內人的感情佮傳承生活經驗。",
+          "嚴格要求囡仔愛學會曉所有的農業技術，若無愛處罰。",
+          "都市佮庄跤差傷濟，囡仔完全無法度適應農村的生活。"
+        ],
+        "answer_index": null,
+        "teacher_answer_required": true,
+        "source_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-004740/?lang=/003/",
+        "local_path": "data\\official_materials\\raw\\mhi\\108-minnan\\TSMhiResource-004740\\02_學習單_【閩南語教案和學習單】臺南佳里ê有機菜蔬，報你知！.pdf",
+        "output_tags": [
+          "exam",
+          "worksheet",
+          "slides",
+          "video",
+          "interactive",
+          "quiz"
+        ],
+        "resource_kind": "generation_asset",
+        "score": 105
+      },
+      {
+        "asset_id": "9ab0d518ea53",
+        "asset_type": "multiple_choice",
+        "source_bank_id": "TSMhiResource-004740-15141ad47958",
+        "title": "【閩南語教案和學習單】臺南佳里ê有機菜蔬，報你知！",
+        "learning_stage": "第五學習階段",
+        "topics": [
+          "身體五官",
+          "食物與市場",
+          "自然與環境",
+          "文化與地方",
+          "遊戲互動"
+        ],
+        "material_kinds": [
+          "lesson_plan",
+          "worksheet",
+          "vocabulary",
+          "curriculum",
+          "media_activity"
+        ],
+        "question": "下底佗一个標題上適合提來做這齣影片的推廣標題？",
+        "options": [
+          "農業技術說明書：按怎種有機的菜蔬。",
+          "上嚴格的種作：拒絕使用農藥的菜蔬。",
+          "土地的聲音：行入臺南佳里的有機菜園佮家庭親情。",
+          "傳統佮現代：為啥物逐家攏應該放棄都市搬去庄跤蹛。 臺南佳里ê有機菜蔬，報你知！"
+        ],
+        "answer_index": null,
+        "teacher_answer_required": true,
+        "source_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-004740/?lang=/003/",
+        "local_path": "data\\official_materials\\raw\\mhi\\108-minnan\\TSMhiResource-004740\\02_學習單_【閩南語教案和學習單】臺南佳里ê有機菜蔬，報你知！.pdf",
+        "output_tags": [
+          "exam",
+          "worksheet",
+          "slides",
+          "video",
+          "interactive",
+          "quiz"
+        ],
+        "resource_kind": "generation_asset",
+        "score": 105
+      }
+    ],
+    "slides": [
+      {
+        "asset_id": "3c588cfd568b",
+        "asset_type": "slide_seed",
+        "source_bank_id": "TSMhiResource-004740-f639b72d1405",
+        "title": "【閩南語教案和學習單】臺南佳里ê有機菜蔬，報你知！",
+        "heading": "食物與市場：【閩南語教案和學習單】臺南佳里ê有機菜蔬，報你知！",
+        "learning_stage": "第五學習階段",
+        "topics": [
+          "食物與市場",
+          "字音字形",
+          "自然與環境",
+          "文化與地方",
+          "遊戲互動",
+          "聽說朗讀",
+          "課綱與評量"
+        ],
+        "material_kinds": [
+          "lesson_plan",
+          "worksheet",
+          "curriculum",
+          "media_activity"
+        ],
+        "bullets": [
+          "1 108 課綱本土語言數位教材專區 閩南語文-第五學習階段教案示例 領域/科目 語文領域-本土語文（閩南語文） 設計者 鄭凱元 老師 實施年級 高中一年級 總節數 1 節，共 50 分鐘 單元名稱 臺南佳里ê有機菜蔬，報你知！",
+          "設計依據 學習 重點 學習表現 ⚫ 1-V-1 能聆聽並理解閩南語 在使用上的意義。",
+          "⚫ 1-V-2 能聽辨閩南語的表 達，並正確分析話語中的訊 息。",
+          "⚫ 2-V-1 能以流利的閩南語口 語精確表達、溝通互動。",
+          "⚫ 4-V-1 能理解閩南語文的語 法，敘寫具體的看法。"
+        ],
+        "source_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-004740/?lang=/003/",
+        "local_path": "data\\official_materials\\raw\\mhi\\108-minnan\\TSMhiResource-004740\\01_教案_【閩南語教案和學習單】臺南佳里ê有機菜蔬，報你知！.pdf",
+        "output_tags": [
+          "exam",
+          "worksheet",
+          "slides",
+          "video",
+          "interactive",
+          "quiz"
+        ],
+        "resource_kind": "generation_asset",
+        "score": 105
+      },
+      {
+        "asset_id": "5af0f86c0618",
+        "asset_type": "slide_seed",
+        "source_bank_id": "TSMhiResource-004740-24daeeac49d6",
+        "title": "【閩南語教案和學習單】臺南佳里ê有機菜蔬，報你知！",
+        "heading": "臺羅拼音：【閩南語教案和學習單】臺南佳里ê有機菜蔬，報你知！",
+        "learning_stage": "第五學習階段",
+        "topics": [
+          "臺羅拼音",
+          "字音字形",
+          "課綱與評量"
+        ],
+        "material_kinds": [
+          "lesson_plan",
+          "worksheet",
+          "vocabulary",
+          "sentence_pattern",
+          "curriculum"
+        ],
+        "bullets": [
+          "閩-U-A1 理解閩南語文的思考模式、特色與 地位，進而建立自信心，有效規劃 個人生涯。",
+          "閩-U-A2 具備運用閩南語文進行推理批判、 綜合歸納的能力，並反思語言與生 活的關係，以解決相關問題、適應 未來社會。",
+          "閩-U-B1 理解閩南語文結構、變化、及意 涵，具備運用閩南語文的思辨及創 作能力，並能於各項社會活動之中 表達及溝通。",
+          "學習內容 ◎Aa-V-1 羅馬拼音。"
+        ],
+        "source_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-004740/?lang=/003/",
+        "local_path": "data\\official_materials\\raw\\mhi\\108-minnan\\TSMhiResource-004740\\01_教案_【閩南語教案和學習單】臺南佳里ê有機菜蔬，報你知！.pdf",
+        "output_tags": [
+          "exam",
+          "worksheet",
+          "slides",
+          "video",
+          "interactive",
+          "quiz"
+        ],
+        "resource_kind": "generation_asset",
+        "score": 105
+      },
+      {
+        "asset_id": "b3d21961e87a",
+        "asset_type": "slide_seed",
+        "source_bank_id": "TSMhiResource-004740-745fd0ed6ce8",
+        "title": "【閩南語教案和學習單】臺南佳里ê有機菜蔬，報你知！",
+        "heading": "食物與市場：【閩南語教案和學習單】臺南佳里ê有機菜蔬，報你知！",
+        "learning_stage": "第五學習階段",
+        "topics": [
+          "食物與市場",
+          "自然與環境",
+          "文化與地方",
+          "遊戲互動"
+        ],
+        "material_kinds": [
+          "lesson_plan",
+          "worksheet",
+          "media_activity"
+        ],
+        "bullets": [
+          "所融入之 學習重點 家U7解析個人與家人的互動並能適切地調適。",
+          "家U8覺察與實踐少年在家庭中的角色責任。",
+          "教材來源 公視台語台〈收成ê彼一工〉EP29台南佳里ê有機菜蔬 教學設備/資源  電腦  電子白板  課程學習單"
+        ],
+        "source_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-004740/?lang=/003/",
+        "local_path": "data\\official_materials\\raw\\mhi\\108-minnan\\TSMhiResource-004740\\01_教案_【閩南語教案和學習單】臺南佳里ê有機菜蔬，報你知！.pdf",
+        "output_tags": [
+          "exam",
+          "worksheet",
+          "slides",
+          "video",
+          "interactive",
+          "quiz"
+        ],
+        "resource_kind": "generation_asset",
+        "score": 105
+      }
+    ],
+    "video": [
+      {
+        "asset_id": "3c588cfd568b",
+        "asset_type": "slide_seed",
+        "source_bank_id": "TSMhiResource-004740-f639b72d1405",
+        "title": "【閩南語教案和學習單】臺南佳里ê有機菜蔬，報你知！",
+        "heading": "食物與市場：【閩南語教案和學習單】臺南佳里ê有機菜蔬，報你知！",
+        "learning_stage": "第五學習階段",
+        "topics": [
+          "食物與市場",
+          "字音字形",
+          "自然與環境",
+          "文化與地方",
+          "遊戲互動",
+          "聽說朗讀",
+          "課綱與評量"
+        ],
+        "material_kinds": [
+          "lesson_plan",
+          "worksheet",
+          "curriculum",
+          "media_activity"
+        ],
+        "bullets": [
+          "1 108 課綱本土語言數位教材專區 閩南語文-第五學習階段教案示例 領域/科目 語文領域-本土語文（閩南語文） 設計者 鄭凱元 老師 實施年級 高中一年級 總節數 1 節，共 50 分鐘 單元名稱 臺南佳里ê有機菜蔬，報你知！",
+          "設計依據 學習 重點 學習表現 ⚫ 1-V-1 能聆聽並理解閩南語 在使用上的意義。",
+          "⚫ 1-V-2 能聽辨閩南語的表 達，並正確分析話語中的訊 息。",
+          "⚫ 2-V-1 能以流利的閩南語口 語精確表達、溝通互動。",
+          "⚫ 4-V-1 能理解閩南語文的語 法，敘寫具體的看法。"
+        ],
+        "source_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-004740/?lang=/003/",
+        "local_path": "data\\official_materials\\raw\\mhi\\108-minnan\\TSMhiResource-004740\\01_教案_【閩南語教案和學習單】臺南佳里ê有機菜蔬，報你知！.pdf",
+        "output_tags": [
+          "exam",
+          "worksheet",
+          "slides",
+          "video",
+          "interactive",
+          "quiz"
+        ],
+        "resource_kind": "generation_asset",
+        "score": 105
+      },
+      {
+        "asset_id": "5af0f86c0618",
+        "asset_type": "slide_seed",
+        "source_bank_id": "TSMhiResource-004740-24daeeac49d6",
+        "title": "【閩南語教案和學習單】臺南佳里ê有機菜蔬，報你知！",
+        "heading": "臺羅拼音：【閩南語教案和學習單】臺南佳里ê有機菜蔬，報你知！",
+        "learning_stage": "第五學習階段",
+        "topics": [
+          "臺羅拼音",
+          "字音字形",
+          "課綱與評量"
+        ],
+        "material_kinds": [
+          "lesson_plan",
+          "worksheet",
+          "vocabulary",
+          "sentence_pattern",
+          "curriculum"
+        ],
+        "bullets": [
+          "閩-U-A1 理解閩南語文的思考模式、特色與 地位，進而建立自信心，有效規劃 個人生涯。",
+          "閩-U-A2 具備運用閩南語文進行推理批判、 綜合歸納的能力，並反思語言與生 活的關係，以解決相關問題、適應 未來社會。",
+          "閩-U-B1 理解閩南語文結構、變化、及意 涵，具備運用閩南語文的思辨及創 作能力，並能於各項社會活動之中 表達及溝通。",
+          "學習內容 ◎Aa-V-1 羅馬拼音。"
+        ],
+        "source_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-004740/?lang=/003/",
+        "local_path": "data\\official_materials\\raw\\mhi\\108-minnan\\TSMhiResource-004740\\01_教案_【閩南語教案和學習單】臺南佳里ê有機菜蔬，報你知！.pdf",
+        "output_tags": [
+          "exam",
+          "worksheet",
+          "slides",
+          "video",
+          "interactive",
+          "quiz"
+        ],
+        "resource_kind": "generation_asset",
+        "score": 105
+      },
+      {
+        "asset_id": "b3d21961e87a",
+        "asset_type": "slide_seed",
+        "source_bank_id": "TSMhiResource-004740-745fd0ed6ce8",
+        "title": "【閩南語教案和學習單】臺南佳里ê有機菜蔬，報你知！",
+        "heading": "食物與市場：【閩南語教案和學習單】臺南佳里ê有機菜蔬，報你知！",
+        "learning_stage": "第五學習階段",
+        "topics": [
+          "食物與市場",
+          "自然與環境",
+          "文化與地方",
+          "遊戲互動"
+        ],
+        "material_kinds": [
+          "lesson_plan",
+          "worksheet",
+          "media_activity"
+        ],
+        "bullets": [
+          "所融入之 學習重點 家U7解析個人與家人的互動並能適切地調適。",
+          "家U8覺察與實踐少年在家庭中的角色責任。",
+          "教材來源 公視台語台〈收成ê彼一工〉EP29台南佳里ê有機菜蔬 教學設備/資源  電腦  電子白板  課程學習單"
+        ],
+        "source_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-004740/?lang=/003/",
+        "local_path": "data\\official_materials\\raw\\mhi\\108-minnan\\TSMhiResource-004740\\01_教案_【閩南語教案和學習單】臺南佳里ê有機菜蔬，報你知！.pdf",
+        "output_tags": [
+          "exam",
+          "worksheet",
+          "slides",
+          "video",
+          "interactive",
+          "quiz"
+        ],
+        "resource_kind": "generation_asset",
+        "score": 105
+      }
+    ],
+    "interactive": [
+      {
+        "asset_id": "4bca125a8a06",
+        "asset_type": "multiple_choice",
+        "source_bank_id": "TSMhiResource-004740-15141ad47958",
+        "title": "【閩南語教案和學習單】臺南佳里ê有機菜蔬，報你知！",
+        "learning_stage": "第五學習階段",
+        "topics": [
+          "身體五官",
+          "食物與市場",
+          "自然與環境",
+          "文化與地方",
+          "遊戲互動"
+        ],
+        "material_kinds": [
+          "lesson_plan",
+          "worksheet",
+          "vocabulary",
+          "curriculum",
+          "media_activity"
+        ],
+        "question": "關於節目內底講的有機農業，下底佗一个描述上正確？",
+        "options": [
+          "為著追求產量，大量使用化學肥料來刺激菜蔬生長。",
+          "倚靠現代機械來完全取代人工，達成上有效率的收成。",
+          "強調佮土地的友善連結，透過自然耕作的方式照顧農作物。",
+          "希望提升經濟價值佮國際的競爭力，未來會當出口到國外。"
+        ],
+        "answer_index": null,
+        "teacher_answer_required": true,
+        "source_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-004740/?lang=/003/",
+        "local_path": "data\\official_materials\\raw\\mhi\\108-minnan\\TSMhiResource-004740\\02_學習單_【閩南語教案和學習單】臺南佳里ê有機菜蔬，報你知！.pdf",
+        "output_tags": [
+          "exam",
+          "worksheet",
+          "slides",
+          "video",
+          "interactive",
+          "quiz"
+        ],
+        "resource_kind": "generation_asset",
+        "score": 105
+      },
+      {
+        "asset_id": "4cdec64c6355",
+        "asset_type": "multiple_choice",
+        "source_bank_id": "TSMhiResource-004740-15141ad47958",
+        "title": "【閩南語教案和學習單】臺南佳里ê有機菜蔬，報你知！",
+        "learning_stage": "第五學習階段",
+        "topics": [
+          "身體五官",
+          "食物與市場",
+          "自然與環境",
+          "文化與地方",
+          "遊戲互動"
+        ],
+        "material_kinds": [
+          "lesson_plan",
+          "worksheet",
+          "vocabulary",
+          "curriculum",
+          "media_activity"
+        ],
+        "question": "影片內底，序大人的互動呈現出啥物款的家庭教育意義？",
+        "options": [
+          "序大人認為囡仔干焦讀書就好，毋免參與種作的工課。",
+          "透過種作的工課，增進厝內人的感情佮傳承生活經驗。",
+          "嚴格要求囡仔愛學會曉所有的農業技術，若無愛處罰。",
+          "都市佮庄跤差傷濟，囡仔完全無法度適應農村的生活。"
+        ],
+        "answer_index": null,
+        "teacher_answer_required": true,
+        "source_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-004740/?lang=/003/",
+        "local_path": "data\\official_materials\\raw\\mhi\\108-minnan\\TSMhiResource-004740\\02_學習單_【閩南語教案和學習單】臺南佳里ê有機菜蔬，報你知！.pdf",
+        "output_tags": [
+          "exam",
+          "worksheet",
+          "slides",
+          "video",
+          "interactive",
+          "quiz"
+        ],
+        "resource_kind": "generation_asset",
+        "score": 105
+      },
+      {
+        "asset_id": "9ab0d518ea53",
+        "asset_type": "multiple_choice",
+        "source_bank_id": "TSMhiResource-004740-15141ad47958",
+        "title": "【閩南語教案和學習單】臺南佳里ê有機菜蔬，報你知！",
+        "learning_stage": "第五學習階段",
+        "topics": [
+          "身體五官",
+          "食物與市場",
+          "自然與環境",
+          "文化與地方",
+          "遊戲互動"
+        ],
+        "material_kinds": [
+          "lesson_plan",
+          "worksheet",
+          "vocabulary",
+          "curriculum",
+          "media_activity"
+        ],
+        "question": "下底佗一个標題上適合提來做這齣影片的推廣標題？",
+        "options": [
+          "農業技術說明書：按怎種有機的菜蔬。",
+          "上嚴格的種作：拒絕使用農藥的菜蔬。",
+          "土地的聲音：行入臺南佳里的有機菜園佮家庭親情。",
+          "傳統佮現代：為啥物逐家攏應該放棄都市搬去庄跤蹛。 臺南佳里ê有機菜蔬，報你知！"
+        ],
+        "answer_index": null,
+        "teacher_answer_required": true,
+        "source_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-004740/?lang=/003/",
+        "local_path": "data\\official_materials\\raw\\mhi\\108-minnan\\TSMhiResource-004740\\02_學習單_【閩南語教案和學習單】臺南佳里ê有機菜蔬，報你知！.pdf",
+        "output_tags": [
+          "exam",
+          "worksheet",
+          "slides",
+          "video",
+          "interactive",
+          "quiz"
+        ],
+        "resource_kind": "generation_asset",
+        "score": 105
+      }
+    ],
+    "quiz": [
+      {
+        "asset_id": "4bca125a8a06",
+        "asset_type": "multiple_choice",
+        "source_bank_id": "TSMhiResource-004740-15141ad47958",
+        "title": "【閩南語教案和學習單】臺南佳里ê有機菜蔬，報你知！",
+        "learning_stage": "第五學習階段",
+        "topics": [
+          "身體五官",
+          "食物與市場",
+          "自然與環境",
+          "文化與地方",
+          "遊戲互動"
+        ],
+        "material_kinds": [
+          "lesson_plan",
+          "worksheet",
+          "vocabulary",
+          "curriculum",
+          "media_activity"
+        ],
+        "question": "關於節目內底講的有機農業，下底佗一个描述上正確？",
+        "options": [
+          "為著追求產量，大量使用化學肥料來刺激菜蔬生長。",
+          "倚靠現代機械來完全取代人工，達成上有效率的收成。",
+          "強調佮土地的友善連結，透過自然耕作的方式照顧農作物。",
+          "希望提升經濟價值佮國際的競爭力，未來會當出口到國外。"
+        ],
+        "answer_index": null,
+        "teacher_answer_required": true,
+        "source_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-004740/?lang=/003/",
+        "local_path": "data\\official_materials\\raw\\mhi\\108-minnan\\TSMhiResource-004740\\02_學習單_【閩南語教案和學習單】臺南佳里ê有機菜蔬，報你知！.pdf",
+        "output_tags": [
+          "exam",
+          "worksheet",
+          "slides",
+          "video",
+          "interactive",
+          "quiz"
+        ],
+        "resource_kind": "generation_asset",
+        "score": 105
+      },
+      {
+        "asset_id": "4cdec64c6355",
+        "asset_type": "multiple_choice",
+        "source_bank_id": "TSMhiResource-004740-15141ad47958",
+        "title": "【閩南語教案和學習單】臺南佳里ê有機菜蔬，報你知！",
+        "learning_stage": "第五學習階段",
+        "topics": [
+          "身體五官",
+          "食物與市場",
+          "自然與環境",
+          "文化與地方",
+          "遊戲互動"
+        ],
+        "material_kinds": [
+          "lesson_plan",
+          "worksheet",
+          "vocabulary",
+          "curriculum",
+          "media_activity"
+        ],
+        "question": "影片內底，序大人的互動呈現出啥物款的家庭教育意義？",
+        "options": [
+          "序大人認為囡仔干焦讀書就好，毋免參與種作的工課。",
+          "透過種作的工課，增進厝內人的感情佮傳承生活經驗。",
+          "嚴格要求囡仔愛學會曉所有的農業技術，若無愛處罰。",
+          "都市佮庄跤差傷濟，囡仔完全無法度適應農村的生活。"
+        ],
+        "answer_index": null,
+        "teacher_answer_required": true,
+        "source_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-004740/?lang=/003/",
+        "local_path": "data\\official_materials\\raw\\mhi\\108-minnan\\TSMhiResource-004740\\02_學習單_【閩南語教案和學習單】臺南佳里ê有機菜蔬，報你知！.pdf",
+        "output_tags": [
+          "exam",
+          "worksheet",
+          "slides",
+          "video",
+          "interactive",
+          "quiz"
+        ],
+        "resource_kind": "generation_asset",
+        "score": 105
+      },
+      {
+        "asset_id": "9ab0d518ea53",
+        "asset_type": "multiple_choice",
+        "source_bank_id": "TSMhiResource-004740-15141ad47958",
+        "title": "【閩南語教案和學習單】臺南佳里ê有機菜蔬，報你知！",
+        "learning_stage": "第五學習階段",
+        "topics": [
+          "身體五官",
+          "食物與市場",
+          "自然與環境",
+          "文化與地方",
+          "遊戲互動"
+        ],
+        "material_kinds": [
+          "lesson_plan",
+          "worksheet",
+          "vocabulary",
+          "curriculum",
+          "media_activity"
+        ],
+        "question": "下底佗一个標題上適合提來做這齣影片的推廣標題？",
+        "options": [
+          "農業技術說明書：按怎種有機的菜蔬。",
+          "上嚴格的種作：拒絕使用農藥的菜蔬。",
+          "土地的聲音：行入臺南佳里的有機菜園佮家庭親情。",
+          "傳統佮現代：為啥物逐家攏應該放棄都市搬去庄跤蹛。 臺南佳里ê有機菜蔬，報你知！"
+        ],
+        "answer_index": null,
+        "teacher_answer_required": true,
+        "source_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-004740/?lang=/003/",
+        "local_path": "data\\official_materials\\raw\\mhi\\108-minnan\\TSMhiResource-004740\\02_學習單_【閩南語教案和學習單】臺南佳里ê有機菜蔬，報你知！.pdf",
+        "output_tags": [
+          "exam",
+          "worksheet",
+          "slides",
+          "video",
+          "interactive",
+          "quiz"
+        ],
+        "resource_kind": "generation_asset",
+        "score": 105
+      }
+    ]
+  }
+}
