@@ -155,6 +155,41 @@ function getTailoTiles(tailoStr) {
   return clean.toLowerCase().split(/\s+/).filter(w => w.trim().length > 0);
 }
 
+// Parse Hanzi into {type, text} array preserving punctuation
+function parseHanziStructure(hanziStr) {
+  const puncRegex = /[。！？，、：；「」()（）.,!?;:\"”']/;
+  const result = [];
+  for (let char of hanziStr) {
+    if (char.trim() === '') continue; // ignore spaces
+    if (puncRegex.test(char)) {
+      result.push({type: 'punc', text: char});
+    } else {
+      result.push({type: 'word', text: char});
+    }
+  }
+  return result;
+}
+
+// Parse Tailo into {type, text} array preserving punctuation
+function parseTailoStructure(tailoStr) {
+  const puncRegex = /([。！？，、：；「」()（）.,!?;:\"”'])/g;
+  const padded = tailoStr.replace(puncRegex, ' $1 ');
+  const tokens = padded.split(/\s+/).filter(w => w.trim().length > 0);
+  const result = [];
+  for (let token of tokens) {
+    if (token.length === 1 && /[。！？，、：；「」()（）.,!?;:\"”']/.test(token)) {
+      result.push({type: 'punc', text: token});
+    } else {
+      let clean = token.replace(/--/g, ' ').replace(/-/g, ' ').replace(/[0-9]/g, '');
+      const subTokens = clean.toLowerCase().split(/\s+/).filter(w => w.trim().length > 0);
+      for (let sub of subTokens) {
+        result.push({type: 'word', text: sub});
+      }
+    }
+  }
+  return result;
+}
+
 // Scramble helper
 function shuffleArray(array) {
   const arr = [...array];
@@ -537,16 +572,32 @@ function setupQuestionRound() {
   computerProgress = 0;
   computerFinished = false;
   
-  // Render empty slots
+  // Render empty slots and punctuation
   const slotsContainer = document.getElementById('answer-slots');
   slotsContainer.innerHTML = '';
-  targetArray.forEach(() => {
+  
+  const structure = puzzleType === 'hanzi' ? parseHanziStructure(q.hanzi) : parseTailoStructure(q.tailo);
+  
+  structure.forEach((item) => {
     const slot = document.createElement('div');
-    slot.className = 'word-tile empty-slot';
-    slot.style.border = '2px dashed #94a3b8';
-    slot.style.background = 'transparent';
-    slot.style.boxShadow = 'none';
-    slot.style.width = puzzleType === 'tailo' ? '80px' : '54px';
+    if (item.type === 'punc') {
+      slot.className = 'word-tile punc-slot';
+      slot.textContent = item.text;
+      slot.style.border = 'none';
+      slot.style.background = 'transparent';
+      slot.style.boxShadow = 'none';
+      slot.style.color = '#64748b';
+      slot.style.fontWeight = 'bold';
+      slot.style.padding = '0 4px';
+      slot.style.width = 'auto';
+      slot.style.minWidth = '20px';
+    } else {
+      slot.className = 'word-tile empty-slot word-slot';
+      slot.style.border = '2px dashed #94a3b8';
+      slot.style.background = 'transparent';
+      slot.style.boxShadow = 'none';
+      slot.style.width = puzzleType === 'tailo' ? '80px' : '54px';
+    }
     slotsContainer.appendChild(slot);
   });
   
@@ -656,14 +707,16 @@ function selectTile(tile) {
 // Refresh assembly slots UI
 function updateAnswerSlotsDisplay() {
   const slotsContainer = document.getElementById('answer-slots');
-  const slots = slotsContainer.querySelectorAll('.word-tile');
+  const slots = Array.from(slotsContainer.querySelectorAll('.word-slot'));
   
   // Clear all
   slots.forEach(s => {
     s.textContent = '';
     s.classList.remove('active-filled');
+    s.className = 'word-tile empty-slot word-slot';
     s.style.border = '2px dashed #94a3b8';
     s.style.background = 'transparent';
+    s.onclick = null; // Clear old click handlers
   });
   
   // Fill selected
@@ -671,7 +724,7 @@ function updateAnswerSlotsDisplay() {
     if (idx < slots.length) {
       const slot = slots[idx];
       slot.textContent = item.text;
-      slot.className = 'word-tile active-filled';
+      slot.className = 'word-tile active-filled word-slot';
       if (puzzleType === 'tailo') slot.classList.add('tailo-tile');
       slot.style.border = '1px solid var(--tile-border)';
       slot.style.background = 'var(--tile-bg)';
@@ -824,16 +877,33 @@ function setupDoubleRound() {
 function setupSplitPlayer(p, targetArray) {
   const scrambled = shuffleArray(targetArray);
   
-  // Render empty slots
+  // Render empty slots and punctuation
   const slotsContainer = document.getElementById(`${p}-answer-slots`);
   slotsContainer.innerHTML = '';
-  targetArray.forEach(() => {
+  
+  const q = filteredSentences[currentQuestionIdx];
+  const structure = puzzleType === 'hanzi' ? parseHanziStructure(q.hanzi) : parseTailoStructure(q.tailo);
+  
+  structure.forEach((item) => {
     const slot = document.createElement('div');
-    slot.className = 'word-tile empty-slot';
-    slot.style.border = '2px dashed #94a3b8';
-    slot.style.background = 'transparent';
-    slot.style.boxShadow = 'none';
-    slot.style.width = puzzleType === 'tailo' ? '70px' : '48px';
+    if (item.type === 'punc') {
+      slot.className = 'word-tile punc-slot';
+      slot.textContent = item.text;
+      slot.style.border = 'none';
+      slot.style.background = 'transparent';
+      slot.style.boxShadow = 'none';
+      slot.style.color = '#64748b';
+      slot.style.fontWeight = 'bold';
+      slot.style.padding = '0 4px';
+      slot.style.width = 'auto';
+      slot.style.minWidth = '20px';
+    } else {
+      slot.className = 'word-tile empty-slot word-slot';
+      slot.style.border = '2px dashed #94a3b8';
+      slot.style.background = 'transparent';
+      slot.style.boxShadow = 'none';
+      slot.style.width = puzzleType === 'tailo' ? '70px' : '48px';
+    }
     slotsContainer.appendChild(slot);
   });
   
@@ -881,12 +951,13 @@ function selectSplitTile(p, tile) {
 // Refresh split answer slots UI
 function updateSplitSlotsDisplay(p) {
   const slotsContainer = document.getElementById(`${p}-answer-slots`);
-  const slots = slotsContainer.querySelectorAll('.word-tile');
+  const slots = Array.from(slotsContainer.querySelectorAll('.word-slot'));
   const answerArr = p === 'p1' ? p1Answer : p2Answer;
   
   slots.forEach(s => {
     s.textContent = '';
     s.classList.remove('active-filled');
+    s.className = 'word-tile empty-slot word-slot';
     s.style.border = '2px dashed #94a3b8';
     s.style.background = 'transparent';
   });
@@ -895,7 +966,7 @@ function updateSplitSlotsDisplay(p) {
     if (idx < slots.length) {
       const slot = slots[idx];
       slot.textContent = item.text;
-      slot.className = 'word-tile active-filled';
+      slot.className = 'word-tile active-filled word-slot';
       if (puzzleType === 'tailo') slot.classList.add('tailo-tile');
       slot.style.border = '1px solid var(--tile-border)';
       slot.style.background = 'var(--tile-bg)';
