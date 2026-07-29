@@ -1,0 +1,508 @@
+{
+  "title": "情境會話：動物相關句子或語詞",
+  "grade": "國小三年級",
+  "duration_minutes": 45,
+  "vocabulary": [
+    {
+      "id": "vocab_000001",
+      "type": "vocabulary",
+      "hanji": "食飯",
+      "tailo_diacritic": "tsia̍h-pn̄g",
+      "tailo_numeric": "tsiah8-png7",
+      "zh_tw": "吃飯",
+      "grade": [
+        "國小",
+        "國中",
+        "高中"
+      ],
+      "dialect": "臺灣台語",
+      "source": "教育部臺灣台語常用詞辭典",
+      "review_status": "teacher_verified",
+      "tailo_source": "ithuan",
+      "audio_file": "audio/vocab_食飯.wav",
+      "image_file": "images/vocab_食飯.jpg"
+    },
+    {
+      "id": "vocab_000002",
+      "type": "vocabulary",
+      "hanji": "讀冊",
+      "tailo_diacritic": "tha̍k-tsheh",
+      "tailo_numeric": "thak8-tsheh4",
+      "zh_tw": "讀書/上學",
+      "grade": [
+        "國小",
+        "國中"
+      ],
+      "dialect": "臺灣台語",
+      "source": "教育部臺灣台語常用詞辭典",
+      "review_status": "teacher_verified",
+      "tailo_source": "ithuan",
+      "audio_file": "audio/vocab_讀冊.ogg",
+      "image_file": "images/vocab_讀冊.jpg"
+    },
+    {
+      "id": "vocab_000008",
+      "type": "vocabulary",
+      "hanji": "多謝",
+      "tailo_diacritic": "to-siā",
+      "tailo_numeric": "to1-sia7",
+      "zh_tw": "謝謝",
+      "grade": [
+        "國小",
+        "國中",
+        "高中"
+      ],
+      "dialect": "臺灣台語",
+      "source": "教育部臺灣台語常用詞辭典",
+      "review_status": "teacher_verified",
+      "tailo_source": "ithuan",
+      "audio_file": "audio/vocab_多謝.ogg",
+      "image_file": "images/vocab_多謝.jpg"
+    }
+  ],
+  "dialogues": [
+    {
+      "role": "老師",
+      "hanji": "學生，咱準備欲來食飯無？",
+      "tailo_numeric": "hak8-sing1, lan2 tsun2-pi7 beh4 lai5 tsiah8-png7 bo5?",
+      "zh_tw": "學生，我們準備要來吃飯了嗎？",
+      "tailo_diacritic": "ha̍k-sing,lán tsún-pī beh lâi tsia̍h-pn̄g-bô?",
+      "tailo_source": "ithuan",
+      "audio_file": "audio/dialogue_0.wav"
+    },
+    {
+      "role": "學生",
+      "hanji": "有啊，我腹肚真枵，多謝老師！",
+      "tailo_numeric": "u7-a2, gua2 pak4-too2 tsin1 iau1, to1-sia7 lau7-su1!",
+      "zh_tw": "有啊，我肚子很餓，多謝老師！",
+      "tailo_diacritic": "ū Ah,guá pak-tóo tsin iau,to-siā lāu-su!",
+      "tailo_source": "ithuan",
+      "audio_file": "audio/dialogue_1.wav"
+    },
+    {
+      "role": "老師",
+      "hanji": "食飽了後，咱欲來去讀冊囉！",
+      "tailo_numeric": "tsiah8-pa2 liau2-au7, lan2 beh4 lai5-khi3 thak8-tsheh4 lo1!",
+      "zh_tw": "吃飽之後，我們要來去讀書囉！",
+      "tailo_diacritic": "Tsia̍h-pá liáu-āu,lán beh lâi-khì tha̍k-tsheh lō!",
+      "tailo_source": "ithuan",
+      "audio_file": "audio/dialogue_2.wav"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "question": "「食飯」的台羅發音是什麼？",
+      "options": [
+        "tsia̍h-pn̄g (tsiah8-png7)",
+        "tha̍k-tsheh (thak8-tsheh4)",
+        "to-siā (to1-sia7)",
+        "lāu-su (lau7-si1)"
+      ],
+      "answer_index": 0,
+      "explanation": "「食飯」的台語發音為 tsia̍h-pn̄g。"
+    },
+    {
+      "id": "q2",
+      "question": "學生說他很餓，「肚子餓」的台語怎麼寫？",
+      "options": [
+        "腹肚真枵 (pak4-too2 tsin1 iau1)",
+        "食飽 (tsiah8-pa2)",
+        "讀冊 (thak8-tsheh4)",
+        "多謝 (to1-sia7)"
+      ],
+      "answer_index": 0,
+      "explanation": "「肚子餓」台語說「腹肚枵 (pak-tōo iau)」，「真枵」即很餓。"
+    },
+    {
+      "id": "q3",
+      "question": "「讀冊」的華語意思是什麼？",
+      "options": [
+        "吃飯",
+        "讀書/上學",
+        "謝謝",
+        "老師"
+      ],
+      "answer_index": 1,
+      "explanation": "「讀冊」在台語中意為「讀書」或「上學」，是學校生活中常用的詞彙。"
+    }
+  ],
+  "official_materials": [
+    {
+      "title": "嘴巴台語唸「喙」請問「好喙斗」是什麼意思？",
+      "attachment_label": "資源頁（未偵測到 PDF 附件）",
+      "learning_stage": "第三學習階段",
+      "material_type": "學習資源",
+      "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-003024/?lang=/003/",
+      "local_path": null,
+      "resource_kind": "website_tool",
+      "media_types": [
+        "網站"
+      ],
+      "provider": "百變智多星",
+      "related_links": [
+        {
+          "label": "嘴巴台語唸「喙」請問「好喙斗」是什麼意思？",
+          "url": "https://youtube.com/shorts/7IwyzIwOG6s?si=oOLXToCFt6sCZxxP",
+          "domain": "youtube.com"
+        }
+      ],
+      "snippet": "嘴巴台語唸「喙」請問「好喙斗」是什麼意思？；第三學習階段；學習資源；website_tool；網站；百變智多星；1.本教材對應語文領域：本土語文(閩南語文)學習內容：「◎Aa-Ⅲ-2漢字書寫、◎Ab-Ⅲ-1語詞運用」。 2.本教材為時下流行短影音方式呈現，影片時間約43秒，教師使用本教材可搭配與食物相關教學進行。 3.使用本教材於課程活動中，可帶領學生進行小組活動，利用「好喙斗」進行語句擴充，進而形成語意通順的語句。 4.教師亦可帶領學生認識相關反義詞，挑食的台語「揀食」，以增加學生的臺灣臺語詞彙量。；嘴巴台語唸「喙」請問「好喙斗」是什麼意思？ (youtube.com)",
+      "score": 47
+    },
+    {
+      "title": "台味早頓店—「bá-tah」—奶油",
+      "attachment_label": "資源頁（未偵測到 PDF 附件）",
+      "learning_stage": "第三學習階段",
+      "material_type": "學習資源",
+      "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-003642/?lang=/003/",
+      "local_path": null,
+      "resource_kind": "video",
+      "media_types": [
+        "影音數位",
+        "Youtube"
+      ],
+      "provider": "公視台語台",
+      "related_links": [
+        {
+          "label": "YouTube embed",
+          "url": "https://www.youtube.com/embed/vVXCVxbmjrs",
+          "domain": "www.youtube.com"
+        }
+      ],
+      "snippet": "台味早頓店—「bá-tah」—奶油；第三學習階段；學習資源；video；影音數位、Youtube；公視台語台；1.本教材對應語文領域：本土語文(閩南語文)學習內容「◎Aa-Ⅲ-1 羅馬拼音、◎Aa-Ⅲ-2 漢字書寫、◎Ab-Ⅲ-1 語詞運用」。 2.教材影音時間：39秒。 3.教材主題：「奶油」的臺灣台語讀法。 4.建議教學內容：可搭配與食物相關的主題內容進行教學。或是配合臺灣台語融入外來語的相關內容進行教學。 5.建議教學活動：教師可安排小組競賽，請學生思考並討論臺灣台語當中，有多少外來語融入其中，提出越多的得分越多。；YouTube embed (www.youtube.com)",
+      "score": 46
+    },
+    {
+      "title": "【台語文特輯21】第二主題：臺語華語對照(上)",
+      "attachment_label": "資源頁（未偵測到 PDF 附件）",
+      "learning_stage": "第五學習階段",
+      "material_type": "學習資源",
+      "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-002690/?lang=/003/",
+      "local_path": null,
+      "resource_kind": "video",
+      "media_types": [
+        "影音數位"
+      ],
+      "provider": "文化部 雲林故事人協會",
+      "related_links": [
+        {
+          "label": "YouTube embed",
+          "url": "https://www.youtube.com/embed/xZGdi8bkFxQ",
+          "domain": "www.youtube.com"
+        }
+      ],
+      "snippet": "【台語文特輯21】第二主題：臺語華語對照(上)；第五學習階段；學習資源；video；影音數位；文化部 雲林故事人協會；1.可配合課程綱要◎Ab-V-1語詞運用、Bc-V-1公共議題 2.本片為時事探討的華臺語對譯、成語與俗諺間轉譯方式，期讓語言在與時俱進中仍保有道地的說法。 3.片中重要詞彙解說在臺語便利貼及字卡：臺語便利貼中依該集內容以漢字、音標註解；字卡在成語與臺語四字語對應、單字詞對應多種說法。 4.本集探討性騷擾，除依字面直翻，臺語詞包含：起豬哥興、鼻趖等。教師可引導學生進行翻譯或語詞運用。；YouTube embed (www.youtube.com)",
+      "score": 36
+    }
+  ],
+  "natural_language_request": {
+    "request": "動物相關句子或語詞",
+    "topic": "動物相關句子或語詞",
+    "grade": "國小三年級",
+    "duration_minutes": 45,
+    "outputs": [
+      "worksheet",
+      "slides",
+      "interactive",
+      "quiz"
+    ]
+  },
+  "generation_options": {
+    "skip_media": false
+  },
+  "official_material_recommendations": {
+    "worksheet": [
+      {
+        "title": "嘴巴台語唸「喙」請問「好喙斗」是什麼意思？",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第三學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-003024/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "website_tool",
+        "media_types": [
+          "網站"
+        ],
+        "provider": "百變智多星",
+        "related_links": [
+          {
+            "label": "嘴巴台語唸「喙」請問「好喙斗」是什麼意思？",
+            "url": "https://youtube.com/shorts/7IwyzIwOG6s?si=oOLXToCFt6sCZxxP",
+            "domain": "youtube.com"
+          }
+        ],
+        "snippet": "嘴巴台語唸「喙」請問「好喙斗」是什麼意思？；第三學習階段；學習資源；website_tool；網站；百變智多星；1.本教材對應語文領域：本土語文(閩南語文)學習內容：「◎Aa-Ⅲ-2漢字書寫、◎Ab-Ⅲ-1語詞運用」。 2.本教材為時下流行短影音方式呈現，影片時間約43秒，教師使用本教材可搭配與食物相關教學進行。 3.使用本教材於課程活動中，可帶領學生進行小組活動，利用「好喙斗」進行語句擴充，進而形成語意通順的語句。 4.教師亦可帶領學生認識相關反義詞，挑食的台語「揀食」，以增加學生的臺灣臺語詞彙量。；嘴巴台語唸「喙」請問「好喙斗」是什麼意思？ (youtube.com)",
+        "score": 47
+      },
+      {
+        "title": "台味早頓店—「bá-tah」—奶油",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第三學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-003642/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "video",
+        "media_types": [
+          "影音數位",
+          "Youtube"
+        ],
+        "provider": "公視台語台",
+        "related_links": [
+          {
+            "label": "YouTube embed",
+            "url": "https://www.youtube.com/embed/vVXCVxbmjrs",
+            "domain": "www.youtube.com"
+          }
+        ],
+        "snippet": "台味早頓店—「bá-tah」—奶油；第三學習階段；學習資源；video；影音數位、Youtube；公視台語台；1.本教材對應語文領域：本土語文(閩南語文)學習內容「◎Aa-Ⅲ-1 羅馬拼音、◎Aa-Ⅲ-2 漢字書寫、◎Ab-Ⅲ-1 語詞運用」。 2.教材影音時間：39秒。 3.教材主題：「奶油」的臺灣台語讀法。 4.建議教學內容：可搭配與食物相關的主題內容進行教學。或是配合臺灣台語融入外來語的相關內容進行教學。 5.建議教學活動：教師可安排小組競賽，請學生思考並討論臺灣台語當中，有多少外來語融入其中，提出越多的得分越多。；YouTube embed (www.youtube.com)",
+        "score": 46
+      },
+      {
+        "title": "台語的說話藝術【食物篇】 #激骨話.ᐟ.ᐟ",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第四學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-002451/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "text_reference",
+        "media_types": [
+          "線上圖文"
+        ],
+        "provider": "【文化部】台語的說話藝術",
+        "related_links": [
+          {
+            "label": "台語的說話藝術【食物篇】 #激骨話.ᐟ.ᐟ",
+            "url": "https://reurl.cc/RWpMaD",
+            "domain": "reurl.cc"
+          }
+        ],
+        "snippet": "台語的說話藝術【食物篇】 #激骨話.ᐟ.ᐟ；第四學習階段；學習資源；text_reference；線上圖文；【文化部】台語的說話藝術；1.可配合課程綱要學習內容：◎Bg-Ⅳ-1 口語表達、Bb-Ⅳ-1 俗諺典故。 2.本教材以圖文方式呈現，介紹與食物相關的歇後語，例：「塗豆剝殼—愛人（愛仁）」、「十二月肉湯—穩當（穩凍）」、「蝦仔行路—倒彈」等。 3.教師能將歇後語製作成測驗題，讓學生進行小組討論，猜想歇後語背後的意涵為何。也能嘗試讓學生進行進階練習，由小組討論出題、繪製圖文，並邀請全班同學一同腦筋急轉彎，猜想自創歇後語的意涵。；台語的說話藝術【食物篇】 #激骨話.ᐟ.ᐟ (reurl.cc)",
+        "score": 34
+      }
+    ],
+    "slides": [
+      {
+        "title": "台味早頓店—「bá-tah」—奶油",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第三學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-003642/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "video",
+        "media_types": [
+          "影音數位",
+          "Youtube"
+        ],
+        "provider": "公視台語台",
+        "related_links": [
+          {
+            "label": "YouTube embed",
+            "url": "https://www.youtube.com/embed/vVXCVxbmjrs",
+            "domain": "www.youtube.com"
+          }
+        ],
+        "snippet": "台味早頓店—「bá-tah」—奶油；第三學習階段；學習資源；video；影音數位、Youtube；公視台語台；1.本教材對應語文領域：本土語文(閩南語文)學習內容「◎Aa-Ⅲ-1 羅馬拼音、◎Aa-Ⅲ-2 漢字書寫、◎Ab-Ⅲ-1 語詞運用」。 2.教材影音時間：39秒。 3.教材主題：「奶油」的臺灣台語讀法。 4.建議教學內容：可搭配與食物相關的主題內容進行教學。或是配合臺灣台語融入外來語的相關內容進行教學。 5.建議教學活動：教師可安排小組競賽，請學生思考並討論臺灣台語當中，有多少外來語融入其中，提出越多的得分越多。；YouTube embed (www.youtube.com)",
+        "score": 46
+      },
+      {
+        "title": "嘴巴台語唸「喙」請問「好喙斗」是什麼意思？",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第三學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-003024/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "website_tool",
+        "media_types": [
+          "網站"
+        ],
+        "provider": "百變智多星",
+        "related_links": [
+          {
+            "label": "嘴巴台語唸「喙」請問「好喙斗」是什麼意思？",
+            "url": "https://youtube.com/shorts/7IwyzIwOG6s?si=oOLXToCFt6sCZxxP",
+            "domain": "youtube.com"
+          }
+        ],
+        "snippet": "嘴巴台語唸「喙」請問「好喙斗」是什麼意思？；第三學習階段；學習資源；website_tool；網站；百變智多星；1.本教材對應語文領域：本土語文(閩南語文)學習內容：「◎Aa-Ⅲ-2漢字書寫、◎Ab-Ⅲ-1語詞運用」。 2.本教材為時下流行短影音方式呈現，影片時間約43秒，教師使用本教材可搭配與食物相關教學進行。 3.使用本教材於課程活動中，可帶領學生進行小組活動，利用「好喙斗」進行語句擴充，進而形成語意通順的語句。 4.教師亦可帶領學生認識相關反義詞，挑食的台語「揀食」，以增加學生的臺灣臺語詞彙量。；嘴巴台語唸「喙」請問「好喙斗」是什麼意思？ (youtube.com)",
+        "score": 47
+      },
+      {
+        "title": "【台語文特輯21】第二主題：臺語華語對照(上)",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第五學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-002690/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "video",
+        "media_types": [
+          "影音數位"
+        ],
+        "provider": "文化部 雲林故事人協會",
+        "related_links": [
+          {
+            "label": "YouTube embed",
+            "url": "https://www.youtube.com/embed/xZGdi8bkFxQ",
+            "domain": "www.youtube.com"
+          }
+        ],
+        "snippet": "【台語文特輯21】第二主題：臺語華語對照(上)；第五學習階段；學習資源；video；影音數位；文化部 雲林故事人協會；1.可配合課程綱要◎Ab-V-1語詞運用、Bc-V-1公共議題 2.本片為時事探討的華臺語對譯、成語與俗諺間轉譯方式，期讓語言在與時俱進中仍保有道地的說法。 3.片中重要詞彙解說在臺語便利貼及字卡：臺語便利貼中依該集內容以漢字、音標註解；字卡在成語與臺語四字語對應、單字詞對應多種說法。 4.本集探討性騷擾，除依字面直翻，臺語詞包含：起豬哥興、鼻趖等。教師可引導學生進行翻譯或語詞運用。；YouTube embed (www.youtube.com)",
+        "score": 36
+      }
+    ],
+    "interactive": [
+      {
+        "title": "嘴巴台語唸「喙」請問「好喙斗」是什麼意思？",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第三學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-003024/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "website_tool",
+        "media_types": [
+          "網站"
+        ],
+        "provider": "百變智多星",
+        "related_links": [
+          {
+            "label": "嘴巴台語唸「喙」請問「好喙斗」是什麼意思？",
+            "url": "https://youtube.com/shorts/7IwyzIwOG6s?si=oOLXToCFt6sCZxxP",
+            "domain": "youtube.com"
+          }
+        ],
+        "snippet": "嘴巴台語唸「喙」請問「好喙斗」是什麼意思？；第三學習階段；學習資源；website_tool；網站；百變智多星；1.本教材對應語文領域：本土語文(閩南語文)學習內容：「◎Aa-Ⅲ-2漢字書寫、◎Ab-Ⅲ-1語詞運用」。 2.本教材為時下流行短影音方式呈現，影片時間約43秒，教師使用本教材可搭配與食物相關教學進行。 3.使用本教材於課程活動中，可帶領學生進行小組活動，利用「好喙斗」進行語句擴充，進而形成語意通順的語句。 4.教師亦可帶領學生認識相關反義詞，挑食的台語「揀食」，以增加學生的臺灣臺語詞彙量。；嘴巴台語唸「喙」請問「好喙斗」是什麼意思？ (youtube.com)",
+        "score": 47
+      },
+      {
+        "title": "Pikmin（皮克敏）相關語詞",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第四學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-004649/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "interactive",
+        "media_types": [
+          "文章/聲音檔",
+          "教學工具",
+          "網站"
+        ],
+        "provider": "阿東的哩哩叩叩",
+        "related_links": [
+          {
+            "label": "Pikmin（皮克敏）相關語詞",
+            "url": "https://www.facebook.com/share/p/1B72aif7mH/",
+            "domain": "www.facebook.com"
+          }
+        ],
+        "snippet": "Pikmin（皮克敏）相關語詞；第四學習階段；學習資源；interactive；文章/聲音檔、教學工具、網站；阿東的哩哩叩叩；1.可配合課綱內容：◎Ab-Ⅳ-1語詞運用、◎Bb-Ⅳ-2休憩旅遊。 2.本教材選自臉書「阿東的哩哩叩叩」圖文，阿東老師藉由熱門手遊《Pikmin Bloom》的遊戲情境，整理出相關詞彙，例：「花坩hue-khann」、「栽仔tsai-á」、「行跤花kiânn-kha-hue」等。 3.教師可結合學生的遊戲經驗，引發學習動機，或鼓勵學生以臺灣台語分享自身的休閒娛樂。藉由話題討論，將母語落實於生活中。 4.圖卡附臺灣台語漢字、臺羅拼音、英語、例句及華語釋義。；Pikmin（皮克敏）相關語詞 (www.facebook.com)",
+        "score": 26
+      },
+      {
+        "title": "白冰冰化身台語博士 解釋「夯枷」好精闢！蔡佳麟 杜忻恬喝不多失分",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第五學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-003380/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "interactive",
+        "media_types": [
+          "網站"
+        ],
+        "provider": "《公視台語台》",
+        "related_links": [
+          {
+            "label": "白冰冰化身台語博士 解釋「夯枷」好精闢！蔡佳麟 杜忻恬喝不多失分",
+            "url": "https://www.facebook.com/share/p/93hLVj1timDX4N2z/",
+            "domain": "www.facebook.com"
+          }
+        ],
+        "snippet": "白冰冰化身台語博士 解釋「夯枷」好精闢！蔡佳麟 杜忻恬喝不多失分；第五學習階段；學習資源；interactive；網站；《公視台語台》；1.可配合課程綱要◎Aa-V-2漢字書寫、◎Ab-V-1語詞運用、◎Bg-V-1口語表達。 2.本教材來源為公視台語台的全家有智慧，內容為台語遊戲測驗、問題搶答。 3.教材內容包含台語重要語詞，亦融入醫學、科學相關知識，適合高中生觀賞。 4.教師可以利用教材內容之語詞，引導學生進行唸讀、漢字書寫之練習。 5.台語語詞提供：頂司tíng-si、頂懸tíng-kuân、頂真tíng-tsin、頂頭tíng-thâu。 6.影片長度4分53秒。；白冰冰化身台語博士 解釋「夯枷」好精闢！蔡佳麟 杜忻恬喝不多失分 (www.facebook.com)",
+        "score": 25
+      }
+    ],
+    "quiz": [
+      {
+        "title": "嘴巴台語唸「喙」請問「好喙斗」是什麼意思？",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第三學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-003024/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "website_tool",
+        "media_types": [
+          "網站"
+        ],
+        "provider": "百變智多星",
+        "related_links": [
+          {
+            "label": "嘴巴台語唸「喙」請問「好喙斗」是什麼意思？",
+            "url": "https://youtube.com/shorts/7IwyzIwOG6s?si=oOLXToCFt6sCZxxP",
+            "domain": "youtube.com"
+          }
+        ],
+        "snippet": "嘴巴台語唸「喙」請問「好喙斗」是什麼意思？；第三學習階段；學習資源；website_tool；網站；百變智多星；1.本教材對應語文領域：本土語文(閩南語文)學習內容：「◎Aa-Ⅲ-2漢字書寫、◎Ab-Ⅲ-1語詞運用」。 2.本教材為時下流行短影音方式呈現，影片時間約43秒，教師使用本教材可搭配與食物相關教學進行。 3.使用本教材於課程活動中，可帶領學生進行小組活動，利用「好喙斗」進行語句擴充，進而形成語意通順的語句。 4.教師亦可帶領學生認識相關反義詞，挑食的台語「揀食」，以增加學生的臺灣臺語詞彙量。；嘴巴台語唸「喙」請問「好喙斗」是什麼意思？ (youtube.com)",
+        "score": 47
+      },
+      {
+        "title": "Pikmin（皮克敏）相關語詞",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第四學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-004649/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "interactive",
+        "media_types": [
+          "文章/聲音檔",
+          "教學工具",
+          "網站"
+        ],
+        "provider": "阿東的哩哩叩叩",
+        "related_links": [
+          {
+            "label": "Pikmin（皮克敏）相關語詞",
+            "url": "https://www.facebook.com/share/p/1B72aif7mH/",
+            "domain": "www.facebook.com"
+          }
+        ],
+        "snippet": "Pikmin（皮克敏）相關語詞；第四學習階段；學習資源；interactive；文章/聲音檔、教學工具、網站；阿東的哩哩叩叩；1.可配合課綱內容：◎Ab-Ⅳ-1語詞運用、◎Bb-Ⅳ-2休憩旅遊。 2.本教材選自臉書「阿東的哩哩叩叩」圖文，阿東老師藉由熱門手遊《Pikmin Bloom》的遊戲情境，整理出相關詞彙，例：「花坩hue-khann」、「栽仔tsai-á」、「行跤花kiânn-kha-hue」等。 3.教師可結合學生的遊戲經驗，引發學習動機，或鼓勵學生以臺灣台語分享自身的休閒娛樂。藉由話題討論，將母語落實於生活中。 4.圖卡附臺灣台語漢字、臺羅拼音、英語、例句及華語釋義。；Pikmin（皮克敏）相關語詞 (www.facebook.com)",
+        "score": 26
+      },
+      {
+        "title": "白冰冰化身台語博士 解釋「夯枷」好精闢！蔡佳麟 杜忻恬喝不多失分",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第五學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-003380/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "interactive",
+        "media_types": [
+          "網站"
+        ],
+        "provider": "《公視台語台》",
+        "related_links": [
+          {
+            "label": "白冰冰化身台語博士 解釋「夯枷」好精闢！蔡佳麟 杜忻恬喝不多失分",
+            "url": "https://www.facebook.com/share/p/93hLVj1timDX4N2z/",
+            "domain": "www.facebook.com"
+          }
+        ],
+        "snippet": "白冰冰化身台語博士 解釋「夯枷」好精闢！蔡佳麟 杜忻恬喝不多失分；第五學習階段；學習資源；interactive；網站；《公視台語台》；1.可配合課程綱要◎Aa-V-2漢字書寫、◎Ab-V-1語詞運用、◎Bg-V-1口語表達。 2.本教材來源為公視台語台的全家有智慧，內容為台語遊戲測驗、問題搶答。 3.教材內容包含台語重要語詞，亦融入醫學、科學相關知識，適合高中生觀賞。 4.教師可以利用教材內容之語詞，引導學生進行唸讀、漢字書寫之練習。 5.台語語詞提供：頂司tíng-si、頂懸tíng-kuân、頂真tíng-tsin、頂頭tíng-thâu。 6.影片長度4分53秒。；白冰冰化身台語博士 解釋「夯枷」好精闢！蔡佳麟 杜忻恬喝不多失分 (www.facebook.com)",
+        "score": 25
+      }
+    ]
+  },
+  "official_generation_assets": {
+    "worksheet": [],
+    "slides": [],
+    "interactive": [],
+    "quiz": []
+  },
+  "curriculum": {
+    "learning_performance": [],
+    "learning_content": [],
+    "core_competencies": []
+  },
+  "official_generated_questions": [],
+  "official_slide_seeds": [],
+  "official_interactive_assets": []
+}

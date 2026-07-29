@@ -1,0 +1,59 @@
+{
+  "title": "情境會話：動物相關句子或語詞",
+  "grade": "國小三年級",
+  "duration_minutes": 45,
+  "generated_at": "2026-07-29T06:19:18",
+  "question_count": 3,
+  "official_extension_count": 0,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "question": "「食飯」的台羅發音是什麼？",
+      "options": [
+        "tsia̍h-pn̄g (tsiah8-png7)",
+        "tha̍k-tsheh (thak8-tsheh4)",
+        "to-siā (to1-sia7)",
+        "lāu-su (lau7-si1)"
+      ],
+      "answer_index": 0,
+      "answer": "tsia̍h-pn̄g (tsiah8-png7)",
+      "explanation": "「食飯」的台語發音為 tsia̍h-pn̄g。",
+      "graded": true,
+      "source": "generated_lesson"
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "question": "學生說他很餓，「肚子餓」的台語怎麼寫？",
+      "options": [
+        "腹肚真枵 (pak4-too2 tsin1 iau1)",
+        "食飽 (tsiah8-pa2)",
+        "讀冊 (thak8-tsheh4)",
+        "多謝 (to1-sia7)"
+      ],
+      "answer_index": 0,
+      "answer": "腹肚真枵 (pak4-too2 tsin1 iau1)",
+      "explanation": "「肚子餓」台語說「腹肚枵 (pak-tōo iau)」，「真枵」即很餓。",
+      "graded": true,
+      "source": "generated_lesson"
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "question": "「讀冊」的華語意思是什麼？",
+      "options": [
+        "吃飯",
+        "讀書/上學",
+        "謝謝",
+        "老師"
+      ],
+      "answer_index": 1,
+      "answer": "讀書/上學",
+      "explanation": "「讀冊」在台語中意為「讀書」或「上學」，是學校生活中常用的詞彙。",
+      "graded": true,
+      "source": "generated_lesson"
+    }
+  ],
+  "official_extension_questions": []
+}
