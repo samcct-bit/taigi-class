@@ -1,0 +1,59 @@
+{
+  "title": "俗語",
+  "grade": "國小五年級",
+  "duration_minutes": 45,
+  "generated_at": "2026-07-29T06:42:49",
+  "question_count": 3,
+  "official_extension_count": 0,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "question": "『講一个影，生一个囝』的意思是什麼？",
+      "options": [
+        "謠言的威力不可小覷",
+        "謠言的威力可以小覷",
+        "謠言的威力不重要",
+        "謠言的威力很重要"
+      ],
+      "answer_index": 0,
+      "answer": "謠言的威力不可小覷",
+      "explanation": "這個俗語的意思是『謠言的威力不可小覷』，也就是說謠言可以造成很大的影響",
+      "graded": true,
+      "source": "generated_lesson"
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "question": "為什麼要學習俗語？",
+      "options": [
+        "為了了解更多的華語",
+        "為了了解更多的台語",
+        "為了了解更多的英文",
+        "為了了解更多的數學"
+      ],
+      "answer_index": 1,
+      "answer": "為了了解更多的台語",
+      "explanation": "學習俗語可以幫助我們更好地了解台語的文化和語言",
+      "graded": true,
+      "source": "generated_lesson"
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "question": "如何使用俗語在日常生活中？",
+      "options": [
+        "用來描述天氣",
+        "用來描述食物",
+        "用來描述情感和想法",
+        "用來描述動物"
+      ],
+      "answer_index": 2,
+      "answer": "用來描述情感和想法",
+      "explanation": "俗語可以用來描述情感和想法，幫助我們更好地表達自己",
+      "graded": true,
+      "source": "generated_lesson"
+    }
+  ],
+  "official_extension_questions": []
+}

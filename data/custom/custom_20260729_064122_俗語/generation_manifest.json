@@ -1,0 +1,325 @@
+{
+  "request": {
+    "request": "俗語",
+    "topic": "俗語",
+    "grade": "國小五年級",
+    "duration_minutes": 45,
+    "outputs": [
+      "worksheet",
+      "slides",
+      "interactive",
+      "quiz"
+    ]
+  },
+  "generation_options": {
+    "skip_media": false,
+    "include_video": false
+  },
+  "outline_path": "/tmp/tmpyaici9nr/custom_20260729_064122_俗語/outline.json",
+  "output_dir": "/tmp/tmpyaici9nr/custom_20260729_064122_俗語",
+  "official_material_recommendations": {
+    "worksheet": [
+      {
+        "title": "【陪你學台語 #6】「好心予雷唚」是啥物意思？簡單又道地的俗語篇",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第五學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-003285/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "video",
+        "media_types": [
+          "Youtube"
+        ],
+        "provider": "台南妹仔講台語",
+        "related_links": [
+          {
+            "label": "YouTube embed",
+            "url": "https://www.youtube.com/embed/QoLNbYUq7vA",
+            "domain": "www.youtube.com"
+          }
+        ],
+        "snippet": "【陪你學台語 #6】「好心予雷唚」是啥物意思？簡單又道地的俗語篇；第五學習階段；學習資源；video；Youtube；台南妹仔講台語；1.可配合課程綱要◎Ab-V-1語詞運用、◎Bg-V-1口語表達、◎Bf-V-1表藝創作。 2.本教材來源為〈台南妹仔講台語〉的YouTube頻道，以台語教學、時事討論為主。內容與育達文化高中台語課本配合，進行四句臺灣俗語的講解與舉例，內容清楚、有條理。 3.教師可以將教材內容的俗語與例句製作成簡報，於影片播畢時引領學生進行唸讀，有助於學生掌握俗語寓意；亦可引導學生設計俗語的狀況劇演出，進行多元評量的學習。 4.影片長度約4分鐘。；YouTube embed (www.youtube.com)",
+        "score": 130
+      },
+      {
+        "title": "《臺灣俗語 逐工一句》人情世事陪到到，無鼎閣無灶",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第四學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-002739/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "video",
+        "media_types": [
+          "Youtube"
+        ],
+        "provider": "華視台語頻道",
+        "related_links": [
+          {
+            "label": "YouTube embed",
+            "url": "https://www.youtube.com/embed/boq7Xn4j9qQ",
+            "domain": "www.youtube.com"
+          }
+        ],
+        "snippet": "《臺灣俗語 逐工一句》人情世事陪到到，無鼎閣無灶；第四學習階段；學習資源；video；Youtube；華視台語頻道；1.可配合課程綱要學習內容：◎Bb-IV-2 俗諺典故、及真平版國中閩南語教科書第2冊第6課〈閒來講「等路」〉之補充教材。 2.〈台灣俗語 逐工一句〉系列影片，由徐榮寅主播以新聞時事舉例，來介紹俗諺，此舉例方式能強化學生運用俗語的語境感，並認識閩南語俗諺之美。 3.教師亦能透過「人情世事陪到到，無鼎閣無灶」此一俗語，使學生思考量力而為、不過度充面子及排場的觀念。 4.影片時間1分1秒，使用華語字幕，發音清楚。；YouTube embed (www.youtube.com)",
+        "score": 120
+      },
+      {
+        "title": "講一个影，生一个囝｜台灣俗語 逐工一句",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第五學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-003946/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "video",
+        "media_types": [
+          "影音數位",
+          "Youtube"
+        ],
+        "provider": "華視台語頻道",
+        "related_links": [
+          {
+            "label": "YouTube embed",
+            "url": "https://www.youtube.com/embed/rPyw--p1c-A",
+            "domain": "www.youtube.com"
+          }
+        ],
+        "snippet": "講一个影，生一个囝｜台灣俗語 逐工一句；第五學習階段；學習資源；video；影音數位、Youtube；華視台語頻道；1.可配合課程綱要學習內容：◎Aa-V-2漢字書寫、◎Bg-V-1口語表達。 2.本教材的來源是華視台語頻道製作的節目《台灣俗語 逐工一句》，內容介紹台灣俗語「講一个影，生一个囝」，比喻謠言的威力不可小覷。 3.教師可以透過內容讓學生書寫俗語例句、並以閩南語文進行口語發表，亦可透過教材內容延伸與學生探討媒體素養、媒體識讀之議題。 4.影音長度：1分鐘，講解清晰、淺顯易懂且生活化。；YouTube embed (www.youtube.com)",
+        "score": 120
+      }
+    ],
+    "slides": [
+      {
+        "title": "【陪你學台語 #6】「好心予雷唚」是啥物意思？簡單又道地的俗語篇",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第五學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-003285/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "video",
+        "media_types": [
+          "Youtube"
+        ],
+        "provider": "台南妹仔講台語",
+        "related_links": [
+          {
+            "label": "YouTube embed",
+            "url": "https://www.youtube.com/embed/QoLNbYUq7vA",
+            "domain": "www.youtube.com"
+          }
+        ],
+        "snippet": "【陪你學台語 #6】「好心予雷唚」是啥物意思？簡單又道地的俗語篇；第五學習階段；學習資源；video；Youtube；台南妹仔講台語；1.可配合課程綱要◎Ab-V-1語詞運用、◎Bg-V-1口語表達、◎Bf-V-1表藝創作。 2.本教材來源為〈台南妹仔講台語〉的YouTube頻道，以台語教學、時事討論為主。內容與育達文化高中台語課本配合，進行四句臺灣俗語的講解與舉例，內容清楚、有條理。 3.教師可以將教材內容的俗語與例句製作成簡報，於影片播畢時引領學生進行唸讀，有助於學生掌握俗語寓意；亦可引導學生設計俗語的狀況劇演出，進行多元評量的學習。 4.影片長度約4分鐘。；YouTube embed (www.youtube.com)",
+        "score": 130
+      },
+      {
+        "title": "《臺灣俗語 逐工一句》人情世事陪到到，無鼎閣無灶",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第四學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-002739/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "video",
+        "media_types": [
+          "Youtube"
+        ],
+        "provider": "華視台語頻道",
+        "related_links": [
+          {
+            "label": "YouTube embed",
+            "url": "https://www.youtube.com/embed/boq7Xn4j9qQ",
+            "domain": "www.youtube.com"
+          }
+        ],
+        "snippet": "《臺灣俗語 逐工一句》人情世事陪到到，無鼎閣無灶；第四學習階段；學習資源；video；Youtube；華視台語頻道；1.可配合課程綱要學習內容：◎Bb-IV-2 俗諺典故、及真平版國中閩南語教科書第2冊第6課〈閒來講「等路」〉之補充教材。 2.〈台灣俗語 逐工一句〉系列影片，由徐榮寅主播以新聞時事舉例，來介紹俗諺，此舉例方式能強化學生運用俗語的語境感，並認識閩南語俗諺之美。 3.教師亦能透過「人情世事陪到到，無鼎閣無灶」此一俗語，使學生思考量力而為、不過度充面子及排場的觀念。 4.影片時間1分1秒，使用華語字幕，發音清楚。；YouTube embed (www.youtube.com)",
+        "score": 120
+      },
+      {
+        "title": "講一个影，生一个囝｜台灣俗語 逐工一句",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第五學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-003946/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "video",
+        "media_types": [
+          "影音數位",
+          "Youtube"
+        ],
+        "provider": "華視台語頻道",
+        "related_links": [
+          {
+            "label": "YouTube embed",
+            "url": "https://www.youtube.com/embed/rPyw--p1c-A",
+            "domain": "www.youtube.com"
+          }
+        ],
+        "snippet": "講一个影，生一个囝｜台灣俗語 逐工一句；第五學習階段；學習資源；video；影音數位、Youtube；華視台語頻道；1.可配合課程綱要學習內容：◎Aa-V-2漢字書寫、◎Bg-V-1口語表達。 2.本教材的來源是華視台語頻道製作的節目《台灣俗語 逐工一句》，內容介紹台灣俗語「講一个影，生一个囝」，比喻謠言的威力不可小覷。 3.教師可以透過內容讓學生書寫俗語例句、並以閩南語文進行口語發表，亦可透過教材內容延伸與學生探討媒體素養、媒體識讀之議題。 4.影音長度：1分鐘，講解清晰、淺顯易懂且生活化。；YouTube embed (www.youtube.com)",
+        "score": 120
+      }
+    ],
+    "interactive": [
+      {
+        "title": "【陪你學台語 #6】「好心予雷唚」是啥物意思？簡單又道地的俗語篇",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第五學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-003285/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "video",
+        "media_types": [
+          "Youtube"
+        ],
+        "provider": "台南妹仔講台語",
+        "related_links": [
+          {
+            "label": "YouTube embed",
+            "url": "https://www.youtube.com/embed/QoLNbYUq7vA",
+            "domain": "www.youtube.com"
+          }
+        ],
+        "snippet": "【陪你學台語 #6】「好心予雷唚」是啥物意思？簡單又道地的俗語篇；第五學習階段；學習資源；video；Youtube；台南妹仔講台語；1.可配合課程綱要◎Ab-V-1語詞運用、◎Bg-V-1口語表達、◎Bf-V-1表藝創作。 2.本教材來源為〈台南妹仔講台語〉的YouTube頻道，以台語教學、時事討論為主。內容與育達文化高中台語課本配合，進行四句臺灣俗語的講解與舉例，內容清楚、有條理。 3.教師可以將教材內容的俗語與例句製作成簡報，於影片播畢時引領學生進行唸讀，有助於學生掌握俗語寓意；亦可引導學生設計俗語的狀況劇演出，進行多元評量的學習。 4.影片長度約4分鐘。；YouTube embed (www.youtube.com)",
+        "score": 130
+      },
+      {
+        "title": "《臺灣俗語 逐工一句》人情世事陪到到，無鼎閣無灶",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第四學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-002739/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "video",
+        "media_types": [
+          "Youtube"
+        ],
+        "provider": "華視台語頻道",
+        "related_links": [
+          {
+            "label": "YouTube embed",
+            "url": "https://www.youtube.com/embed/boq7Xn4j9qQ",
+            "domain": "www.youtube.com"
+          }
+        ],
+        "snippet": "《臺灣俗語 逐工一句》人情世事陪到到，無鼎閣無灶；第四學習階段；學習資源；video；Youtube；華視台語頻道；1.可配合課程綱要學習內容：◎Bb-IV-2 俗諺典故、及真平版國中閩南語教科書第2冊第6課〈閒來講「等路」〉之補充教材。 2.〈台灣俗語 逐工一句〉系列影片，由徐榮寅主播以新聞時事舉例，來介紹俗諺，此舉例方式能強化學生運用俗語的語境感，並認識閩南語俗諺之美。 3.教師亦能透過「人情世事陪到到，無鼎閣無灶」此一俗語，使學生思考量力而為、不過度充面子及排場的觀念。 4.影片時間1分1秒，使用華語字幕，發音清楚。；YouTube embed (www.youtube.com)",
+        "score": 120
+      },
+      {
+        "title": "講一个影，生一个囝｜台灣俗語 逐工一句",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第五學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-003946/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "video",
+        "media_types": [
+          "影音數位",
+          "Youtube"
+        ],
+        "provider": "華視台語頻道",
+        "related_links": [
+          {
+            "label": "YouTube embed",
+            "url": "https://www.youtube.com/embed/rPyw--p1c-A",
+            "domain": "www.youtube.com"
+          }
+        ],
+        "snippet": "講一个影，生一个囝｜台灣俗語 逐工一句；第五學習階段；學習資源；video；影音數位、Youtube；華視台語頻道；1.可配合課程綱要學習內容：◎Aa-V-2漢字書寫、◎Bg-V-1口語表達。 2.本教材的來源是華視台語頻道製作的節目《台灣俗語 逐工一句》，內容介紹台灣俗語「講一个影，生一个囝」，比喻謠言的威力不可小覷。 3.教師可以透過內容讓學生書寫俗語例句、並以閩南語文進行口語發表，亦可透過教材內容延伸與學生探討媒體素養、媒體識讀之議題。 4.影音長度：1分鐘，講解清晰、淺顯易懂且生活化。；YouTube embed (www.youtube.com)",
+        "score": 120
+      }
+    ],
+    "quiz": [
+      {
+        "title": "【陪你學台語 #6】「好心予雷唚」是啥物意思？簡單又道地的俗語篇",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第五學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-003285/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "video",
+        "media_types": [
+          "Youtube"
+        ],
+        "provider": "台南妹仔講台語",
+        "related_links": [
+          {
+            "label": "YouTube embed",
+            "url": "https://www.youtube.com/embed/QoLNbYUq7vA",
+            "domain": "www.youtube.com"
+          }
+        ],
+        "snippet": "【陪你學台語 #6】「好心予雷唚」是啥物意思？簡單又道地的俗語篇；第五學習階段；學習資源；video；Youtube；台南妹仔講台語；1.可配合課程綱要◎Ab-V-1語詞運用、◎Bg-V-1口語表達、◎Bf-V-1表藝創作。 2.本教材來源為〈台南妹仔講台語〉的YouTube頻道，以台語教學、時事討論為主。內容與育達文化高中台語課本配合，進行四句臺灣俗語的講解與舉例，內容清楚、有條理。 3.教師可以將教材內容的俗語與例句製作成簡報，於影片播畢時引領學生進行唸讀，有助於學生掌握俗語寓意；亦可引導學生設計俗語的狀況劇演出，進行多元評量的學習。 4.影片長度約4分鐘。；YouTube embed (www.youtube.com)",
+        "score": 130
+      },
+      {
+        "title": "《臺灣俗語 逐工一句》人情世事陪到到，無鼎閣無灶",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第四學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-002739/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "video",
+        "media_types": [
+          "Youtube"
+        ],
+        "provider": "華視台語頻道",
+        "related_links": [
+          {
+            "label": "YouTube embed",
+            "url": "https://www.youtube.com/embed/boq7Xn4j9qQ",
+            "domain": "www.youtube.com"
+          }
+        ],
+        "snippet": "《臺灣俗語 逐工一句》人情世事陪到到，無鼎閣無灶；第四學習階段；學習資源；video；Youtube；華視台語頻道；1.可配合課程綱要學習內容：◎Bb-IV-2 俗諺典故、及真平版國中閩南語教科書第2冊第6課〈閒來講「等路」〉之補充教材。 2.〈台灣俗語 逐工一句〉系列影片，由徐榮寅主播以新聞時事舉例，來介紹俗諺，此舉例方式能強化學生運用俗語的語境感，並認識閩南語俗諺之美。 3.教師亦能透過「人情世事陪到到，無鼎閣無灶」此一俗語，使學生思考量力而為、不過度充面子及排場的觀念。 4.影片時間1分1秒，使用華語字幕，發音清楚。；YouTube embed (www.youtube.com)",
+        "score": 120
+      },
+      {
+        "title": "講一个影，生一个囝｜台灣俗語 逐工一句",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第五學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-003946/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "video",
+        "media_types": [
+          "影音數位",
+          "Youtube"
+        ],
+        "provider": "華視台語頻道",
+        "related_links": [
+          {
+            "label": "YouTube embed",
+            "url": "https://www.youtube.com/embed/rPyw--p1c-A",
+            "domain": "www.youtube.com"
+          }
+        ],
+        "snippet": "講一个影，生一个囝｜台灣俗語 逐工一句；第五學習階段；學習資源；video；影音數位、Youtube；華視台語頻道；1.可配合課程綱要學習內容：◎Aa-V-2漢字書寫、◎Bg-V-1口語表達。 2.本教材的來源是華視台語頻道製作的節目《台灣俗語 逐工一句》，內容介紹台灣俗語「講一个影，生一个囝」，比喻謠言的威力不可小覷。 3.教師可以透過內容讓學生書寫俗語例句、並以閩南語文進行口語發表，亦可透過教材內容延伸與學生探討媒體素養、媒體識讀之議題。 4.影音長度：1分鐘，講解清晰、淺顯易懂且生活化。；YouTube embed (www.youtube.com)",
+        "score": 120
+      }
+    ]
+  },
+  "official_generation_assets": {
+    "worksheet": [],
+    "slides": [],
+    "interactive": [],
+    "quiz": []
+  },
+  "video_generation": {
+    "requested_in_text": false,
+    "forced": false,
+    "attempted": false,
+    "success": false,
+    "path": null,
+    "skipped_reason": null
+  },
+  "outputs": {
+    "lesson_structure": "/tmp/tmpyaici9nr/custom_20260729_064122_俗語/lesson_structure.json",
+    "student_worksheet": "/tmp/tmpyaici9nr/custom_20260729_064122_俗語/student_worksheet.docx",
+    "teacher_guide": "/tmp/tmpyaici9nr/custom_20260729_064122_俗語/teacher_guide.docx",
+    "exam_paper": "/tmp/tmpyaici9nr/custom_20260729_064122_俗語/exam_paper.docx",
+    "exam_answer_key": "/tmp/tmpyaici9nr/custom_20260729_064122_俗語/exam_answer_key.docx",
+    "quiz_bank": "/tmp/tmpyaici9nr/custom_20260729_064122_俗語/quiz_bank.json",
+    "quiz_teacher_key": "/tmp/tmpyaici9nr/custom_20260729_064122_俗語/quiz_teacher_key.md",
+    "slides": "/tmp/tmpyaici9nr/custom_20260729_064122_俗語/teaching_slides.pptx",
+    "interactive_website": "/tmp/tmpyaici9nr/custom_20260729_064122_俗語/interactive_website.html",
+    "teacher_review_report": "/tmp/tmpyaici9nr/custom_20260729_064122_俗語/teacher_review_report.md",
+    "video": null
+  }
+}
