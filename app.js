@@ -420,14 +420,14 @@ document.addEventListener('DOMContentLoaded', async () => {
       formData.append('prompt', prompt);
       formData.append('grade', grade);
 
-      // Call local backend FastAPI generator on port 8000
-      const response = await fetch('http://127.0.0.1:8000/api/generate', {
+      // Call cloud backend FastAPI generator on Render
+      const response = await fetch('https://taigi-teaching-agent.onrender.com/api/generate', {
         method: 'POST',
         body: formData
       });
 
       if (!response.ok) {
-        throw new Error('伺服器生成失敗，請確認後端 server.py 與 Ollama 服務是否正常啟動。');
+        throw new Error('伺服器生成失敗，請確認雲端伺服器 (Render) 是否正常啟動。');
       }
 
       const result = await response.json();
@@ -1088,13 +1088,13 @@ async function loadCustomLesson(folderName) {
   let response = await fetch(`${baseUrl}/lesson_structure.json`).catch(() => null);
 
   if (!response || !response.ok) {
-    // 若在雲端網域找不到此最新產生的本地資料夾，自動回退使用本機後端伺服器的資源
-    baseUrl = `http://127.0.0.1:8000/local_custom/${folderName}`;
+    // 若 GitHub Pages 尚未部署完成，自動回退使用 GitHub Raw 伺服器進行零時差讀取
+    baseUrl = `https://raw.githubusercontent.com/samcct-bit/taigi-class/master/data/custom/${folderName}`;
     response = await fetch(`${baseUrl}/lesson_structure.json`).catch(() => null);
   }
 
   if (!response || !response.ok) {
-    throw new Error('找不到指定的自訂教材資料夾或檔案，請確認名稱正確且本機伺服器 (Port 8000) 已開啟！');
+    throw new Error('找不到指定的自訂教材資料夾，請確認名稱正確！');
   }
 
   const data = await response.json();
