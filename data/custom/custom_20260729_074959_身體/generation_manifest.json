@@ -1,0 +1,321 @@
+{
+  "request": {
+    "request": "身體",
+    "topic": "身體",
+    "grade": "國小一年級",
+    "duration_minutes": 45,
+    "outputs": [
+      "worksheet",
+      "slides",
+      "interactive",
+      "quiz"
+    ]
+  },
+  "generation_options": {
+    "skip_media": false,
+    "include_video": false
+  },
+  "outline_path": "/tmp/tmp7qrxovqi/custom_20260729_074959_身體/outline.json",
+  "output_dir": "/tmp/tmp7qrxovqi/custom_20260729_074959_身體",
+  "official_material_recommendations": {
+    "worksheet": [
+      {
+        "title": "wordwall (Game) 身體五官對對碰",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第一學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-001146/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "interactive",
+        "media_types": [
+          "非影音"
+        ],
+        "provider": "wordwall",
+        "related_links": [
+          {
+            "label": "wordwall (Game) 身體五官對對碰(另開新視窗)",
+            "url": "https://wordwall.net/tc/resource/32848047/%e9%96%a9%e5%8d%97%e8%aa%9e%e8%aa%b2%e7%a8%8b/%e8%ba%ab%e9%ab%94%e4%ba%94%e5%ae%98%e9%83%a8%e4%bd%8d%e5%b0%8d%e5%b0%8d%e7%a2%b0",
+            "domain": "wordwall.net"
+          }
+        ],
+        "snippet": "wordwall (Game) 身體五官對對碰；第一學習階段；學習資源；interactive；非影音；wordwall；1.配合課綱學習內容：◎Aa-Ⅰ-1文字認讀、◎Ba-Ⅰ-1身體認識、◎Bg-Ⅰ-1生活應對。 2.配合第一學習階段「認識身體」，融入「人權教育」、「品德教育」等議題。 3.透過wordwall網站，藉由語詞與圖片的配對，認識自己的身體及閩南語的用字跟講法，做為現場教學中身體五官介紹的補充。 4.透過圖片與閩南語語詞字卡，在時間內的配對，遊戲中完成指令，加強實物的認識與語詞的配合。；wordwall (Game) 身體五官對對碰(另開新視窗) (wordwall.net)",
+        "score": 140
+      },
+      {
+        "title": "臺灣台語第02冊-1【查埔查某】",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第一學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-001159/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "text_reference",
+        "media_types": [
+          "繪本"
+        ],
+        "provider": null,
+        "related_links": [
+          {
+            "label": "YouTube embed",
+            "url": "https://www.youtube.com/embed/TSj-yT-XAVg",
+            "domain": "www.youtube.com"
+          }
+        ],
+        "snippet": "臺灣台語第02冊-1【查埔查某】；第一學習階段；學習資源；text_reference；繪本；配合課綱學習內容：◎Ac-Ⅰ-2 生活故事、◎Ba-Ⅰ-1身體認識、◎Bb-Ⅰ-1 家庭生活、◎Bg-Ⅰ-1生活應對。 影片中與家人的對話，學習身體及五官的閩南語說法，藉此融入「品德教育」「性別平等教育」等議題。 透過影片來認識自己的五官及身體，配合教學現場的教學內容「認識自己，」也教導要保護自己的身體，不可讓人侵犯。 影片時間 1分02秒，閩南語字幕符合教育部建議用字、發音清楚。；YouTube embed (www.youtube.com)",
+        "score": 120
+      },
+      {
+        "title": "身軀(第28集)",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第一學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-001164/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "video",
+        "media_types": [
+          "Youtube"
+        ],
+        "provider": null,
+        "related_links": [
+          {
+            "label": "YouTube embed",
+            "url": "https://www.youtube.com/embed/B9IgEUKcBv0",
+            "domain": "www.youtube.com"
+          }
+        ],
+        "snippet": "身軀(第28集)；第一學習階段；學習資源；video；Youtube；配合課綱學習內容：Ab1-1語詞運用。Ba1-1身體認識。Bg1-2口語表達。 透過影片主題「身軀」並融入品德教育、性別平等教育、人權教育等議題。 一年級教材會學習到身體各部位的台語說法。此影音透過影像與風趣的說明，與教材緊密連結，實為補充的極佳數位教材。 影音3分30秒。依身體部位.功能及相關諺語說明身體各部位。其口述與字幕皆以正確台語用字展現。；YouTube embed (www.youtube.com)",
+        "score": 120
+      }
+    ],
+    "slides": [
+      {
+        "title": "wordwall (Game) 身體五官對對碰",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第一學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-001146/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "interactive",
+        "media_types": [
+          "非影音"
+        ],
+        "provider": "wordwall",
+        "related_links": [
+          {
+            "label": "wordwall (Game) 身體五官對對碰(另開新視窗)",
+            "url": "https://wordwall.net/tc/resource/32848047/%e9%96%a9%e5%8d%97%e8%aa%9e%e8%aa%b2%e7%a8%8b/%e8%ba%ab%e9%ab%94%e4%ba%94%e5%ae%98%e9%83%a8%e4%bd%8d%e5%b0%8d%e5%b0%8d%e7%a2%b0",
+            "domain": "wordwall.net"
+          }
+        ],
+        "snippet": "wordwall (Game) 身體五官對對碰；第一學習階段；學習資源；interactive；非影音；wordwall；1.配合課綱學習內容：◎Aa-Ⅰ-1文字認讀、◎Ba-Ⅰ-1身體認識、◎Bg-Ⅰ-1生活應對。 2.配合第一學習階段「認識身體」，融入「人權教育」、「品德教育」等議題。 3.透過wordwall網站，藉由語詞與圖片的配對，認識自己的身體及閩南語的用字跟講法，做為現場教學中身體五官介紹的補充。 4.透過圖片與閩南語語詞字卡，在時間內的配對，遊戲中完成指令，加強實物的認識與語詞的配合。；wordwall (Game) 身體五官對對碰(另開新視窗) (wordwall.net)",
+        "score": 140
+      },
+      {
+        "title": "身軀(第28集)",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第一學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-001164/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "video",
+        "media_types": [
+          "Youtube"
+        ],
+        "provider": null,
+        "related_links": [
+          {
+            "label": "YouTube embed",
+            "url": "https://www.youtube.com/embed/B9IgEUKcBv0",
+            "domain": "www.youtube.com"
+          }
+        ],
+        "snippet": "身軀(第28集)；第一學習階段；學習資源；video；Youtube；配合課綱學習內容：Ab1-1語詞運用。Ba1-1身體認識。Bg1-2口語表達。 透過影片主題「身軀」並融入品德教育、性別平等教育、人權教育等議題。 一年級教材會學習到身體各部位的台語說法。此影音透過影像與風趣的說明，與教材緊密連結，實為補充的極佳數位教材。 影音3分30秒。依身體部位.功能及相關諺語說明身體各部位。其口述與字幕皆以正確台語用字展現。；YouTube embed (www.youtube.com)",
+        "score": 120
+      },
+      {
+        "title": "【台語文看板】畫銅人來教台語講身體外觀 醫師刊文引討論",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第二學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-003432/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "video",
+        "media_types": [
+          "Youtube"
+        ],
+        "provider": "公視台語台",
+        "related_links": [
+          {
+            "label": "YouTube embed",
+            "url": "https://www.youtube.com/embed/DrzyLGaiZZk",
+            "domain": "www.youtube.com"
+          }
+        ],
+        "snippet": "【台語文看板】畫銅人來教台語講身體外觀 醫師刊文引討論；第二學習階段；學習資源；video；Youtube；公視台語台；1. 可配合課程綱要學習內容：◎Ab-Ⅱ-1語詞運用、◎Bg-Ⅱ-1生活對應。 2. 主題：「身體保健」之單元設計，可融入生命教育議題。 3. 影片介紹醫生因為要醫治病人，藉由與病人間的溝通過程，自己學習台語也由生疏到靈活運用的歷程，鼓勵學習者勇敢說就對了。 4. 醫生以眾人熟知的十八銅人圖示介紹身體各部位的台語說法，以及相關復健專有名詞並標註拼音，讓學習者能清楚了解。 5. 影片時間：2分34秒，教師可運用於引起動機。；YouTube embed (www.youtube.com)",
+        "score": 110
+      }
+    ],
+    "interactive": [
+      {
+        "title": "wordwall (Game) 身體五官對對碰",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第一學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-001146/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "interactive",
+        "media_types": [
+          "非影音"
+        ],
+        "provider": "wordwall",
+        "related_links": [
+          {
+            "label": "wordwall (Game) 身體五官對對碰(另開新視窗)",
+            "url": "https://wordwall.net/tc/resource/32848047/%e9%96%a9%e5%8d%97%e8%aa%9e%e8%aa%b2%e7%a8%8b/%e8%ba%ab%e9%ab%94%e4%ba%94%e5%ae%98%e9%83%a8%e4%bd%8d%e5%b0%8d%e5%b0%8d%e7%a2%b0",
+            "domain": "wordwall.net"
+          }
+        ],
+        "snippet": "wordwall (Game) 身體五官對對碰；第一學習階段；學習資源；interactive；非影音；wordwall；1.配合課綱學習內容：◎Aa-Ⅰ-1文字認讀、◎Ba-Ⅰ-1身體認識、◎Bg-Ⅰ-1生活應對。 2.配合第一學習階段「認識身體」，融入「人權教育」、「品德教育」等議題。 3.透過wordwall網站，藉由語詞與圖片的配對，認識自己的身體及閩南語的用字跟講法，做為現場教學中身體五官介紹的補充。 4.透過圖片與閩南語語詞字卡，在時間內的配對，遊戲中完成指令，加強實物的認識與語詞的配合。；wordwall (Game) 身體五官對對碰(另開新視窗) (wordwall.net)",
+        "score": 140
+      },
+      {
+        "title": "身軀(第28集)",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第一學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-001164/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "video",
+        "media_types": [
+          "Youtube"
+        ],
+        "provider": null,
+        "related_links": [
+          {
+            "label": "YouTube embed",
+            "url": "https://www.youtube.com/embed/B9IgEUKcBv0",
+            "domain": "www.youtube.com"
+          }
+        ],
+        "snippet": "身軀(第28集)；第一學習階段；學習資源；video；Youtube；配合課綱學習內容：Ab1-1語詞運用。Ba1-1身體認識。Bg1-2口語表達。 透過影片主題「身軀」並融入品德教育、性別平等教育、人權教育等議題。 一年級教材會學習到身體各部位的台語說法。此影音透過影像與風趣的說明，與教材緊密連結，實為補充的極佳數位教材。 影音3分30秒。依身體部位.功能及相關諺語說明身體各部位。其口述與字幕皆以正確台語用字展現。；YouTube embed (www.youtube.com)",
+        "score": 120
+      },
+      {
+        "title": "臺灣台語第02冊-1【查埔查某】",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第一學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-001159/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "text_reference",
+        "media_types": [
+          "繪本"
+        ],
+        "provider": null,
+        "related_links": [
+          {
+            "label": "YouTube embed",
+            "url": "https://www.youtube.com/embed/TSj-yT-XAVg",
+            "domain": "www.youtube.com"
+          }
+        ],
+        "snippet": "臺灣台語第02冊-1【查埔查某】；第一學習階段；學習資源；text_reference；繪本；配合課綱學習內容：◎Ac-Ⅰ-2 生活故事、◎Ba-Ⅰ-1身體認識、◎Bb-Ⅰ-1 家庭生活、◎Bg-Ⅰ-1生活應對。 影片中與家人的對話，學習身體及五官的閩南語說法，藉此融入「品德教育」「性別平等教育」等議題。 透過影片來認識自己的五官及身體，配合教學現場的教學內容「認識自己，」也教導要保護自己的身體，不可讓人侵犯。 影片時間 1分02秒，閩南語字幕符合教育部建議用字、發音清楚。；YouTube embed (www.youtube.com)",
+        "score": 120
+      }
+    ],
+    "quiz": [
+      {
+        "title": "wordwall (Game) 身體五官對對碰",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第一學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-001146/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "interactive",
+        "media_types": [
+          "非影音"
+        ],
+        "provider": "wordwall",
+        "related_links": [
+          {
+            "label": "wordwall (Game) 身體五官對對碰(另開新視窗)",
+            "url": "https://wordwall.net/tc/resource/32848047/%e9%96%a9%e5%8d%97%e8%aa%9e%e8%aa%b2%e7%a8%8b/%e8%ba%ab%e9%ab%94%e4%ba%94%e5%ae%98%e9%83%a8%e4%bd%8d%e5%b0%8d%e5%b0%8d%e7%a2%b0",
+            "domain": "wordwall.net"
+          }
+        ],
+        "snippet": "wordwall (Game) 身體五官對對碰；第一學習階段；學習資源；interactive；非影音；wordwall；1.配合課綱學習內容：◎Aa-Ⅰ-1文字認讀、◎Ba-Ⅰ-1身體認識、◎Bg-Ⅰ-1生活應對。 2.配合第一學習階段「認識身體」，融入「人權教育」、「品德教育」等議題。 3.透過wordwall網站，藉由語詞與圖片的配對，認識自己的身體及閩南語的用字跟講法，做為現場教學中身體五官介紹的補充。 4.透過圖片與閩南語語詞字卡，在時間內的配對，遊戲中完成指令，加強實物的認識與語詞的配合。；wordwall (Game) 身體五官對對碰(另開新視窗) (wordwall.net)",
+        "score": 140
+      },
+      {
+        "title": "臺灣台語第02冊-1【查埔查某】",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第一學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-001159/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "text_reference",
+        "media_types": [
+          "繪本"
+        ],
+        "provider": null,
+        "related_links": [
+          {
+            "label": "YouTube embed",
+            "url": "https://www.youtube.com/embed/TSj-yT-XAVg",
+            "domain": "www.youtube.com"
+          }
+        ],
+        "snippet": "臺灣台語第02冊-1【查埔查某】；第一學習階段；學習資源；text_reference；繪本；配合課綱學習內容：◎Ac-Ⅰ-2 生活故事、◎Ba-Ⅰ-1身體認識、◎Bb-Ⅰ-1 家庭生活、◎Bg-Ⅰ-1生活應對。 影片中與家人的對話，學習身體及五官的閩南語說法，藉此融入「品德教育」「性別平等教育」等議題。 透過影片來認識自己的五官及身體，配合教學現場的教學內容「認識自己，」也教導要保護自己的身體，不可讓人侵犯。 影片時間 1分02秒，閩南語字幕符合教育部建議用字、發音清楚。；YouTube embed (www.youtube.com)",
+        "score": 120
+      },
+      {
+        "title": "身軀(第28集)",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第一學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-001164/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "video",
+        "media_types": [
+          "Youtube"
+        ],
+        "provider": null,
+        "related_links": [
+          {
+            "label": "YouTube embed",
+            "url": "https://www.youtube.com/embed/B9IgEUKcBv0",
+            "domain": "www.youtube.com"
+          }
+        ],
+        "snippet": "身軀(第28集)；第一學習階段；學習資源；video；Youtube；配合課綱學習內容：Ab1-1語詞運用。Ba1-1身體認識。Bg1-2口語表達。 透過影片主題「身軀」並融入品德教育、性別平等教育、人權教育等議題。 一年級教材會學習到身體各部位的台語說法。此影音透過影像與風趣的說明，與教材緊密連結，實為補充的極佳數位教材。 影音3分30秒。依身體部位.功能及相關諺語說明身體各部位。其口述與字幕皆以正確台語用字展現。；YouTube embed (www.youtube.com)",
+        "score": 120
+      }
+    ]
+  },
+  "official_generation_assets": {
+    "worksheet": [],
+    "slides": [],
+    "interactive": [],
+    "quiz": []
+  },
+  "video_generation": {
+    "requested_in_text": false,
+    "forced": false,
+    "attempted": false,
+    "success": false,
+    "path": null,
+    "skipped_reason": null
+  },
+  "outputs": {
+    "lesson_structure": "/tmp/tmp7qrxovqi/custom_20260729_074959_身體/lesson_structure.json",
+    "student_worksheet": "/tmp/tmp7qrxovqi/custom_20260729_074959_身體/student_worksheet.docx",
+    "teacher_guide": "/tmp/tmp7qrxovqi/custom_20260729_074959_身體/teacher_guide.docx",
+    "exam_paper": "/tmp/tmp7qrxovqi/custom_20260729_074959_身體/exam_paper.docx",
+    "exam_answer_key": "/tmp/tmp7qrxovqi/custom_20260729_074959_身體/exam_answer_key.docx",
+    "quiz_bank": "/tmp/tmp7qrxovqi/custom_20260729_074959_身體/quiz_bank.json",
+    "quiz_teacher_key": "/tmp/tmp7qrxovqi/custom_20260729_074959_身體/quiz_teacher_key.md",
+    "slides": "/tmp/tmp7qrxovqi/custom_20260729_074959_身體/teaching_slides.pptx",
+    "interactive_website": "/tmp/tmp7qrxovqi/custom_20260729_074959_身體/interactive_website.html",
+    "teacher_review_report": "/tmp/tmp7qrxovqi/custom_20260729_074959_身體/teacher_review_report.md",
+    "video": null
+  }
+}

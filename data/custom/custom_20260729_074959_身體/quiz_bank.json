@@ -1,0 +1,59 @@
+{
+  "title": "身體",
+  "grade": "國小一年級",
+  "duration_minutes": 45,
+  "generated_at": "2026-07-29T07:53:14",
+  "question_count": 3,
+  "official_extension_count": 0,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "question": "頭的台語是什麼",
+      "options": [
+        "thâu",
+        "chhiú",
+        "kha",
+        "ba̍k-chiu"
+      ],
+      "answer_index": 0,
+      "answer": "thâu",
+      "explanation": "頭的台語是 thâu",
+      "graded": true,
+      "source": "generated_lesson"
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "question": "手的台語是什麼",
+      "options": [
+        "thâu",
+        "chhiú",
+        "kha",
+        "ba̍k-chiu"
+      ],
+      "answer_index": 1,
+      "answer": "chhiú",
+      "explanation": "手的台語是 chhiú",
+      "graded": true,
+      "source": "generated_lesson"
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "question": "眼睛的台語是什麼",
+      "options": [
+        "thâu",
+        "chhiú",
+        "kha",
+        "ba̍k-chiu"
+      ],
+      "answer_index": 3,
+      "answer": "ba̍k-chiu",
+      "explanation": "眼睛的台語是 ba̍k-chiu",
+      "graded": true,
+      "source": "generated_lesson"
+    }
+  ],
+  "official_extension_questions": []
+}
