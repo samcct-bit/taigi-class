@@ -1,0 +1,329 @@
+{
+  "request": {
+    "request": "動物與昆蟲",
+    "topic": "動物 昆蟲",
+    "grade": "國中八年級",
+    "duration_minutes": 45,
+    "outputs": [
+      "worksheet",
+      "slides",
+      "interactive",
+      "quiz"
+    ]
+  },
+  "generation_options": {
+    "skip_media": false,
+    "include_video": false
+  },
+  "outline_path": "/tmp/tmpjds5v3xd/custom_20260729_074043_動物昆蟲/outline.json",
+  "output_dir": "/tmp/tmpjds5v3xd/custom_20260729_074043_動物昆蟲",
+  "official_material_recommendations": {
+    "worksheet": [
+      {
+        "title": "【Lisa的臺語教室 51】17種蟲豸ê臺語",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第四學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-002736/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "video",
+        "media_types": [
+          "Youtube"
+        ],
+        "provider": "【Lisa的臺語教室 51】",
+        "related_links": [
+          {
+            "label": "YouTube embed",
+            "url": "https://www.youtube.com/embed/-R_nzIHJgxc",
+            "domain": "www.youtube.com"
+          }
+        ],
+        "snippet": "【Lisa的臺語教室 51】17種蟲豸ê臺語；第四學習階段；學習資源；video；Youtube；【Lisa的臺語教室 51】；1.可配合課程綱要學習內容：◎Bd-IV-2 生態保育，及真平版國中閩南語教科書第1冊第4課〈蟧蜈佮蜘蛛〉。 2.本教材以情境劇方式展演，從戶外到室內，將故事結合各種昆蟲登場，再逐一介紹昆蟲的閩南語說法，協助學生將所學運用於生活中。 3.教師可帶領學生以各式活動，例：賓果、角色扮演、故事編寫等，進行昆蟲相關的主題式任務教學。 4.影片時間4分13秒，使用閩南語、華語雙字幕、動物詞彙附有羅馬字，內容活潑、有趣。；YouTube embed (www.youtube.com)",
+        "score": 24
+      },
+      {
+        "title": "聲音足趣味－《穎仔穎仔育》EP8",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第二學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-003010/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "video",
+        "media_types": [
+          "Youtube"
+        ],
+        "provider": "公視台語台",
+        "related_links": [
+          {
+            "label": "YouTube embed",
+            "url": "https://www.youtube.com/embed/bXKZE9GoCEQ",
+            "domain": "www.youtube.com"
+          }
+        ],
+        "snippet": "聲音足趣味－《穎仔穎仔育》EP8；第二學習階段；學習資源；video；Youtube；公視台語台；1.可配合課程綱要學習內容：◎Ab-Ⅱ-1語詞運用、◎Ac-Ⅱ-1生活故事。 2.主題：「聲音」之單元設計，可融入戶外教育議題。 3.本影片以各類聲音變化為主軸，介紹動物、昆蟲、交通工具的聲音，並進行聲音模仿練習。 4.影片中這是啥物聲，透過聽聲音猜交通工具，如：警車、腳踏車鈴聲，讓學生聽完故事後再進行形成性評量。 5.影片時間：12分45秒，教學者與學習者可依需求進行彈性運用。；YouTube embed (www.youtube.com)",
+        "score": 22
+      },
+      {
+        "title": "1-01 臺語版《心靈環保兒童生活教育動畫1》01 北極熊的請求",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第一學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-004184/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "video",
+        "media_types": [
+          "動畫",
+          "影音數位",
+          "Youtube"
+        ],
+        "provider": "法鼓山DDM官方頻道",
+        "related_links": [
+          {
+            "label": "YouTube embed",
+            "url": "https://www.youtube.com/embed/Q8UgG7iElN8",
+            "domain": "www.youtube.com"
+          }
+        ],
+        "snippet": "1-01 臺語版《心靈環保兒童生活教育動畫1》01 北極熊的請求；第一學習階段；學習資源；video；動畫、影音數位、Youtube；法鼓山DDM官方頻道；1.配合課程綱要學習內容：◎Ab-Ⅰ-1語詞運用。◎Bg-Ⅰ-2口語表達。 2.主題：「北極熊的請求」。不管是人類、動物、植物或昆蟲，都是大自然的一份子，節能減碳、珍惜地球資源，尊重每一個生命在地球生存的權利。可融入「環境教育」、「能源教育」。 3.影片的字幕雖是華語呈現，但是配音是標準的，可用於第一學習階段練習聆聽的能力。 4.影音時間6分02秒。提醒小朋友節約能源，從自己做起。；YouTube embed (www.youtube.com)",
+        "score": 22
+      }
+    ],
+    "slides": [
+      {
+        "title": "【Lisa的臺語教室 51】17種蟲豸ê臺語",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第四學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-002736/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "video",
+        "media_types": [
+          "Youtube"
+        ],
+        "provider": "【Lisa的臺語教室 51】",
+        "related_links": [
+          {
+            "label": "YouTube embed",
+            "url": "https://www.youtube.com/embed/-R_nzIHJgxc",
+            "domain": "www.youtube.com"
+          }
+        ],
+        "snippet": "【Lisa的臺語教室 51】17種蟲豸ê臺語；第四學習階段；學習資源；video；Youtube；【Lisa的臺語教室 51】；1.可配合課程綱要學習內容：◎Bd-IV-2 生態保育，及真平版國中閩南語教科書第1冊第4課〈蟧蜈佮蜘蛛〉。 2.本教材以情境劇方式展演，從戶外到室內，將故事結合各種昆蟲登場，再逐一介紹昆蟲的閩南語說法，協助學生將所學運用於生活中。 3.教師可帶領學生以各式活動，例：賓果、角色扮演、故事編寫等，進行昆蟲相關的主題式任務教學。 4.影片時間4分13秒，使用閩南語、華語雙字幕、動物詞彙附有羅馬字，內容活潑、有趣。；YouTube embed (www.youtube.com)",
+        "score": 24
+      },
+      {
+        "title": "聲音足趣味－《穎仔穎仔育》EP8",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第二學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-003010/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "video",
+        "media_types": [
+          "Youtube"
+        ],
+        "provider": "公視台語台",
+        "related_links": [
+          {
+            "label": "YouTube embed",
+            "url": "https://www.youtube.com/embed/bXKZE9GoCEQ",
+            "domain": "www.youtube.com"
+          }
+        ],
+        "snippet": "聲音足趣味－《穎仔穎仔育》EP8；第二學習階段；學習資源；video；Youtube；公視台語台；1.可配合課程綱要學習內容：◎Ab-Ⅱ-1語詞運用、◎Ac-Ⅱ-1生活故事。 2.主題：「聲音」之單元設計，可融入戶外教育議題。 3.本影片以各類聲音變化為主軸，介紹動物、昆蟲、交通工具的聲音，並進行聲音模仿練習。 4.影片中這是啥物聲，透過聽聲音猜交通工具，如：警車、腳踏車鈴聲，讓學生聽完故事後再進行形成性評量。 5.影片時間：12分45秒，教學者與學習者可依需求進行彈性運用。；YouTube embed (www.youtube.com)",
+        "score": 22
+      },
+      {
+        "title": "1-01 臺語版《心靈環保兒童生活教育動畫1》01 北極熊的請求",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第一學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-004184/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "video",
+        "media_types": [
+          "動畫",
+          "影音數位",
+          "Youtube"
+        ],
+        "provider": "法鼓山DDM官方頻道",
+        "related_links": [
+          {
+            "label": "YouTube embed",
+            "url": "https://www.youtube.com/embed/Q8UgG7iElN8",
+            "domain": "www.youtube.com"
+          }
+        ],
+        "snippet": "1-01 臺語版《心靈環保兒童生活教育動畫1》01 北極熊的請求；第一學習階段；學習資源；video；動畫、影音數位、Youtube；法鼓山DDM官方頻道；1.配合課程綱要學習內容：◎Ab-Ⅰ-1語詞運用。◎Bg-Ⅰ-2口語表達。 2.主題：「北極熊的請求」。不管是人類、動物、植物或昆蟲，都是大自然的一份子，節能減碳、珍惜地球資源，尊重每一個生命在地球生存的權利。可融入「環境教育」、「能源教育」。 3.影片的字幕雖是華語呈現，但是配音是標準的，可用於第一學習階段練習聆聽的能力。 4.影音時間6分02秒。提醒小朋友節約能源，從自己做起。；YouTube embed (www.youtube.com)",
+        "score": 22
+      }
+    ],
+    "interactive": [
+      {
+        "title": "【Lisa的臺語教室 51】17種蟲豸ê臺語",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第四學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-002736/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "video",
+        "media_types": [
+          "Youtube"
+        ],
+        "provider": "【Lisa的臺語教室 51】",
+        "related_links": [
+          {
+            "label": "YouTube embed",
+            "url": "https://www.youtube.com/embed/-R_nzIHJgxc",
+            "domain": "www.youtube.com"
+          }
+        ],
+        "snippet": "【Lisa的臺語教室 51】17種蟲豸ê臺語；第四學習階段；學習資源；video；Youtube；【Lisa的臺語教室 51】；1.可配合課程綱要學習內容：◎Bd-IV-2 生態保育，及真平版國中閩南語教科書第1冊第4課〈蟧蜈佮蜘蛛〉。 2.本教材以情境劇方式展演，從戶外到室內，將故事結合各種昆蟲登場，再逐一介紹昆蟲的閩南語說法，協助學生將所學運用於生活中。 3.教師可帶領學生以各式活動，例：賓果、角色扮演、故事編寫等，進行昆蟲相關的主題式任務教學。 4.影片時間4分13秒，使用閩南語、華語雙字幕、動物詞彙附有羅馬字，內容活潑、有趣。；YouTube embed (www.youtube.com)",
+        "score": 24
+      },
+      {
+        "title": "聲音足趣味－《穎仔穎仔育》EP8",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第二學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-003010/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "video",
+        "media_types": [
+          "Youtube"
+        ],
+        "provider": "公視台語台",
+        "related_links": [
+          {
+            "label": "YouTube embed",
+            "url": "https://www.youtube.com/embed/bXKZE9GoCEQ",
+            "domain": "www.youtube.com"
+          }
+        ],
+        "snippet": "聲音足趣味－《穎仔穎仔育》EP8；第二學習階段；學習資源；video；Youtube；公視台語台；1.可配合課程綱要學習內容：◎Ab-Ⅱ-1語詞運用、◎Ac-Ⅱ-1生活故事。 2.主題：「聲音」之單元設計，可融入戶外教育議題。 3.本影片以各類聲音變化為主軸，介紹動物、昆蟲、交通工具的聲音，並進行聲音模仿練習。 4.影片中這是啥物聲，透過聽聲音猜交通工具，如：警車、腳踏車鈴聲，讓學生聽完故事後再進行形成性評量。 5.影片時間：12分45秒，教學者與學習者可依需求進行彈性運用。；YouTube embed (www.youtube.com)",
+        "score": 22
+      },
+      {
+        "title": "1-01 臺語版《心靈環保兒童生活教育動畫1》01 北極熊的請求",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第一學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-004184/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "video",
+        "media_types": [
+          "動畫",
+          "影音數位",
+          "Youtube"
+        ],
+        "provider": "法鼓山DDM官方頻道",
+        "related_links": [
+          {
+            "label": "YouTube embed",
+            "url": "https://www.youtube.com/embed/Q8UgG7iElN8",
+            "domain": "www.youtube.com"
+          }
+        ],
+        "snippet": "1-01 臺語版《心靈環保兒童生活教育動畫1》01 北極熊的請求；第一學習階段；學習資源；video；動畫、影音數位、Youtube；法鼓山DDM官方頻道；1.配合課程綱要學習內容：◎Ab-Ⅰ-1語詞運用。◎Bg-Ⅰ-2口語表達。 2.主題：「北極熊的請求」。不管是人類、動物、植物或昆蟲，都是大自然的一份子，節能減碳、珍惜地球資源，尊重每一個生命在地球生存的權利。可融入「環境教育」、「能源教育」。 3.影片的字幕雖是華語呈現，但是配音是標準的，可用於第一學習階段練習聆聽的能力。 4.影音時間6分02秒。提醒小朋友節約能源，從自己做起。；YouTube embed (www.youtube.com)",
+        "score": 22
+      }
+    ],
+    "quiz": [
+      {
+        "title": "【Lisa的臺語教室 51】17種蟲豸ê臺語",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第四學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-002736/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "video",
+        "media_types": [
+          "Youtube"
+        ],
+        "provider": "【Lisa的臺語教室 51】",
+        "related_links": [
+          {
+            "label": "YouTube embed",
+            "url": "https://www.youtube.com/embed/-R_nzIHJgxc",
+            "domain": "www.youtube.com"
+          }
+        ],
+        "snippet": "【Lisa的臺語教室 51】17種蟲豸ê臺語；第四學習階段；學習資源；video；Youtube；【Lisa的臺語教室 51】；1.可配合課程綱要學習內容：◎Bd-IV-2 生態保育，及真平版國中閩南語教科書第1冊第4課〈蟧蜈佮蜘蛛〉。 2.本教材以情境劇方式展演，從戶外到室內，將故事結合各種昆蟲登場，再逐一介紹昆蟲的閩南語說法，協助學生將所學運用於生活中。 3.教師可帶領學生以各式活動，例：賓果、角色扮演、故事編寫等，進行昆蟲相關的主題式任務教學。 4.影片時間4分13秒，使用閩南語、華語雙字幕、動物詞彙附有羅馬字，內容活潑、有趣。；YouTube embed (www.youtube.com)",
+        "score": 24
+      },
+      {
+        "title": "聲音足趣味－《穎仔穎仔育》EP8",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第二學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-003010/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "video",
+        "media_types": [
+          "Youtube"
+        ],
+        "provider": "公視台語台",
+        "related_links": [
+          {
+            "label": "YouTube embed",
+            "url": "https://www.youtube.com/embed/bXKZE9GoCEQ",
+            "domain": "www.youtube.com"
+          }
+        ],
+        "snippet": "聲音足趣味－《穎仔穎仔育》EP8；第二學習階段；學習資源；video；Youtube；公視台語台；1.可配合課程綱要學習內容：◎Ab-Ⅱ-1語詞運用、◎Ac-Ⅱ-1生活故事。 2.主題：「聲音」之單元設計，可融入戶外教育議題。 3.本影片以各類聲音變化為主軸，介紹動物、昆蟲、交通工具的聲音，並進行聲音模仿練習。 4.影片中這是啥物聲，透過聽聲音猜交通工具，如：警車、腳踏車鈴聲，讓學生聽完故事後再進行形成性評量。 5.影片時間：12分45秒，教學者與學習者可依需求進行彈性運用。；YouTube embed (www.youtube.com)",
+        "score": 22
+      },
+      {
+        "title": "1-01 臺語版《心靈環保兒童生活教育動畫1》01 北極熊的請求",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第一學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-004184/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "video",
+        "media_types": [
+          "動畫",
+          "影音數位",
+          "Youtube"
+        ],
+        "provider": "法鼓山DDM官方頻道",
+        "related_links": [
+          {
+            "label": "YouTube embed",
+            "url": "https://www.youtube.com/embed/Q8UgG7iElN8",
+            "domain": "www.youtube.com"
+          }
+        ],
+        "snippet": "1-01 臺語版《心靈環保兒童生活教育動畫1》01 北極熊的請求；第一學習階段；學習資源；video；動畫、影音數位、Youtube；法鼓山DDM官方頻道；1.配合課程綱要學習內容：◎Ab-Ⅰ-1語詞運用。◎Bg-Ⅰ-2口語表達。 2.主題：「北極熊的請求」。不管是人類、動物、植物或昆蟲，都是大自然的一份子，節能減碳、珍惜地球資源，尊重每一個生命在地球生存的權利。可融入「環境教育」、「能源教育」。 3.影片的字幕雖是華語呈現，但是配音是標準的，可用於第一學習階段練習聆聽的能力。 4.影音時間6分02秒。提醒小朋友節約能源，從自己做起。；YouTube embed (www.youtube.com)",
+        "score": 22
+      }
+    ]
+  },
+  "official_generation_assets": {
+    "worksheet": [],
+    "slides": [],
+    "interactive": [],
+    "quiz": []
+  },
+  "video_generation": {
+    "requested_in_text": false,
+    "forced": false,
+    "attempted": false,
+    "success": false,
+    "path": null,
+    "skipped_reason": null
+  },
+  "outputs": {
+    "lesson_structure": "/tmp/tmpjds5v3xd/custom_20260729_074043_動物昆蟲/lesson_structure.json",
+    "student_worksheet": "/tmp/tmpjds5v3xd/custom_20260729_074043_動物昆蟲/student_worksheet.docx",
+    "teacher_guide": "/tmp/tmpjds5v3xd/custom_20260729_074043_動物昆蟲/teacher_guide.docx",
+    "exam_paper": "/tmp/tmpjds5v3xd/custom_20260729_074043_動物昆蟲/exam_paper.docx",
+    "exam_answer_key": "/tmp/tmpjds5v3xd/custom_20260729_074043_動物昆蟲/exam_answer_key.docx",
+    "quiz_bank": "/tmp/tmpjds5v3xd/custom_20260729_074043_動物昆蟲/quiz_bank.json",
+    "quiz_teacher_key": "/tmp/tmpjds5v3xd/custom_20260729_074043_動物昆蟲/quiz_teacher_key.md",
+    "slides": "/tmp/tmpjds5v3xd/custom_20260729_074043_動物昆蟲/teaching_slides.pptx",
+    "interactive_website": "/tmp/tmpjds5v3xd/custom_20260729_074043_動物昆蟲/interactive_website.html",
+    "teacher_review_report": "/tmp/tmpjds5v3xd/custom_20260729_074043_動物昆蟲/teacher_review_report.md",
+    "video": null
+  }
+}
