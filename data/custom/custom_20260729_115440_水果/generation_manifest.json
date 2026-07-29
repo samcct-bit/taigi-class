@@ -1,0 +1,744 @@
+{
+  "request": {
+    "request": "水果",
+    "topic": "水果",
+    "grade": "國中七年級",
+    "duration_minutes": 45,
+    "outputs": [
+      "worksheet",
+      "slides",
+      "interactive",
+      "quiz"
+    ]
+  },
+  "generation_options": {
+    "skip_media": false,
+    "include_video": false
+  },
+  "outline_path": "d:\\antigravity\\taigi-class\\data\\custom\\custom_20260729_115440_水果\\outline.json",
+  "output_dir": "d:\\antigravity\\taigi-class\\data\\custom\\custom_20260729_115440_水果",
+  "official_material_recommendations": {
+    "worksheet": [
+      {
+        "title": "水果ê台語量詞按怎講？",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第四學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-004335/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "video",
+        "media_types": [
+          "影音數位",
+          "教學影片",
+          "Youtube"
+        ],
+        "provider": "【Lisa的臺語教室 80】WaWa TV",
+        "related_links": [
+          {
+            "label": "YouTube embed",
+            "url": "https://www.youtube.com/embed/0oGQ0rShRhY",
+            "domain": "www.youtube.com"
+          }
+        ],
+        "snippet": "水果ê台語量詞按怎講？；第四學習階段；學習資源；video；影音數位、教學影片、Youtube；【Lisa的臺語教室 80】WaWa TV；1.可配合課程綱要學習內容：◎Ab-Ⅳ-1語詞運用、◎Bg-Ⅳ-1口語表達。 2.本教材由Lisa製作，以介紹「水果量詞」為主題，例：「瓣bān」、「粒lia̍p」、「捾kuānn」等。主持人透過實物展示水果，幫助學生直觀理解量詞與水果形態的對應關係。 3.教師可設計「水果量詞分類」討論外觀與量詞的關聯，或「購物情境」分組模擬水果買賣等。強化學生對於量詞的運用與口語表達能力。 4.影片時間：3分13秒，使用閩南語漢字、華語雙字幕。；YouTube embed (www.youtube.com)",
+        "score": 140
+      },
+      {
+        "title": "【嘎學生講台語#4】講出這10個蔬菜水果的台語，就有獎金1萬元！（feat.中正大學、中央大學）",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第五學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-003377/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "website_tool",
+        "media_types": [
+          "網站"
+        ],
+        "provider": "蔡阿嘎",
+        "related_links": [
+          {
+            "label": "【嘎學生講台語#4】講出這10個蔬菜水果的台語，就有獎金1萬元！（feat.中正大學、中央大學）",
+            "url": "https://reurl.cc/M6jmXX",
+            "domain": "reurl.cc"
+          }
+        ],
+        "snippet": "【嘎學生講台語#4】講出這10個蔬菜水果的台語，就有獎金1萬元！（feat.中正大學、中央大學）；第五學習階段；學習資源；website_tool；網站；蔡阿嘎；1.可配合課程綱要◎Aa-V-1羅馬拼音、◎Aa-V-2漢字書寫、◎Ab-V-1語詞運用、◎Bg-V-1口語表達。 2.本教材來源為蔡阿嘎主頻道所製作的單元節目，以街訪的形式詢問大學生十個蔬菜水果的台語名稱，只要全對即可獲得一萬元獎金。 3.本教材的內容適合高中生觀賞，語詞難度偏易，字幕附有臺羅拼音。 4.教師可以引導學生透過教育部臺灣台語辭典查詢，寫出正確的蔬果漢字。 5.教師可以補充蔬菜水果的諸多台語讀法係日語外來詞。 6.影片長度13分13秒。；【嘎學生講台語#4】講出這10個蔬菜水果的台語，就有獎金1萬元！（feat.中正大學、中央大學） (reurl.cc)",
+        "score": 120
+      },
+      {
+        "title": "【台語聽有無】冬季水果相關台語按怎講",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第一學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-002812/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "video",
+        "media_types": [
+          "影音數位"
+        ],
+        "provider": "鏡電視：【台語聽有無】",
+        "related_links": [
+          {
+            "label": "YouTube embed",
+            "url": "https://www.youtube.com/embed/_2Fqd0nw-N4",
+            "domain": "www.youtube.com"
+          }
+        ],
+        "snippet": "【台語聽有無】冬季水果相關台語按怎講；第一學習階段；學習資源；video；影音數位；鏡電視：【台語聽有無】；1.配合課程綱要學習內容：Aa-Ⅰ-1文字認讀、◎Ab-Ⅰ-1語詞運用。 2.主題「冬季水果」與第一階的篇次內容與教學現場的教材學習內容結合，做進一步的補充，每個詞彙皆逐詞帶入「圖樣」、「正確用字」、「臺羅拼音」。可融入「家庭教育」、「戶外教育」等議題。 3.講述內容也順道提到多種水果的「量詞」說法，在初學階段不會太難。 4.影音時間5分，非常適合第一學習階段的數位補充教材。；YouTube embed (www.youtube.com)",
+        "score": 110
+      }
+    ],
+    "slides": [
+      {
+        "title": "水果ê台語量詞按怎講？",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第四學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-004335/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "video",
+        "media_types": [
+          "影音數位",
+          "教學影片",
+          "Youtube"
+        ],
+        "provider": "【Lisa的臺語教室 80】WaWa TV",
+        "related_links": [
+          {
+            "label": "YouTube embed",
+            "url": "https://www.youtube.com/embed/0oGQ0rShRhY",
+            "domain": "www.youtube.com"
+          }
+        ],
+        "snippet": "水果ê台語量詞按怎講？；第四學習階段；學習資源；video；影音數位、教學影片、Youtube；【Lisa的臺語教室 80】WaWa TV；1.可配合課程綱要學習內容：◎Ab-Ⅳ-1語詞運用、◎Bg-Ⅳ-1口語表達。 2.本教材由Lisa製作，以介紹「水果量詞」為主題，例：「瓣bān」、「粒lia̍p」、「捾kuānn」等。主持人透過實物展示水果，幫助學生直觀理解量詞與水果形態的對應關係。 3.教師可設計「水果量詞分類」討論外觀與量詞的關聯，或「購物情境」分組模擬水果買賣等。強化學生對於量詞的運用與口語表達能力。 4.影片時間：3分13秒，使用閩南語漢字、華語雙字幕。；YouTube embed (www.youtube.com)",
+        "score": 140
+      },
+      {
+        "title": "【嘎學生講台語#4】講出這10個蔬菜水果的台語，就有獎金1萬元！（feat.中正大學、中央大學）",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第五學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-003377/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "website_tool",
+        "media_types": [
+          "網站"
+        ],
+        "provider": "蔡阿嘎",
+        "related_links": [
+          {
+            "label": "【嘎學生講台語#4】講出這10個蔬菜水果的台語，就有獎金1萬元！（feat.中正大學、中央大學）",
+            "url": "https://reurl.cc/M6jmXX",
+            "domain": "reurl.cc"
+          }
+        ],
+        "snippet": "【嘎學生講台語#4】講出這10個蔬菜水果的台語，就有獎金1萬元！（feat.中正大學、中央大學）；第五學習階段；學習資源；website_tool；網站；蔡阿嘎；1.可配合課程綱要◎Aa-V-1羅馬拼音、◎Aa-V-2漢字書寫、◎Ab-V-1語詞運用、◎Bg-V-1口語表達。 2.本教材來源為蔡阿嘎主頻道所製作的單元節目，以街訪的形式詢問大學生十個蔬菜水果的台語名稱，只要全對即可獲得一萬元獎金。 3.本教材的內容適合高中生觀賞，語詞難度偏易，字幕附有臺羅拼音。 4.教師可以引導學生透過教育部臺灣台語辭典查詢，寫出正確的蔬果漢字。 5.教師可以補充蔬菜水果的諸多台語讀法係日語外來詞。 6.影片長度13分13秒。；【嘎學生講台語#4】講出這10個蔬菜水果的台語，就有獎金1萬元！（feat.中正大學、中央大學） (reurl.cc)",
+        "score": 120
+      },
+      {
+        "title": "【台語聽有無】冬季水果相關台語按怎講",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第一學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-002812/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "video",
+        "media_types": [
+          "影音數位"
+        ],
+        "provider": "鏡電視：【台語聽有無】",
+        "related_links": [
+          {
+            "label": "YouTube embed",
+            "url": "https://www.youtube.com/embed/_2Fqd0nw-N4",
+            "domain": "www.youtube.com"
+          }
+        ],
+        "snippet": "【台語聽有無】冬季水果相關台語按怎講；第一學習階段；學習資源；video；影音數位；鏡電視：【台語聽有無】；1.配合課程綱要學習內容：Aa-Ⅰ-1文字認讀、◎Ab-Ⅰ-1語詞運用。 2.主題「冬季水果」與第一階的篇次內容與教學現場的教材學習內容結合，做進一步的補充，每個詞彙皆逐詞帶入「圖樣」、「正確用字」、「臺羅拼音」。可融入「家庭教育」、「戶外教育」等議題。 3.講述內容也順道提到多種水果的「量詞」說法，在初學階段不會太難。 4.影音時間5分，非常適合第一學習階段的數位補充教材。；YouTube embed (www.youtube.com)",
+        "score": 110
+      }
+    ],
+    "interactive": [
+      {
+        "title": "水果ê台語量詞按怎講？",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第四學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-004335/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "video",
+        "media_types": [
+          "影音數位",
+          "教學影片",
+          "Youtube"
+        ],
+        "provider": "【Lisa的臺語教室 80】WaWa TV",
+        "related_links": [
+          {
+            "label": "YouTube embed",
+            "url": "https://www.youtube.com/embed/0oGQ0rShRhY",
+            "domain": "www.youtube.com"
+          }
+        ],
+        "snippet": "水果ê台語量詞按怎講？；第四學習階段；學習資源；video；影音數位、教學影片、Youtube；【Lisa的臺語教室 80】WaWa TV；1.可配合課程綱要學習內容：◎Ab-Ⅳ-1語詞運用、◎Bg-Ⅳ-1口語表達。 2.本教材由Lisa製作，以介紹「水果量詞」為主題，例：「瓣bān」、「粒lia̍p」、「捾kuānn」等。主持人透過實物展示水果，幫助學生直觀理解量詞與水果形態的對應關係。 3.教師可設計「水果量詞分類」討論外觀與量詞的關聯，或「購物情境」分組模擬水果買賣等。強化學生對於量詞的運用與口語表達能力。 4.影片時間：3分13秒，使用閩南語漢字、華語雙字幕。；YouTube embed (www.youtube.com)",
+        "score": 140
+      },
+      {
+        "title": "【嘎學生講台語#4】講出這10個蔬菜水果的台語，就有獎金1萬元！（feat.中正大學、中央大學）",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第五學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-003377/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "website_tool",
+        "media_types": [
+          "網站"
+        ],
+        "provider": "蔡阿嘎",
+        "related_links": [
+          {
+            "label": "【嘎學生講台語#4】講出這10個蔬菜水果的台語，就有獎金1萬元！（feat.中正大學、中央大學）",
+            "url": "https://reurl.cc/M6jmXX",
+            "domain": "reurl.cc"
+          }
+        ],
+        "snippet": "【嘎學生講台語#4】講出這10個蔬菜水果的台語，就有獎金1萬元！（feat.中正大學、中央大學）；第五學習階段；學習資源；website_tool；網站；蔡阿嘎；1.可配合課程綱要◎Aa-V-1羅馬拼音、◎Aa-V-2漢字書寫、◎Ab-V-1語詞運用、◎Bg-V-1口語表達。 2.本教材來源為蔡阿嘎主頻道所製作的單元節目，以街訪的形式詢問大學生十個蔬菜水果的台語名稱，只要全對即可獲得一萬元獎金。 3.本教材的內容適合高中生觀賞，語詞難度偏易，字幕附有臺羅拼音。 4.教師可以引導學生透過教育部臺灣台語辭典查詢，寫出正確的蔬果漢字。 5.教師可以補充蔬菜水果的諸多台語讀法係日語外來詞。 6.影片長度13分13秒。；【嘎學生講台語#4】講出這10個蔬菜水果的台語，就有獎金1萬元！（feat.中正大學、中央大學） (reurl.cc)",
+        "score": 120
+      },
+      {
+        "title": "Lē-gio̍k的互動小遊戲",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第四學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-004061/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "interactive",
+        "media_types": [
+          "線上圖文",
+          "網站"
+        ],
+        "provider": "林麗玉老師製作",
+        "related_links": [
+          {
+            "label": "Lē-gio̍k的互動小遊戲",
+            "url": "https://tsong-su.github.io/iuhi/index.html",
+            "domain": "tsong-su.github.io"
+          }
+        ],
+        "snippet": "Lē-gio̍k的互動小遊戲；第四學習階段；學習資源；interactive；線上圖文、網站；林麗玉老師製作；1.可配合課綱內容：◎Aa-Ⅳ-2 漢字書寫、◎Ab-Ⅳ-1 語詞運用、◎Be-Ⅳ-1 數位資源。 2.本教材為林麗玉老師製作的數位互動教學網站，收錄多款簡易有趣的閩南語遊戲，包含「字詞重組」、「華台語詞配對」、「水果配對」、「動物配對」等主題，並搭配音檔輔助學習，讓學生在遊戲中練習漢字認讀以及華語、閩南語的對應能力。 3.教材可用於課堂暖身，或鼓勵學生自學使用，亦可延伸為競賽活動，提升學習動機。；Lē-gio̍k的互動小遊戲 (tsong-su.github.io)",
+        "score": 90
+      }
+    ],
+    "quiz": [
+      {
+        "title": "水果ê台語量詞按怎講？",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第四學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-004335/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "video",
+        "media_types": [
+          "影音數位",
+          "教學影片",
+          "Youtube"
+        ],
+        "provider": "【Lisa的臺語教室 80】WaWa TV",
+        "related_links": [
+          {
+            "label": "YouTube embed",
+            "url": "https://www.youtube.com/embed/0oGQ0rShRhY",
+            "domain": "www.youtube.com"
+          }
+        ],
+        "snippet": "水果ê台語量詞按怎講？；第四學習階段；學習資源；video；影音數位、教學影片、Youtube；【Lisa的臺語教室 80】WaWa TV；1.可配合課程綱要學習內容：◎Ab-Ⅳ-1語詞運用、◎Bg-Ⅳ-1口語表達。 2.本教材由Lisa製作，以介紹「水果量詞」為主題，例：「瓣bān」、「粒lia̍p」、「捾kuānn」等。主持人透過實物展示水果，幫助學生直觀理解量詞與水果形態的對應關係。 3.教師可設計「水果量詞分類」討論外觀與量詞的關聯，或「購物情境」分組模擬水果買賣等。強化學生對於量詞的運用與口語表達能力。 4.影片時間：3分13秒，使用閩南語漢字、華語雙字幕。；YouTube embed (www.youtube.com)",
+        "score": 140
+      },
+      {
+        "title": "【嘎學生講台語#4】講出這10個蔬菜水果的台語，就有獎金1萬元！（feat.中正大學、中央大學）",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第五學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-003377/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "website_tool",
+        "media_types": [
+          "網站"
+        ],
+        "provider": "蔡阿嘎",
+        "related_links": [
+          {
+            "label": "【嘎學生講台語#4】講出這10個蔬菜水果的台語，就有獎金1萬元！（feat.中正大學、中央大學）",
+            "url": "https://reurl.cc/M6jmXX",
+            "domain": "reurl.cc"
+          }
+        ],
+        "snippet": "【嘎學生講台語#4】講出這10個蔬菜水果的台語，就有獎金1萬元！（feat.中正大學、中央大學）；第五學習階段；學習資源；website_tool；網站；蔡阿嘎；1.可配合課程綱要◎Aa-V-1羅馬拼音、◎Aa-V-2漢字書寫、◎Ab-V-1語詞運用、◎Bg-V-1口語表達。 2.本教材來源為蔡阿嘎主頻道所製作的單元節目，以街訪的形式詢問大學生十個蔬菜水果的台語名稱，只要全對即可獲得一萬元獎金。 3.本教材的內容適合高中生觀賞，語詞難度偏易，字幕附有臺羅拼音。 4.教師可以引導學生透過教育部臺灣台語辭典查詢，寫出正確的蔬果漢字。 5.教師可以補充蔬菜水果的諸多台語讀法係日語外來詞。 6.影片長度13分13秒。；【嘎學生講台語#4】講出這10個蔬菜水果的台語，就有獎金1萬元！（feat.中正大學、中央大學） (reurl.cc)",
+        "score": 120
+      },
+      {
+        "title": "Lē-gio̍k的互動小遊戲",
+        "attachment_label": "資源頁（未偵測到 PDF 附件）",
+        "learning_stage": "第四學習階段",
+        "material_type": "學習資源",
+        "page_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-004061/?lang=/003/",
+        "local_path": null,
+        "resource_kind": "interactive",
+        "media_types": [
+          "線上圖文",
+          "網站"
+        ],
+        "provider": "林麗玉老師製作",
+        "related_links": [
+          {
+            "label": "Lē-gio̍k的互動小遊戲",
+            "url": "https://tsong-su.github.io/iuhi/index.html",
+            "domain": "tsong-su.github.io"
+          }
+        ],
+        "snippet": "Lē-gio̍k的互動小遊戲；第四學習階段；學習資源；interactive；線上圖文、網站；林麗玉老師製作；1.可配合課綱內容：◎Aa-Ⅳ-2 漢字書寫、◎Ab-Ⅳ-1 語詞運用、◎Be-Ⅳ-1 數位資源。 2.本教材為林麗玉老師製作的數位互動教學網站，收錄多款簡易有趣的閩南語遊戲，包含「字詞重組」、「華台語詞配對」、「水果配對」、「動物配對」等主題，並搭配音檔輔助學習，讓學生在遊戲中練習漢字認讀以及華語、閩南語的對應能力。 3.教材可用於課堂暖身，或鼓勵學生自學使用，亦可延伸為競賽活動，提升學習動機。；Lē-gio̍k的互動小遊戲 (tsong-su.github.io)",
+        "score": 90
+      }
+    ]
+  },
+  "official_generation_assets": {
+    "worksheet": [
+      {
+        "asset_id": "aa8aa3df94f6",
+        "asset_type": "vocabulary_card",
+        "source_bank_id": "TSMhiResource-004740-00c1ca517b27",
+        "title": "【閩南語教案和學習單】臺南佳里ê有機菜蔬，報你知！",
+        "learning_stage": "第五學習階段",
+        "topics": [
+          "食物與市場",
+          "臺羅拼音",
+          "字音字形",
+          "生活對話",
+          "自然與環境",
+          "文化與地方",
+          "遊戲互動",
+          "聽說朗讀",
+          "課綱與評量"
+        ],
+        "material_kinds": [
+          "lesson_plan",
+          "worksheet",
+          "vocabulary",
+          "sentence_pattern",
+          "curriculum",
+          "media_activity"
+        ],
+        "hanji": "菜蔬",
+        "tailo": "tshài-se",
+        "meaning": "蔬菜、水果。",
+        "source_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-004740/?lang=/003/",
+        "local_path": "data\\official_materials\\raw\\mhi\\108-minnan\\TSMhiResource-004740\\01_教案_【閩南語教案和學習單】臺南佳里ê有機菜蔬，報你知！.pdf",
+        "output_tags": [
+          "exam",
+          "worksheet",
+          "slides",
+          "video",
+          "interactive",
+          "quiz"
+        ],
+        "resource_kind": "generation_asset",
+        "score": 51
+      },
+      {
+        "asset_id": "af0139073d6e",
+        "asset_type": "slide_seed",
+        "source_bank_id": "cirn-local-language-methods-2023-155b40dcc44d",
+        "title": "12年國民基本教育本土語文教材教法",
+        "heading": "食物與市場：12年國民基本教育本土語文教材教法",
+        "learning_stage": "國民中小學",
+        "topics": [
+          "食物與市場"
+        ],
+        "material_kinds": [
+          "vocabulary"
+        ],
+        "bullets": [
+          "249 第十章 本土語文差異化 教學 活動二：上市場買水果 學生分成兩隊，1 組 4-6 人，將水果圖卡 2 套散落在桌上。",
+          "老師示範：「請同學在桌上找出老師要買的水果，先找到貼在黑板 上得一分，依序輪流找到老師要買的水果。",
+          "」 或由 A 或 B 組學生 2 人一組擔任買水果的人，C 組自己擔任買水果 的人，以此類推，協助學生熟悉語詞。",
+          "三Ă、綜合活動： 1. 搭配教學電子書，複習本課課文。",
+          "2. 提示下週任務，預習下一節課的課文內容"
+        ],
+        "source_url": "https://cirn.k12ea.gov.tw/web1107/List.aspx?fid=5551",
+        "local_path": "data\\official_materials\\raw\\cirn\\local-language\\12年國民基本教育本土語文教材教法_電子檔.pdf",
+        "output_tags": [
+          "worksheet",
+          "slides",
+          "interactive",
+          "quiz",
+          "video"
+        ],
+        "resource_kind": "generation_asset",
+        "score": 55
+      },
+      {
+        "asset_id": "cda05c79575e",
+        "asset_type": "slide_seed",
+        "source_bank_id": "cirn-local-language-methods-2026-v2-5964d0fa401a",
+        "title": "12年國民基本教育本土語文教材教法（第二版）",
+        "heading": "食物與市場：12年國民基本教育本土語文教材教法（第二版）",
+        "learning_stage": "國民中小學",
+        "topics": [
+          "食物與市場"
+        ],
+        "material_kinds": [
+          "vocabulary"
+        ],
+        "bullets": [
+          "249 第十章\u0007本土語文差異化 教學 活動二：上市場買水果 學生分成兩隊，1 組 4-6 人，將水果圖卡 2 套散落在桌上。",
+          "老師示範：「請同學在桌上找出老師要買的水果，先找到貼在黑板 上得一分，依序輪流找到老師要買的水果。",
+          "」 或由 A 或 B 組學生 2 人一組擔任買水果的人，C 組自己擔任買水果 的人，以此類推，協助學生熟悉語詞。",
+          "三Ă、綜合活動： 1. 搭配教學電子書，複習本課課文。",
+          "2. 提示下週任務，預習下一節課的課文內容"
+        ],
+        "source_url": "https://cirn.k12ea.gov.tw/web1107/List.aspx?fid=5551",
+        "local_path": "data\\official_materials\\raw\\cirn\\local-language\\12年國民基本教育本土語文教材教法_第二版.pdf",
+        "output_tags": [
+          "worksheet",
+          "slides",
+          "interactive",
+          "quiz",
+          "video"
+        ],
+        "resource_kind": "generation_asset",
+        "score": 55
+      }
+    ],
+    "slides": [
+      {
+        "asset_id": "af0139073d6e",
+        "asset_type": "slide_seed",
+        "source_bank_id": "cirn-local-language-methods-2023-155b40dcc44d",
+        "title": "12年國民基本教育本土語文教材教法",
+        "heading": "食物與市場：12年國民基本教育本土語文教材教法",
+        "learning_stage": "國民中小學",
+        "topics": [
+          "食物與市場"
+        ],
+        "material_kinds": [
+          "vocabulary"
+        ],
+        "bullets": [
+          "249 第十章 本土語文差異化 教學 活動二：上市場買水果 學生分成兩隊，1 組 4-6 人，將水果圖卡 2 套散落在桌上。",
+          "老師示範：「請同學在桌上找出老師要買的水果，先找到貼在黑板 上得一分，依序輪流找到老師要買的水果。",
+          "」 或由 A 或 B 組學生 2 人一組擔任買水果的人，C 組自己擔任買水果 的人，以此類推，協助學生熟悉語詞。",
+          "三Ă、綜合活動： 1. 搭配教學電子書，複習本課課文。",
+          "2. 提示下週任務，預習下一節課的課文內容"
+        ],
+        "source_url": "https://cirn.k12ea.gov.tw/web1107/List.aspx?fid=5551",
+        "local_path": "data\\official_materials\\raw\\cirn\\local-language\\12年國民基本教育本土語文教材教法_電子檔.pdf",
+        "output_tags": [
+          "worksheet",
+          "slides",
+          "interactive",
+          "quiz",
+          "video"
+        ],
+        "resource_kind": "generation_asset",
+        "score": 55
+      },
+      {
+        "asset_id": "cda05c79575e",
+        "asset_type": "slide_seed",
+        "source_bank_id": "cirn-local-language-methods-2026-v2-5964d0fa401a",
+        "title": "12年國民基本教育本土語文教材教法（第二版）",
+        "heading": "食物與市場：12年國民基本教育本土語文教材教法（第二版）",
+        "learning_stage": "國民中小學",
+        "topics": [
+          "食物與市場"
+        ],
+        "material_kinds": [
+          "vocabulary"
+        ],
+        "bullets": [
+          "249 第十章\u0007本土語文差異化 教學 活動二：上市場買水果 學生分成兩隊，1 組 4-6 人，將水果圖卡 2 套散落在桌上。",
+          "老師示範：「請同學在桌上找出老師要買的水果，先找到貼在黑板 上得一分，依序輪流找到老師要買的水果。",
+          "」 或由 A 或 B 組學生 2 人一組擔任買水果的人，C 組自己擔任買水果 的人，以此類推，協助學生熟悉語詞。",
+          "三Ă、綜合活動： 1. 搭配教學電子書，複習本課課文。",
+          "2. 提示下週任務，預習下一節課的課文內容"
+        ],
+        "source_url": "https://cirn.k12ea.gov.tw/web1107/List.aspx?fid=5551",
+        "local_path": "data\\official_materials\\raw\\cirn\\local-language\\12年國民基本教育本土語文教材教法_第二版.pdf",
+        "output_tags": [
+          "worksheet",
+          "slides",
+          "interactive",
+          "quiz",
+          "video"
+        ],
+        "resource_kind": "generation_asset",
+        "score": 55
+      },
+      {
+        "asset_id": "ea2b9eecdda0",
+        "asset_type": "slide_seed",
+        "source_bank_id": "cirn-local-language-methods-2023-4a1bee042c4a",
+        "title": "12年國民基本教育本土語文教材教法",
+        "heading": "自然與環境：12年國民基本教育本土語文教材教法",
+        "learning_stage": "國民中小學",
+        "topics": [
+          "自然與環境"
+        ],
+        "material_kinds": [
+          "sentence_pattern"
+        ],
+        "bullets": [
+          "………………ġ第一節課結束ġ……………… 4' 一、引起動機： 1. 老師準備蜀個籃囝裡勢按幾樣水果，透過觸摸水果情境吸引學生 認識水果。",
+          "2. 也可以讓學生矇著眼睛聞其味道，說出感覺，講出感覺、樣式， 再拿出來看蜀看。",
+          "（＊蘋果-它的皮是紅（綠）色的，摸起來滑滑的，樣式圓圓的。",
+          "＊芭蕉果-它的皮是黃色的，摸起來滑滑的，樣式彎彎的。"
+        ],
+        "source_url": "https://cirn.k12ea.gov.tw/web1107/List.aspx?fid=5551",
+        "local_path": "data\\official_materials\\raw\\cirn\\local-language\\12年國民基本教育本土語文教材教法_電子檔.pdf",
+        "output_tags": [
+          "worksheet",
+          "video",
+          "quiz",
+          "slides"
+        ],
+        "resource_kind": "generation_asset",
+        "score": 53
+      }
+    ],
+    "interactive": [
+      {
+        "asset_id": "aa8aa3df94f6",
+        "asset_type": "vocabulary_card",
+        "source_bank_id": "TSMhiResource-004740-00c1ca517b27",
+        "title": "【閩南語教案和學習單】臺南佳里ê有機菜蔬，報你知！",
+        "learning_stage": "第五學習階段",
+        "topics": [
+          "食物與市場",
+          "臺羅拼音",
+          "字音字形",
+          "生活對話",
+          "自然與環境",
+          "文化與地方",
+          "遊戲互動",
+          "聽說朗讀",
+          "課綱與評量"
+        ],
+        "material_kinds": [
+          "lesson_plan",
+          "worksheet",
+          "vocabulary",
+          "sentence_pattern",
+          "curriculum",
+          "media_activity"
+        ],
+        "hanji": "菜蔬",
+        "tailo": "tshài-se",
+        "meaning": "蔬菜、水果。",
+        "source_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-004740/?lang=/003/",
+        "local_path": "data\\official_materials\\raw\\mhi\\108-minnan\\TSMhiResource-004740\\01_教案_【閩南語教案和學習單】臺南佳里ê有機菜蔬，報你知！.pdf",
+        "output_tags": [
+          "exam",
+          "worksheet",
+          "slides",
+          "video",
+          "interactive",
+          "quiz"
+        ],
+        "resource_kind": "generation_asset",
+        "score": 51
+      },
+      {
+        "asset_id": "af0139073d6e",
+        "asset_type": "slide_seed",
+        "source_bank_id": "cirn-local-language-methods-2023-155b40dcc44d",
+        "title": "12年國民基本教育本土語文教材教法",
+        "heading": "食物與市場：12年國民基本教育本土語文教材教法",
+        "learning_stage": "國民中小學",
+        "topics": [
+          "食物與市場"
+        ],
+        "material_kinds": [
+          "vocabulary"
+        ],
+        "bullets": [
+          "249 第十章 本土語文差異化 教學 活動二：上市場買水果 學生分成兩隊，1 組 4-6 人，將水果圖卡 2 套散落在桌上。",
+          "老師示範：「請同學在桌上找出老師要買的水果，先找到貼在黑板 上得一分，依序輪流找到老師要買的水果。",
+          "」 或由 A 或 B 組學生 2 人一組擔任買水果的人，C 組自己擔任買水果 的人，以此類推，協助學生熟悉語詞。",
+          "三Ă、綜合活動： 1. 搭配教學電子書，複習本課課文。",
+          "2. 提示下週任務，預習下一節課的課文內容"
+        ],
+        "source_url": "https://cirn.k12ea.gov.tw/web1107/List.aspx?fid=5551",
+        "local_path": "data\\official_materials\\raw\\cirn\\local-language\\12年國民基本教育本土語文教材教法_電子檔.pdf",
+        "output_tags": [
+          "worksheet",
+          "slides",
+          "interactive",
+          "quiz",
+          "video"
+        ],
+        "resource_kind": "generation_asset",
+        "score": 55
+      },
+      {
+        "asset_id": "cda05c79575e",
+        "asset_type": "slide_seed",
+        "source_bank_id": "cirn-local-language-methods-2026-v2-5964d0fa401a",
+        "title": "12年國民基本教育本土語文教材教法（第二版）",
+        "heading": "食物與市場：12年國民基本教育本土語文教材教法（第二版）",
+        "learning_stage": "國民中小學",
+        "topics": [
+          "食物與市場"
+        ],
+        "material_kinds": [
+          "vocabulary"
+        ],
+        "bullets": [
+          "249 第十章\u0007本土語文差異化 教學 活動二：上市場買水果 學生分成兩隊，1 組 4-6 人，將水果圖卡 2 套散落在桌上。",
+          "老師示範：「請同學在桌上找出老師要買的水果，先找到貼在黑板 上得一分，依序輪流找到老師要買的水果。",
+          "」 或由 A 或 B 組學生 2 人一組擔任買水果的人，C 組自己擔任買水果 的人，以此類推，協助學生熟悉語詞。",
+          "三Ă、綜合活動： 1. 搭配教學電子書，複習本課課文。",
+          "2. 提示下週任務，預習下一節課的課文內容"
+        ],
+        "source_url": "https://cirn.k12ea.gov.tw/web1107/List.aspx?fid=5551",
+        "local_path": "data\\official_materials\\raw\\cirn\\local-language\\12年國民基本教育本土語文教材教法_第二版.pdf",
+        "output_tags": [
+          "worksheet",
+          "slides",
+          "interactive",
+          "quiz",
+          "video"
+        ],
+        "resource_kind": "generation_asset",
+        "score": 55
+      }
+    ],
+    "quiz": [
+      {
+        "asset_id": "aa8aa3df94f6",
+        "asset_type": "vocabulary_card",
+        "source_bank_id": "TSMhiResource-004740-00c1ca517b27",
+        "title": "【閩南語教案和學習單】臺南佳里ê有機菜蔬，報你知！",
+        "learning_stage": "第五學習階段",
+        "topics": [
+          "食物與市場",
+          "臺羅拼音",
+          "字音字形",
+          "生活對話",
+          "自然與環境",
+          "文化與地方",
+          "遊戲互動",
+          "聽說朗讀",
+          "課綱與評量"
+        ],
+        "material_kinds": [
+          "lesson_plan",
+          "worksheet",
+          "vocabulary",
+          "sentence_pattern",
+          "curriculum",
+          "media_activity"
+        ],
+        "hanji": "菜蔬",
+        "tailo": "tshài-se",
+        "meaning": "蔬菜、水果。",
+        "source_url": "https://mhi.moe.edu.tw/eduCloud/learning-resource/TSMhiResource-004740/?lang=/003/",
+        "local_path": "data\\official_materials\\raw\\mhi\\108-minnan\\TSMhiResource-004740\\01_教案_【閩南語教案和學習單】臺南佳里ê有機菜蔬，報你知！.pdf",
+        "output_tags": [
+          "exam",
+          "worksheet",
+          "slides",
+          "video",
+          "interactive",
+          "quiz"
+        ],
+        "resource_kind": "generation_asset",
+        "score": 51
+      },
+      {
+        "asset_id": "af0139073d6e",
+        "asset_type": "slide_seed",
+        "source_bank_id": "cirn-local-language-methods-2023-155b40dcc44d",
+        "title": "12年國民基本教育本土語文教材教法",
+        "heading": "食物與市場：12年國民基本教育本土語文教材教法",
+        "learning_stage": "國民中小學",
+        "topics": [
+          "食物與市場"
+        ],
+        "material_kinds": [
+          "vocabulary"
+        ],
+        "bullets": [
+          "249 第十章 本土語文差異化 教學 活動二：上市場買水果 學生分成兩隊，1 組 4-6 人，將水果圖卡 2 套散落在桌上。",
+          "老師示範：「請同學在桌上找出老師要買的水果，先找到貼在黑板 上得一分，依序輪流找到老師要買的水果。",
+          "」 或由 A 或 B 組學生 2 人一組擔任買水果的人，C 組自己擔任買水果 的人，以此類推，協助學生熟悉語詞。",
+          "三Ă、綜合活動： 1. 搭配教學電子書，複習本課課文。",
+          "2. 提示下週任務，預習下一節課的課文內容"
+        ],
+        "source_url": "https://cirn.k12ea.gov.tw/web1107/List.aspx?fid=5551",
+        "local_path": "data\\official_materials\\raw\\cirn\\local-language\\12年國民基本教育本土語文教材教法_電子檔.pdf",
+        "output_tags": [
+          "worksheet",
+          "slides",
+          "interactive",
+          "quiz",
+          "video"
+        ],
+        "resource_kind": "generation_asset",
+        "score": 55
+      },
+      {
+        "asset_id": "cda05c79575e",
+        "asset_type": "slide_seed",
+        "source_bank_id": "cirn-local-language-methods-2026-v2-5964d0fa401a",
+        "title": "12年國民基本教育本土語文教材教法（第二版）",
+        "heading": "食物與市場：12年國民基本教育本土語文教材教法（第二版）",
+        "learning_stage": "國民中小學",
+        "topics": [
+          "食物與市場"
+        ],
+        "material_kinds": [
+          "vocabulary"
+        ],
+        "bullets": [
+          "249 第十章\u0007本土語文差異化 教學 活動二：上市場買水果 學生分成兩隊，1 組 4-6 人，將水果圖卡 2 套散落在桌上。",
+          "老師示範：「請同學在桌上找出老師要買的水果，先找到貼在黑板 上得一分，依序輪流找到老師要買的水果。",
+          "」 或由 A 或 B 組學生 2 人一組擔任買水果的人，C 組自己擔任買水果 的人，以此類推，協助學生熟悉語詞。",
+          "三Ă、綜合活動： 1. 搭配教學電子書，複習本課課文。",
+          "2. 提示下週任務，預習下一節課的課文內容"
+        ],
+        "source_url": "https://cirn.k12ea.gov.tw/web1107/List.aspx?fid=5551",
+        "local_path": "data\\official_materials\\raw\\cirn\\local-language\\12年國民基本教育本土語文教材教法_第二版.pdf",
+        "output_tags": [
+          "worksheet",
+          "slides",
+          "interactive",
+          "quiz",
+          "video"
+        ],
+        "resource_kind": "generation_asset",
+        "score": 55
+      }
+    ]
+  },
+  "video_generation": {
+    "requested_in_text": false,
+    "forced": false,
+    "attempted": false,
+    "success": false,
+    "path": null,
+    "skipped_reason": null
+  },
+  "outputs": {
+    "lesson_structure": "d:\\antigravity\\taigi-class\\data\\custom\\custom_20260729_115440_水果\\lesson_structure.json",
+    "student_worksheet": "d:\\antigravity\\taigi-class\\data\\custom\\custom_20260729_115440_水果\\student_worksheet.docx",
+    "teacher_guide": "d:\\antigravity\\taigi-class\\data\\custom\\custom_20260729_115440_水果\\teacher_guide.docx",
+    "exam_paper": "d:\\antigravity\\taigi-class\\data\\custom\\custom_20260729_115440_水果\\exam_paper.docx",
+    "exam_answer_key": "d:\\antigravity\\taigi-class\\data\\custom\\custom_20260729_115440_水果\\exam_answer_key.docx",
+    "quiz_bank": "d:\\antigravity\\taigi-class\\data\\custom\\custom_20260729_115440_水果\\quiz_bank.json",
+    "quiz_teacher_key": "d:\\antigravity\\taigi-class\\data\\custom\\custom_20260729_115440_水果\\quiz_teacher_key.md",
+    "slides": "d:\\antigravity\\taigi-class\\data\\custom\\custom_20260729_115440_水果\\teaching_slides.pptx",
+    "interactive_website": "d:\\antigravity\\taigi-class\\data\\custom\\custom_20260729_115440_水果\\interactive_website.html",
+    "teacher_review_report": "d:\\antigravity\\taigi-class\\data\\custom\\custom_20260729_115440_水果\\teacher_review_report.md",
+    "video": null
+  }
+}

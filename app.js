@@ -1009,9 +1009,17 @@ function showEndScreen() {
 }
 
 async function loadCustomLesson(folderName) {
-  const response = await fetch(`./data/custom/${folderName}/lesson_structure.json`);
-  if (!response.ok) {
-    throw new Error('找不到指定的自訂教材資料夾或檔案，請確認名稱是否正確！');
+  let baseUrl = `./data/custom/${folderName}`;
+  let response = await fetch(`${baseUrl}/lesson_structure.json`).catch(() => null);
+
+  if (!response || !response.ok) {
+    // 若在雲端網域找不到此最新產生的本地資料夾，自動回退使用本機後端伺服器的資源
+    baseUrl = `http://127.0.0.1:8000/local_custom/${folderName}`;
+    response = await fetch(`${baseUrl}/lesson_structure.json`).catch(() => null);
+  }
+
+  if (!response || !response.ok) {
+    throw new Error('找不到指定的自訂教材資料夾或檔案，請確認名稱正確且本機伺服器 (Port 8000) 已開啟！');
   }
 
   const data = await response.json();
@@ -1027,7 +1035,7 @@ async function loadCustomLesson(folderName) {
         hanzi: d.hanji,
         tailo: d.tailo_diacritic,
         mandarin: d.zh_tw,
-        audio_url: `./data/custom/${folderName}/${d.audio_file}`
+        audio_url: `${baseUrl}/${d.audio_file}`
       });
     });
   }
@@ -1042,7 +1050,7 @@ async function loadCustomLesson(folderName) {
         hanzi: v.hanji,
         tailo: v.tailo_diacritic,
         mandarin: v.zh_tw,
-        audio_url: `./data/custom/${folderName}/${v.audio_file}`
+        audio_url: `${baseUrl}/${v.audio_file}`
       });
     });
   }
