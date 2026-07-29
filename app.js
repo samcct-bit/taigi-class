@@ -359,10 +359,13 @@ document.addEventListener('DOMContentLoaded', async () => {
   // AI One-Click Gen Event Listener
   const generateAiBtn = document.getElementById('generate-ai-btn');
   const aiPromptInput = document.getElementById('ai-prompt-input');
+  const aiGradeSelect = document.getElementById('ai-grade-select');
 
   generateAiBtn.addEventListener('click', async () => {
     playSound('click');
     const prompt = aiPromptInput.value.trim();
+    const grade = aiGradeSelect.value;
+    
     if (!prompt) {
       customStatusMsg.textContent = '❌ 請輸入生成教材的主題或描述！';
       customStatusMsg.className = 'custom-status-text error';
@@ -380,6 +383,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     try {
       const formData = new FormData();
       formData.append('prompt', prompt);
+      formData.append('grade', grade);
 
       // Call local backend FastAPI generator on port 8000
       const response = await fetch('http://127.0.0.1:8000/api/generate', {
